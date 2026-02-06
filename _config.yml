@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
+rtl                      : false #(default)  turns direction of the page into right to left for RTL languages
 title                    : "Tamas Szabo Portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -107,7 +107,7 @@ social:
 analytics:
   provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-69T22XTBL3
     anonymize_ip         : # true, false (default)
 
 
