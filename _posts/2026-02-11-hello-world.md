@@ -2,14 +2,10 @@
 title:  "Hello World"
 ---
 
-# Hello World
-
 Hi, I’m Tamas.
 
 I’ve spent the last 7+ years working in data analytics — building dashboards, writing SQL, defining KPIs, and sitting in countless meetings where the number one request was:
 “How can I export this to Excel?”
-
----
 
 ## What I Actually Do
 
@@ -25,8 +21,6 @@ In practice, I:
 - Translate vague business questions into measurable KPIs
 - Improve data models and backend structures when needed
 - Help stakeholders understand what’s actually possible with BI tools
-
----
 
 ## Why This Blog Exists
 
@@ -49,8 +43,6 @@ This blog documents how I approach:
 - SQL optimization
 - KPI frameworks
 
----
-
 ## What You’ll Find Here
 
 ### Real Projects
@@ -66,8 +58,6 @@ What problem does it actually solve?
 Every good dashboard starts in the database.
 
 Data modeling and query performance matter more than color palettes.
-
----
 
 ## My Goal
 
