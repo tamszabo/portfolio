@@ -1,6 +1,4 @@
 ---
-header:
-  image: /assets/images/hello.jpg
 title:  "Hello World"
 ---
 
