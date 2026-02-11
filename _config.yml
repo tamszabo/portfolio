@@ -19,9 +19,9 @@ locale                   : "en-US"
 rtl                      : false #(default)  turns direction of the page into right to left for RTL languages
 title                    : "Tamas Szabo"
 title_separator          : "-"
-subtitle                 : "Data Visualization Expert with 7+ years"
+subtitle                 : "welcome to my website"
 name                     : "Tamas Szabo"
-description              : "Data Visualization Expert"
+description              : "Data Visualization Expert with 7+ years "
 url                      : "https://tamszabo.github.io/"
 baseurl                  : "/portfolio"
 repository               : tamszabo/portfolio/
