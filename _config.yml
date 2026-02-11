@@ -21,7 +21,7 @@ title                    : "Tamas Szabo"
 title_separator          : "-"
 subtitle                 : "welcome to my website"
 name                     : "Tamas Szabo"
-description              : "Data Visualization Expert with 7+ years "
+description              : "My data visualization portfolio"
 url                      : "https://tamszabo.github.io/"
 baseurl                  : "/portfolio"
 repository               : tamszabo/portfolio/
@@ -115,15 +115,15 @@ analytics:
 author:
   name             : "Tamas Szabo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Visualization Expert"
+  bio              : "Data Visualization Expert with 7+ years"
   location         : "Frankfurt, Germany"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    - label: "Tableau Public" # "Website"
+      icon:  "fa-duotone fa-solid fa-circle-three-quarters" # "fas fa-fw fa-link"
       url: "https://public.tableau.com/app/profile/tamasszabo/vizzes"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
