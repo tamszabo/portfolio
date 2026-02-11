@@ -1,10 +1,7 @@
 ---
-layout: splash
 classes: wide
 header:
-  overlay_color: "#111111"
-  overlay_filter: 0.5
-  #overlay_image: /assets/images/banner.jpg
+  overlay_image: /assets/images/hello.jpg
 title:  "Hello World"
 ---
 
