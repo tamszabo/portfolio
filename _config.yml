@@ -19,9 +19,9 @@ locale                   : "en-US"
 rtl                      : false #(default)  turns direction of the page into right to left for RTL languages
 title                    : "Tamas Szabo"
 title_separator          : "-"
-subtitle                 : "welcome to my website"
+subtitle                 : #
 name                     : "Tamas Szabo"
-description              : "My data visualization portfolio"
+description              : "My Data Visualization Portfolio"
 url                      : "https://tamszabo.github.io/"
 baseurl                  : "/portfolio"
 repository               : tamszabo/portfolio/
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Tamas Szabo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Visualization Expert with 7+ years"
+  bio              : "Data Visualization Expert"
   location         : "Frankfurt, Germany"
   email            :
   links:
