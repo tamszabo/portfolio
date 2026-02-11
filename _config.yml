@@ -72,7 +72,7 @@ search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -321,6 +321,7 @@ defaults:
     values:
       show_date: true
       date_format: "%B %d, %Y"
+      search: true
       layout: single
       author_profile: true
       read_time: true
