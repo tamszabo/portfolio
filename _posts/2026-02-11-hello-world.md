@@ -1,7 +1,6 @@
 ---
-classes: wide
 header:
-  overlay_image: /assets/images/hello.jpg
+  image: /assets/images/hello.jpg
 title:  "Hello World"
 ---
 
