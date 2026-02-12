@@ -2,7 +2,6 @@
 title:  "Hello World"
 header:
     image: /assets/images/1.welcome_header.png
-    thumb: /assets/images/1.welcome_thumbnail.png
 ---
 
 Hi, I’m Tamas.
