@@ -1,72 +1,31 @@
 ---
 layout: default
-title: Welcome to my Digital Space
+title: Senior Data Analyst
 ---
 
-<section class="relative py-20 overflow-hidden">
-  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10">
-    <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-indigo-100 blur-[120px] opacity-60"></div>
-    <div class="absolute bottom-[10%] right-[-5%] w-[30%] h-[30%] rounded-full bg-purple-100 blur-[100px] opacity-60"></div>
-  </div>
-
-  <div class="text-center space-y-8">
-    <div class="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-indigo-50 text-indigo-700 ring-1 ring-inset ring-indigo-700/10 mb-4">
-      Open for collaborations 🚀
+<section class="py-20">
+  <div class="flex flex-col md:flex-row items-center gap-12">
+    <div class="flex-1 space-y-6">
+      <h1 class="text-5xl md:text-7xl font-black text-white leading-none">
+        Decisions driven by <span class="text-indigo-500">Data.</span>
+      </h1>
+      <p class="text-xl text-slate-400 leading-relaxed max-w-xl">
+        I'm Tamas Szabo, a Senior Data Analyst [cite: 9] with 8+ years of experience [cite: 9] supporting executive decision-making [cite: 9] at international corporations like Hyundai[cite: 15].
+      </p>
+      <div class="flex gap-4">
+        <a href="/cv" class="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg hover:bg-indigo-500 transition shadow-lg shadow-indigo-500/20">View Experience</a>
+        <a href="mailto:prostaw@gmail.com" class="px-6 py-3 bg-slate-800 text-white font-bold rounded-lg hover:bg-slate-700 transition">Contact Me</a>
+      </div>
     </div>
-    
-    <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900">
-      Building the <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">Future</span> of the Web.
-    </h1>
-    
-    <p class="max-w-2xl mx-auto text-xl text-slate-600 leading-relaxed">
-      I'm a developer obsessed with clean code and high-performance static sites. 
-      Welcome to my digital garden where I share my thoughts and projects.
-    </p>
-
-    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
-      <a href="#blog" class="px-8 py-4 bg-slate-900 text-white font-semibold rounded-2xl hover:bg-slate-800 transition-all shadow-xl shadow-slate-200 active:scale-95">
-        Read the Blog
-      </a>
-      <a href="https://github.com" class="px-8 py-4 bg-white text-slate-900 font-semibold rounded-2xl border border-slate-200 hover:border-indigo-400 transition-all active:scale-95">
-        View my GitHub
-      </a>
+    <div class="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-slate-800 overflow-hidden shadow-2xl">
+        <img src="https://via.placeholder.com/400" alt="Tamas Szabo" class="w-full h-full object-cover">
     </div>
   </div>
 </section>
 
-<section class="py-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-  <div class="p-8 bg-white/50 backdrop-blur-sm border border-slate-100 rounded-3xl hover:shadow-lg transition-shadow">
-    <div class="w-12 h-12 bg-indigo-600 rounded-xl flex items-center justify-center text-white mb-6">⚡</div>
-    <h3 class="text-xl font-bold mb-2">High Speed</h3>
-    <p class="text-slate-500">Built with Jekyll for blazing fast static delivery via GitHub Pages.</p>
-  </div>
-  
-  <div class="p-8 bg-white/50 backdrop-blur-sm border border-slate-100 rounded-3xl hover:shadow-lg transition-shadow">
-    <div class="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center text-white mb-6">🎨</div>
-    <h3 class="text-xl font-bold mb-2">Modern UI</h3>
-    <p class="text-slate-500">Styled with Tailwind CSS for a unique, responsive, and "sexy" look.</p>
-  </div>
-
-  <div class="p-8 bg-white/50 backdrop-blur-sm border border-slate-100 rounded-3xl hover:shadow-lg transition-shadow">
-    <div class="w-12 h-12 bg-pink-600 rounded-xl flex items-center justify-center text-white mb-6">🖋️</div>
-    <h3 class="text-xl font-bold mb-2">Writing</h3>
-    <p class="text-slate-500">A dedicated blog section powered by Markdown for easy updates.</p>
-  </div>
-</section>
-
-<hr class="border-slate-100 my-12" id="blog">
-
-<section class="pb-20">
-    <h2 class="text-3xl font-bold mb-8">Latest Musings</h2>
-    <div class="space-y-6">
-        {% for post in site.posts limit:3 %}
-        <article class="group flex flex-col md:flex-row md:items-center justify-between p-6 rounded-3xl bg-white border border-transparent hover:border-indigo-100 hover:shadow-md transition-all">
-            <div>
-                <span class="text-sm text-indigo-500 font-mono">{{ post.date | date: "%B %d, %Y" }}</span>
-                <h3 class="text-xl font-bold group-hover:text-indigo-600 transition-colors">{{ post.title }}</h3>
-            </div>
-            <a href="{{ post.url }}" class="mt-4 md:mt-0 font-medium text-slate-400 group-hover:text-slate-900 transition-colors">Read Post →</a>
-        </article>
-        {% endfor %}
-    </div>
-</section>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 py-12 border-y border-slate-800">
+    <div class="text-center"><div class="text-white font-bold text-2xl">8+ Years</div><div class="text-xs uppercase tracking-widest text-slate-500">Experience [cite: 9]</div></div>
+    <div class="text-center"><div class="text-white font-bold text-2xl">C-Level</div><div class="text-xs uppercase tracking-widest text-slate-500">Stakeholders [cite: 10]</div></div>
+    <div class="text-center"><div class="text-white font-bold text-2xl">Tableau</div><div class="text-xs uppercase tracking-widest text-slate-500">Expertise [cite: 43]</div></div>
+    <div class="text-center"><div class="text-white font-bold text-2xl">SQL</div><div class="text-xs uppercase tracking-widest text-slate-500">Analysis [cite: 43]</div></div>
+</div>

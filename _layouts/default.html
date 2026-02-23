@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +7,37 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-
-    <style type="text/css">
-        body { font-family: 'Inter', sans-serif; }
-    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Roboto', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
 </head>
-<body class="bg-[#fafafa] text-slate-900 selection:bg-indigo-100 selection:text-indigo-700">
+<body class="bg-[#0f172a] text-slate-300 selection:bg-indigo-500/30 selection:text-indigo-200">
 
-    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+    <nav class="sticky top-0 z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
         <div class="max-w-5xl mx-auto px-6 h-16 flex justify-between items-center">
-            <a href="/" class="font-extrabold text-xl tracking-tighter text-indigo-600 hover:opacity-80 transition">
-                JS<span class="text-slate-900">.</span>
+            <a href="/" class="font-black text-xl tracking-tighter text-white">
+                TAMAS<span class="text-indigo-500">.</span>
             </a>
-            <div class="flex items-center gap-8 text-sm font-medium text-slate-600">
-                <a href="/" class="hover:text-indigo-600 transition">Home</a>
-                <a href="/#blog" class="hover:text-indigo-600 transition">Blog</a>
-                <a href="https://github.com" class="px-4 py-2 bg-slate-900 text-white rounded-full hover:bg-slate-800 transition">Follow</a>
+            <div class="flex items-center gap-6 text-sm font-medium">
+                <a href="/" class="hover:text-white transition">Home</a>
+                <a href="/cv" class="hover:text-white transition">CV</a>
+                <a href="/blog" class="hover:text-white transition">Blog</a>
             </div>
         </div>
     </nav>
 
     <main class="max-w-5xl mx-auto px-6 py-12">
-        {% if page.layout == 'post' or page.url contains '/_posts/' or page.title != "Home" %}
-            <article class="prose prose-slate prose-lg max-w-3xl mx-auto prose-headings:font-bold prose-a:text-indigo-600 prose-img:rounded-3xl prose-pre:bg-slate-900">
-                <header class="not-prose mb-12">
-                    <span class="text-indigo-600 font-semibold tracking-wide uppercase text-xs">Published {{ page.date | date: "%B %d, %Y" }}</span>
-                    <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mt-2 tracking-tight leading-tight">
-                        {{ page.title }}
-                    </h1>
-                </header>
+        {% if page.layout == 'post' or page.url == '/cv/' %}
+            <article class="prose prose-invert prose-indigo lg:prose-xl max-w-3xl mx-auto">
                 {{ content }}
             </article>
         {% else %}
@@ -46,10 +45,8 @@
         {% endif %}
     </main>
 
-    <footer class="border-t border-slate-100 py-12 mt-20">
-        <div class="max-w-5xl mx-auto px-6 text-center text-slate-400 text-sm">
-            <p>&copy; 2026 Built with Jekyll & Tailwind. Pure Speed.</p>
-        </div>
+    <footer class="border-t border-slate-800 py-12 mt-20 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 Tamas Szabo. Built with Jekyll & Tailwind.</p>
     </footer>
 
 </body>

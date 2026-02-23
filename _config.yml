@@ -1,7 +1,13 @@
-title: My Modern Site
-description: Built with Jekyll and Tailwind CSS
+title: Tamas Szabo
+description: Senior Data Analyst | Data Visualization Expert
+baseurl: "" 
+url: "https://tamszabo.github.io/"
 
-#remote_theme: jeffreytse/jekyll-theme-pwa # A lightweight, modern theme
+# Navigation links for the header
+header_pages:
+  - index.html
+  - cv.md
+  - blog.md
 
 plugins:
   - jekyll-feed
