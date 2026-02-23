@@ -24,19 +24,19 @@
 
     <nav class="sticky top-0 z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
         <div class="max-w-5xl mx-auto px-6 h-16 flex justify-between items-center">
-            <a href="/" class="font-black text-xl tracking-tighter text-white">
+            <a href="{{ site.baseurl }}/" class="font-black text-xl tracking-tighter text-white">
                 TAMAS<span class="text-indigo-500">.</span>
             </a>
             <div class="flex items-center gap-6 text-sm font-medium">
-                <a href="/" class="hover:text-white transition">Home</a>
-                <a href="/cv/" class="hover:text-white transition">CV</a>
-                <a href="/blog/" class="hover:text-white transition">Blog</a>
+                <a href="{{ site.baseurl }}/" class="hover:text-white transition">Home</a>
+                <a href="{{ site.baseurl }}/cv/" class="hover:text-white transition">CV</a>
+                <a href="{{ site.baseurl }}/blog/" class="hover:text-white transition">Blog</a>
             </div>
         </div>
     </nav>
 
     <main class="max-w-5xl mx-auto px-6 py-12">
-        {% if page.layout == 'post' or page.url == '/cv/' %}
+        {% if page.url contains 'cv' or page.layout == 'post' %}
             <article class="prose prose-invert prose-indigo lg:prose-xl max-w-3xl mx-auto">
                 {{ content }}
             </article>
@@ -46,7 +46,7 @@
     </main>
 
     <footer class="border-t border-slate-800 py-12 mt-20 text-center text-slate-500 text-sm">
-        <p>&copy; 2026 Tamas Szabo. Built with Jekyll & Tailwind.</p>
+        <p>&copy; 2026 Tamas Szabo[cite: 1]. Built with Jekyll & Tailwind.</p>
     </footer>
 
 </body>
