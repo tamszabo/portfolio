@@ -55,7 +55,14 @@ Eötvös Loránd University | Budapest, Hungary
 
 ## Languages
 
+| Language | Proficiency |
+| :--- | :--- |
+| **Hungarian** | Native (C2) |
+| **English** | Business Fluent (C1) |
+| **German** | Basic (A2) |
+
 ## Skills
 
 - **Technical:** Tableau, Power BI, QlikSense, SQL, Excel.
 - **Soft:** Stakeholder Management, Mentoring.
+
