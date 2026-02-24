@@ -3,46 +3,58 @@ layout: default
 title: Home
 ---
 
-<section class="py-20 flex flex-col items-center text-center">
-    <div class="mb-8 relative">
+<section class="py-20 flex flex-col md:flex-row items-center gap-12 border-b border-slate-800">
+    <div class="w-48 h-48 md:w-64 md:h-64 flex-shrink-0 relative">
         <div class="absolute inset-0 bg-indigo-500 blur-3xl opacity-20 rounded-full"></div>
-        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Tamas Szabo" class="relative w-48 h-48 rounded-2xl object-cover border-2 border-slate-700 shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
+        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Tamas Szabo" class="relative w-full h-full rounded-2xl object-cover border-2 border-slate-700 shadow-2xl">
     </div>
 
-    <h1 class="text-5xl md:text-7xl font-black text-white tracking-tight mb-6">
-        Hi, I'm <span class="text-indigo-500">Tamas</span>. 
-    </h1>
-    
-    <p class="max-w-2xl text-xl md:text-2xl text-slate-400 leading-relaxed italic">
-        "I turn messy numbers into clear stories."
-    </p>
-    
-    <div class="mt-8 max-w-2xl text-left space-y-4 text-slate-300">
-        <p>
-            By day, I'm a <strong>Senior Data Analyst</strong> based in Frankfurt am Main, Germany. I’ve spent the last 8+ years navigating the complex data landscapes of major international corporations (Intrum, Apple, Blackrock, GE, Hyundai). 
+    <div class="flex-1 text-left space-y-6">
+        <h1 class="text-5xl md:text-6xl font-black text-white tracking-tight">
+            Hi, I'm <span class="text-indigo-500">Tamas</span>. 
+        </h1>
+        
+        <p class="text-xl md:text-2xl text-slate-400 leading-relaxed italic">
+            "I turn messy numbers into clear stories."
         </p>
-        <p>
-            But beyond the dashboards, I’m a <strong>Mathematics enthusiast</strong>  who believes that data isn't just about rows and columns — it's about finding the truth behind the noise. Whether I'm building KPI frameworks at a global scale or sharing insights on my YouTube channel, <strong>ClutchStats</strong>, I'm always looking for the next "wow" moment.
-        </p>
-    </div>
+        
+        <div class="space-y-4 text-slate-300">
+            <p>
+                By day, I'm a <strong>Senior Data Analyst</strong> based in Frankfurt am Main, Germany. I’ve spent 8+ years navigating complex data landscapes for international corporations like <strong>Hyundai, Starschema, and Intrum</strong>. 
+            </p>
+            <p>
+                Beyond the dashboards, I’m a <strong>Mathematics enthusiast</strong> who believes data is about finding the truth behind the noise. Whether building global KPI frameworks or sharing insights on <strong>ClutchStats</strong>, I'm always looking for the next "wow" moment.
+            </p>
+        </div>
 
-    <section id="projects" class="py-20 border-t border-slate-800">
+        <div class="flex gap-4 pt-4">
+            <a href="{{ site.baseurl }}/cv/" class="px-6 py-3 bg-white text-slate-900 font-bold rounded-xl hover:bg-indigo-500 hover:text-white transition-all active:scale-95">
+                See My Career
+            </a>
+            <a href="mailto:prostaw@gmail.com" class="px-6 py-3 bg-slate-800 text-white font-bold rounded-xl border border-slate-700 hover:border-indigo-500 transition-all active:scale-95">
+                Let's Chat
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="py-20">
     <div class="flex justify-between items-end mb-12">
         <div>
-            <h2 class="text-3xl font-black text-white italic text-indigo-500 uppercase">Featured Work</h2>
-            <p class="text-slate-400 mt-2">Data visualizations and deep dives from ClutchStats.</p>
+            <h2 class="text-3xl font-black text-white italic text-indigo-500 uppercase tracking-tighter">Featured Work</h2>
+            <p class="text-slate-400 mt-2">Visualizations and deep dives from ClutchStats & Tableau.</p>
         </div>
         <a href="https://www.youtube.com/clutchstats/" class="text-indigo-400 hover:text-indigo-300 font-bold text-sm uppercase tracking-widest transition">View Channel →</a>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="group bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all">
-            <div class="aspect-video">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/mIoDbCBpBZI?si=zcVMxL7YJXWepLuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="group bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all flex flex-col">
+            <div class="aspect-video w-full">
+               <iframe class="w-full h-full" src="https://www.youtube.com/embed/mIoDbCBpBZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="p-6">
-                <h3 class="text-xl font-bold text-white mb-2">ClutchStats</h3>
-                <p class="text-slate-400 text-sm mb-4">Leveraging my {{ site.title }} background to break down complex statistics for a global audience.</p>
+                <h3 class="text-xl font-bold text-white mb-2 underline decoration-indigo-500 decoration-4 underline-offset-4">ClutchStats</h3>
+                <p class="text-slate-400 text-sm mb-4">Leveraging my math background to break down complex statistics for a global audience[cite: 7, 34].</p>
                 <div class="flex gap-2">
                     <span class="px-3 py-1 bg-red-500/10 text-red-400 text-xs font-mono rounded-full">YouTube</span>
                     <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">Data Viz</span>
@@ -50,31 +62,44 @@ title: Home
             </div>
         </div>
 
-        <a href="https://public.tableau.com/profile/szabotam" target="_blank" class="group bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all">
-            <div class="aspect-video bg-indigo-900/20 flex items-center justify-center p-8 group-hover:bg-indigo-900/30 transition-colors">
-                <div class="text-center">
-                    <div class="text-4xl mb-2">📊</div>
-                    <span class="text-indigo-400 font-bold uppercase tracking-widest text-xs">Tableau Public Profile</span>
+        <div class="group bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all flex flex-col">
+            <div class="aspect-video w-full bg-white relative">
+                <div class='tableauPlaceholder' id='viz1700000000000' style='position: relative; width: 100%; height: 100%;'>
+                    <object class='tableauViz'  style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                        <param name='embed_code_version' value='3' /> 
+                        <param name='site_root' value='' />
+                        <param name='name' value='SuperStoreDashboard_16850322961960/SuperStore' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                    </object>
                 </div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1700000000000');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height='100%';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
             </div>
             <div class="p-6">
-                <h3 class="text-xl font-bold text-white mb-2">SuperStore Dashboard</h3>
-                <p class="text-slate-400 text-sm mb-4">A comprehensive Tableau build focused on regional market performance and C-level reporting.</p>
-                <div class="flex gap-2">
-                    <span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-xs font-mono rounded-full">Tableau</span>
-                    <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">C-Level Insights</span>
+                <h3 class="text-xl font-bold text-white mb-2 underline decoration-indigo-500 decoration-4 underline-offset-4">Tableau Profile</h3>
+                <p class="text-slate-400 text-sm mb-4">Certified Specialist focusing on regional market performance and C-level reporting dashboards.</p>
+                <div class="flex justify-between items-center">
+                    <div class="flex gap-2">
+                        <span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-xs font-mono rounded-full">Tableau</span>
+                        <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">C-Level</span>
+                    </div>
+                    <a href="https://public.tableau.com/app/profile/tamasszabo/vizzes" target="_blank" class="text-indigo-400 text-xs font-bold hover:underline">Full Profile →</a>
                 </div>
             </div>
-        </a>
-    </div>
-    </section>
-
-    <div class="flex gap-4 mt-12">
-        <a href="{{ site.baseurl }}/cv/" class="px-8 py-4 bg-white text-slate-900 font-bold rounded-xl hover:bg-indigo-500 hover:text-white transition-all shadow-xl active:scale-95">
-            See My Career
-        </a>
-        <a href="mailto:prostaw@gmail.com" class="px-8 py-4 bg-slate-800 text-white font-bold rounded-xl border border-slate-700 hover:border-indigo-500 transition-all active:scale-95">
-            Let's Chat
-        </a>
+        </div>
     </div>
 </section>
