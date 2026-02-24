@@ -1,31 +1,37 @@
 ---
 layout: default
-title: Senior Data Analyst
+title: Home
 ---
 
-<section class="py-20">
-  <div class="flex flex-col md:flex-row items-center gap-12">
-    <div class="flex-1 space-y-6">
-      <h1 class="text-5xl md:text-7xl font-black text-white leading-none">
-        Decisions driven by <span class="text-indigo-500">Data.</span>
-      </h1>
-      <p class="text-xl text-slate-400 leading-relaxed max-w-xl">
-        Senior Data Analyst with 8+ years of experience supporting executive decision-making in international corporate environments. Proven ability to translate complex data into clear business insights for C-level stakeholders across multiple European markets. Experienced in leading cross-functional analytics initiatives and fostering a data-driven, collaborative culture. Strong bridge between business and IT with a strategic mindset and hands-on delivery capability.
-      </p>
-      <div class="flex gap-4">
-        <a href="/cv/" class="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg hover:bg-indigo-500 transition shadow-lg shadow-indigo-500/20">View Experience</a>
-        <a href="mailto:prostaw@gmail.com" class="px-6 py-3 bg-slate-800 text-white font-bold rounded-lg hover:bg-slate-700 transition">Contact Me</a>
-      </div>
+<section class="py-20 flex flex-col items-center text-center">
+    <div class="mb-8 relative">
+        <div class="absolute inset-0 bg-indigo-500 blur-3xl opacity-20 rounded-full"></div>
+        <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Tamas Szabo" class="relative w-48 h-48 rounded-2xl object-cover border-2 border-slate-700 shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
     </div>
-    <div class="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-slate-800 overflow-hidden shadow-2xl">
-        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Tamas Szabo" class="w-full h-full object-cover">
-    </div>
-  </div>
-</section>
 
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4 py-12 border-y border-slate-800">
-    <div class="text-center"><div class="text-white font-bold text-2xl">8+ Years</div><div class="text-xs uppercase tracking-widest text-slate-500">Experience</div></div>
-    <div class="text-center"><div class="text-white font-bold text-2xl">C-Level</div><div class="text-xs uppercase tracking-widest text-slate-500">Stakeholders</div></div>
-    <div class="text-center"><div class="text-white font-bold text-2xl">Tableau</div><div class="text-xs uppercase tracking-widest text-slate-500">Expertise</div></div>
-    <div class="text-center"><div class="text-white font-bold text-2xl">SQL</div><div class="text-xs uppercase tracking-widest text-slate-500">Analysis</div></div>
-</div>
+    <h1 class="text-5xl md:text-7xl font-black text-white tracking-tight mb-6">
+        Hi, I'm <span class="text-indigo-500">Tamas</span>. 
+    </h1>
+    
+    <p class="max-w-2xl text-xl md:text-2xl text-slate-400 leading-relaxed italic">
+        "I turn messy numbers into clear stories."
+    </p>
+    
+    <div class="mt-8 max-w-2xl text-left space-y-4 text-slate-300">
+        <p>
+            By day, I'm a <strong>Senior Data Analyst</strong> based in Frankfurt am Main, Germany. I’ve spent the last 8+ years navigating the complex data landscapes of major international corporations (Intrum, Apple, Blackrock, GE, Hyundai). 
+        </p>
+        <p>
+            But beyond the dashboards, I’m a <strong>Mathematics enthusiast</strong>  who believes that data isn't just about rows and columns — it's about finding the truth behind the noise. Whether I'm building KPI frameworks at a global scale or sharing insights on my YouTube channel, <strong>ClutchStats</strong>, I'm always looking for the next "wow" moment.
+        </p>
+    </div>
+
+    <div class="flex gap-4 mt-12">
+        <a href="{{ site.baseurl }}/cv/" class="px-8 py-4 bg-white text-slate-900 font-bold rounded-xl hover:bg-indigo-500 hover:text-white transition-all shadow-xl active:scale-95">
+            See My Career
+        </a>
+        <a href="mailto:prostaw@gmail.com" class="px-8 py-4 bg-slate-800 text-white font-bold rounded-xl border border-slate-700 hover:border-indigo-500 transition-all active:scale-95">
+            Let's Chat
+        </a>
+    </div>
+</section>
