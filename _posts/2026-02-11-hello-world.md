@@ -2,6 +2,7 @@
 layout: post
 title: "Hello World: My First Post"
 date: 2026-02-11
+image: /assets/images/1-hello-header.jpg
 categories: data-analytics
 ---
 
@@ -79,4 +80,5 @@ If you're interested in:
 
 
 You’re in the right place.
+
 
