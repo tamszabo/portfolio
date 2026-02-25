@@ -69,7 +69,7 @@ To give you an idea of what I’ve been working on, here is one of my recent das
 
 I didn't reach a Senior level by guessing. I stood on the shoulders of giants. If you want to level up, follow these three resources:
 
-1. **[Andy Kriebel](https://www.youtube.com/@AndyKriebel):** The master of efficiency. He will teach you how to build a chart in 30 seconds that used to take you 30 minutes.
+1. **[Andy Kriebel](https://www.youtube.com/@vizwiz):** The master of efficiency. He will teach you how to build a chart in 30 seconds that used to take you 30 minutes.
 2. **[Tableau Tim](https://www.youtube.com/@TableauTim):** The best resource for understanding the "Why" behind new features and complex settings.
 3. **[The Flerlage Twins](https://www.flerlagetwins.com/):** They push the boundaries of what is possible. If you think a chart type can't be done in Tableau, they've probably already built it.
 
