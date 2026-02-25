@@ -28,9 +28,11 @@ In the corporate world, we call it "benchmarking." On Tableau Public, I call it 
 
 
 
-## My Work in Action
+## My Work in Action: The Nerazzurri Success
 
-To give you an idea of what I’ve been working on, here is one of my recent dashboards. I built this to focus on clear, executive-level insights—something I’ve specialized in throughout my time at Hyundai and beyond.
+To show you what this looks like in practice, I decided to step away from corporate KPIs and focus on a lifelong passion of mine: **Inter Milan**. 
+
+Being a massive Nerazzurri fan, I wanted to showcase the club’s recent success through a professional lens. I built this dashboard not just as a tribute, but as a challenge to myself: to apply the same high-level, executive-style clarity I use at Hyundai to the "Beautiful Game." It’s one thing to say Inter is successful; it’s another to see the data prove it.
 
 <div class="not-prose my-12 overflow-hidden rounded-3xl border border-slate-700 shadow-2xl bg-slate-900">
     <div style="width: 100%; max-width: 1400px; margin: 0 auto;">
