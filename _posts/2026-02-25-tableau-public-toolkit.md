@@ -32,29 +32,39 @@ In the corporate world, we call it "benchmarking." On Tableau Public, I call it 
 
 To give you an idea of what I’ve been working on, here is one of my recent dashboards. I built this to focus on clear, executive-level insights—something I’ve specialized in throughout my time at Hyundai and beyond.
 
-<div class='tableauPlaceholder' id='viz_blog_post' style='position: relative; width: 100%; height: 600px;'>
-    <object class='tableauViz' style='display:none;'>
-        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-        <param name='embed_code_version' value='3' /> 
-        <param name='site_root' value='' />
-        <param name='name' value='InterSeasonStats/Inter' /> <param name='tabs' value='no' />
-        <param name='toolbar' value='yes' />
-        <param name='animate_transition' value='yes' />
-        <param name='display_static_image' value='yes' />
-        <param name='display_spinner' value='yes' />
-        <param name='display_overlay' value='yes' />
-        <param name='display_count' value='yes' />
-        <param name='language' value='en-US' />
-    </object>
+<div class="not-prose my-12 overflow-hidden rounded-3xl border border-slate-700 shadow-2xl bg-slate-900">
+    <div style="width: 100%; max-width: 1400px; margin: 0 auto;">
+        <div style="position: relative; padding-bottom: 57%; height: 0; overflow: hidden;">
+            <div class='tableauPlaceholder' id='viz_blog_responsive' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;'>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='InterSeasonStats/Inter#1' /> <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='size' value='width=1400,height=800' />
+                </object>
+            </div>
+        </div>
+    </div>
 </div>
+
 <script type='text/javascript'>
-    var divElement = document.getElementById('viz_blog_post');
+    var divElement = document.getElementById('viz_blog_responsive');
     var vizElement = divElement.getElementsByTagName('object')[0];
-    vizElement.style.width='100%';vizElement.style.height='100%';
+    vizElement.style.width='100%';
+    vizElement.style.height='100%';
     var scriptElement = document.createElement('script');
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+
 ## Learn from the Masters
 
 I didn't reach a Senior level by guessing. I stood on the shoulders of giants. If you want to level up, follow these three resources:
