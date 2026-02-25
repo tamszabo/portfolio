@@ -2,6 +2,7 @@
 layout: default
 title: "Hello World: My First Post"
 date: 2026-02-11
+categories: data-analytics
 ---
 
 # Welcome to my new blog!
@@ -75,5 +76,6 @@ If you're interested in:
 - Tableau or Power BI development
 - Writing better SQL
 - Building dashboards that actually influence decisions
+
 
 You’re in the right place.
