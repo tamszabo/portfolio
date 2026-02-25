@@ -2,8 +2,8 @@
 layout: post
 title: "The Analyst’s Toolkit: Why Tableau Public is Your Ultimate Stage"
 date: 2026-02-25
-image: /assets/images/2-tableau-toolkit.png
-categories: [Toolkit, DataViz]
+image: /assets/images/2-tableau-toolkit.jpg
+categories: [Toolkit, DataViz, Tableau]
 ---
 
 Kicking off my "Analyst's Toolkit" series, I have to start with my first "best friend": **[Tableau Public](https://public.tableau.com/en-us/s/download)**. 
