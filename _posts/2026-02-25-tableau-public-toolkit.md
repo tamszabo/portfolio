@@ -34,16 +34,49 @@ To show you what this looks like in practice, I decided to step away from corpor
 
 Being a massive Nerazzurri fan, I wanted to showcase the club’s recent success through a professional lens. I built this dashboard not just as a tribute, but as a challenge to myself: to apply the same high-level, executive-style clarity I use at Hyundai to the "Beautiful Game." It’s one thing to say Inter is successful; it’s another to see the data prove it.
 
-<div class="not-prose my-12 overflow-hidden rounded-3xl border border-slate-700 shadow-2xl bg-[#001D3D]" style="width: 100%; max-width: 1400px; margin: 0 auto;">
-    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
-    <tableau-viz id="tableauViz" 
-        src="https://public.tableau.com/views/InterSeasonStats/Inter" 
-        device="desktop" 
-        hide-tabs 
-        toolbar="bottom" 
-        style="width: 100%; height: 800px;">
-    </tableau-viz>
+<div class="not-prose my-12 overflow-hidden rounded-3xl border border-slate-700 shadow-2xl bg-[#001D3D]">
+    <div style="width: 100%; overflow: hidden;">
+        <div style="width: 1400px; transform-origin: 0 0; transform: scale(calc(100% / 1400));">   
+            <div class='tableauPlaceholder' id='viz1772028702587' style='position: relative'>
+                <noscript>
+                    <a href='#'><img alt='Inter ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;InterSeasonStats&#47;Inter&#47;1_rss.png' style='border: none' /></a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='InterSeasonStats&#47;Inter' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;InterSeasonStats&#47;Inter&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>            
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1772028702587');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width='1400px'; 
+                vizElement.style.height='827px'; 
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        </div>
+    </div>
 </div>
+
+<style>
+    /* This ensures the container height matches the scaled dashboard height */
+    @media (max-width: 1400px) {
+        .not-prose div { height: auto !important; }
+        .not-prose div > div { aspect-ratio: 1400 / 827; }
+    }
+</style>
 
 ## Learn from the Masters
 
