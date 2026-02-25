@@ -63,34 +63,11 @@ title: Home
         </div>
 
         <div class="group bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all flex flex-col h-full">
-            <div class="aspect-video w-full bg-slate-900 overflow-hidden relative">
-                <div class='tableauPlaceholder' id='viz_scaled' style='width: 100%; height: 100%;'>
-                    <object class='tableauViz' style='display:none;'>
-                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                        <param name='embed_code_version' value='3' /> 
-                        <param name='site_root' value='' />
-                        <param name='name' value='SuperStoreDashboard_16850322961960/SuperStore' />
-                        <param name='tabs' value='no' />
-                        <param name='toolbar' value='no' /> <param name='animate_transition' value='yes' />
-                        <param name='display_static_image' value='yes' />
-                        <param name='display_spinner' value='yes' />
-                        <param name='display_overlay' value='yes' />
-                        <param name='display_count' value='yes' />
-                        <param name='language' value='en-US' />
-                        <param name='size' value='width=100%,height=100%' />
-                    </object>
-                </div>
-                <script type='text/javascript'>
-                    var divElement = document.getElementById('viz_scaled');
-                    var vizElement = divElement.getElementsByTagName('object')[0];
-                    // These lines force the scaling to stay within the box
-                    vizElement.style.width='100%';
-                    vizElement.style.height='100%';
-                    var scriptElement = document.createElement('script');
-                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                </script>
-            </div>
+            <a href="https://public.tableau.com/app/profile/tamasszabo/viz/SuperStoreDashboard_16850322961960/SuperStore" target="_blank" class="aspect-video w-full bg-slate-900 overflow-hidden block">
+                <img src="{{ '/assets/images/0-superstore.png' | relative_url }}" 
+                     alt="SuperStore Executive Dashboard" 
+                     class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            </a>
             <div class="p-6 flex-grow">
                 <h3 class="text-xl font-bold text-white mb-2 underline decoration-indigo-500 decoration-4 underline-offset-4">Tableau Profile</h3>
                 <p class="text-slate-400 text-sm mb-4">Certified Specialist focusing on executive-ready dashboards and regional market performance insights.</p>
@@ -99,9 +76,9 @@ title: Home
                         <span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-xs font-mono rounded-full">Tableau</span>
                         <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">Executive BI</span>
                     </div>
-                    <a href="https://public.tableau.com/app/profile/tamasszabo/vizzes" target="_blank" class="text-indigo-400 text-xs font-bold hover:underline">Full Profile →</a>
+                    <a href="https://public.tableau.com/app/profile/tamasszabo/vizzes" target="_blank" class="text-indigo-400 text-xs font-bold hover:underline italic">Full Profile →</a>
                 </div>
             </div>
         </div>
     </div>
-    </section>
+</section>
