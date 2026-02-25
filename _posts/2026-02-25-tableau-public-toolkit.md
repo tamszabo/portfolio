@@ -41,7 +41,7 @@ Being a massive Nerazzurri fan, I wanted to showcase the club’s recent success
         device="desktop" 
         hide-tabs 
         toolbar="bottom" 
-        style="width: 100%; height: 800px;">
+        style="width: 50%; height: 50%;">
     </tableau-viz>
 </div>
 
