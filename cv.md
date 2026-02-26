@@ -10,39 +10,33 @@ permalink: /cv/
 ---
 
 ## Professional Profile
-Senior Data Analyst with 8+ years of experience supporting executive decision-making in international corporate environments. Proven ability to translate complex data into clear business insights for C-level stakeholders across multiple European markets. Experienced in leading cross-functional analytics initiatives and fostering a data-driven, collaborative culture. Strong bridge between business and IT with a strategic mindset and hands-on delivery capability.
+Senior Data Analyst with over 8 years of experience driving executive decision-making within international corporate environments. Proven track record of translating complex datasets into actionable business insights for C-level stakeholders across multiple European markets. Expert in bridging the gap between Business and IT through strategic KPI frameworks and cross-functional leadership.
 
 ## Experience
 
 **Senior Data Analyst** - 10/2023 to 07/2025
 Hyundai Motor Europe | Frankfurt am Main, Germany
-- Partnered with senior leaders and C-level stakeholders across multiple European markets to support strategic decision-making.
-- Delivered executive-ready dashboards and insights used in regional level.
-- Acted as a bridge between business teams and IT in an international corporate environment.
-- Led cross-border analytics projects involving subsidiaries and headquarters.
-- Promoted a data-driven and open collaboration culture across departments.
+- Executive Insights: Engineered a comprehensive C-suite sales funnel report by creating a unified data model from SAP, Siebel, and GA4 datasets.
+- Infrastructure Optimization: Orchestrated and executed a Tableau Server migration and upgrade, resulting in a significant increase in processing speeds and dashboard responsiveness.
+- Data Literacy Leadership: Launched and led a Tableau mentorship program across the organization, successfully increasing data literacy and self-service analytics capabilities for regional teams.
+- Stakeholder Management: Partnered with C-level leaders to reduce time-to-insight for regional performance reviews by 30%.
 
-**Data Visualization Expert**  - 12/2019 to 09/2023
+**Data Analyst**  - 12/2019 to 09/2023
 Starschema | Budapest, Hungary
-- Presented complex business insights in a clear and executive-friendly format for senior management.
-- Standardized reporting across international teams to ensure transparency and alignment.
-- Worked closely with leadership to define KPI frameworks at global level.
-- Facilitated workshops to improve data understanding among non-technical stakeholders.
-- Encouraged open feedback and collaboration to continuously improve reporting quality.
+- Fortune 500 Consultancy: Acted as a consultant for global giants including Apple, GE, and BlackRock, performing rapid environment assessments and delivering high-impact business insights under tight deadlines.
+- Strategic Sales Support: Served as the lead designer for a high-stakes sports analytics proof of concept (POC) for NFL and Soccer teams; the initiative directly resulted in securing the Los Angeles Rams as a marquee client.
+- KPI Standardization: Defined and implemented global KPI frameworks, ensuring 100% transparency in management metrics across international teams.
+- Workshop Facilitation: Educated non-technical stakeholders through targeted workshops, improving data understanding and reporting quality.
 
 **Business Intelligence Analyst** - 07/2017 to 11/2019
 Intrum |  Budapest, Hungary
-- Contributed to building a centralized analytics infrastructure.
-- Collaborated with regional directors and department heads to align reporting standards.
-- Supported executive decision-making with reliable and structured business insights.
-- Coordinated between IT and finance in a multicultural environment.
-- Strengthened cross-functional communication through transparent reporting practices.
+- Strategic Business Pivot: Collaborated with the controlling team to conduct a deep-dive cost analysis that identified non-profitable operations, directly leading to the strategic discontinuation of a major business line.
+- Executive Education: Developed a suite of executive-level reports and mentored C-suite stakeholders on business intelligence best practices to drive data-driven decision-making.
+- Infrastructure Growth: Contributed to the architecture of a centralized analytics infrastructure for faster regional data access.
 
 **Fraud Risk Analyst Trainee** - 01/2017 to 06/2017
 Raiffeisen Bank | Budapest, Hungary
-- Built risk reports to support fraud prevention and investigation teams.
-- Analyzed customer and financial data to identify potential fraud cases.
-- Developed rules and indicators to improve fraud detection accuracy.
+- Process Automation: Developed an automated Excel-based verification tool for the fraud team to validate customer IDs, significantly reducing manual verification errors and improving departmental efficiency.
 
 ## Education
 
@@ -53,16 +47,11 @@ Eötvös Loránd University | Budapest, Hungary
 
 - **Tableau Desktop Specialist** (2023)
 
-## Languages
-
-| Language | Proficiency |
-| :--- | :--- |
-| **Hungarian** | Native (C2) |
-| **English** | Business Fluent (C1) |
-| **German** | Basic (A2) |
-
 ## Skills
 
-- **Technical:** Tableau, Power BI, QlikSense, SQL, Excel.
-- **Soft:** Stakeholder Management, Mentoring.
+- **Data Visualization**: Tableau (Certified Specialist), Power BI, QlikSense
+- **Data Analysis**: SQL, Advanced Excel, KPI Framework Development
+- **Soft Skills**: Stakeholder Management, Mentoring, Cross-functional Collaboration, Workshop Facilitation
+- **Languages**: Hungarian (Native), English (Fluent - C1), German (Basic - A2)
+
 
