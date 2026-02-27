@@ -30,8 +30,13 @@ layout: default
     
    <div class="flex flex-row flex-wrap gap-4">
         <button onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(window.location.href), '_blank', 'width=600,height=600');" 
-                class="flex items-center justify-center w-11 h-11 bg-slate-800 rounded-xl border border-slate-700 text-slate-300 hover:border-indigo-500 hover:text-indigo-400 transition-all shadow-lg" title="Share on LinkedIn">
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            class="flex items-center justify-center w-11 h-11 bg-slate-800 rounded-xl border border-slate-700 text-slate-300 hover:border-indigo-500 hover:text-indigo-400 transition-all shadow-lg" title="Share on LinkedIn">
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </button>
+
+        <button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank', 'width=600,height=500');" 
+                class="flex items-center justify-center w-11 h-11 bg-slate-800 rounded-xl border border-slate-700 text-slate-300 hover:border-indigo-500 hover:text-indigo-400 transition-all shadow-lg" title="Share on Facebook">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
         </button>
     
         <button onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href), '_blank', 'width=600,height=300');" 
@@ -41,7 +46,7 @@ layout: default
     
         <button onclick="window.open('https://api.whatsapp.com/send?text=' + encodeURIComponent(window.location.href), '_blank');" 
                 class="flex items-center justify-center w-11 h-11 bg-slate-800 rounded-xl border border-slate-700 text-slate-300 hover:border-indigo-500 hover:text-indigo-400 transition-all shadow-lg" title="Share on WhatsApp">
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.224-3.52c1.54.914 3.51 1.403 5.563 1.404 5.399 0 9.791-4.393 9.794-9.793.002-5.398-4.389-9.789-9.788-9.788-2.615 0-5.074 1.019-6.922 2.87-1.848 1.85-2.865 4.31-2.866 6.923 0 2.178.58 4.302 1.681 6.132l-.93 3.396 3.468-.912z"/></svg>
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.224-3.52c1.54.914 3.51 1.403 5.563 1.404 5.399 0 9.791-4.393 9.794-9.793.002-5.398-4.389-9.789-9.788-9.789-2.615 0-5.074 1.019-6.922 2.87-1.848 1.85-2.865 4.31-2.866 6.923 0 2.178.58 4.302 1.681 6.132l-.93 3.396 3.468-.912z"/></svg>
         </button>
     
         <button onclick="navigator.clipboard.writeText(window.location.href); alert('Link copied!');" 
