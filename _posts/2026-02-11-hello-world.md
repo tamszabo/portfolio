@@ -6,7 +6,7 @@ image: /assets/images/1-hello-header.jpg
 categories: data-analytics
 ---
 
-# Welcome to my new blog!
+## Welcome to my new blog!
 
 Hi, I’m Tamas.
 
@@ -80,6 +80,7 @@ If you're interested in:
 
 
 You’re in the right place.
+
 
 
 
