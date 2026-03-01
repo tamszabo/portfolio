@@ -2,7 +2,7 @@
 layout: post
 title: "The Analyst’s Toolkit: Why Tableau Public is Your Ultimate Stage"
 date: 2026-02-25
-image: /assets/images/2-tableau-toolkit.jpg
+image: /assets/images/2-tableau-toolkit.png
 categories: [Toolkit, DataViz, Tableau]
 ---
 
@@ -13,7 +13,7 @@ Kicking off my Analyst's Toolkit series, I have to start with my first "best fri
 
 But before I tell you why I love it, I have to tell you how I found it.
 
-## My "Gateway Drug" into BI
+## My Catalyst for BI
 
 My journey into Business Intelligence started with a struggle. Back when I was working at **Intrum**, our tool of choice was **QlikSense**. For about a year, I fought with it. I was trying to bend the data to my will and come up with really complex calculations, but I felt limited. 
 
@@ -57,7 +57,7 @@ Being a massive Nerazzurri fan, I wanted to showcase the club’s recent success
 I didn't reach a Senior level by guessing. I stood on the shoulders of giants. If you want to level up, follow these three resources:
 
 1. **[Andy Kriebel](https://www.youtube.com/@vizwiz):** The master of efficiency. He will teach you how to build a chart in 30 seconds that used to take you 30 minutes.
-2. **[Tableau Tim](https://www.youtube.com/@TableauTim):** The best resource for understanding the "Why" behind new features and complex settings.
+2. **[Tableau Tim](https://www.youtube.com/@TableauTim):** The best resource for understanding the **Why** behind new features and complex settings.
 3. **[The Flerlage Twins](https://www.flerlagetwins.com/):** They push the boundaries of what is possible. If you think a chart type can't be done in Tableau, they've probably already built it.
 
 ## The Takeaway: Just Do It
