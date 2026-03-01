@@ -2,7 +2,7 @@
 layout: post
 title: "Figma: The Blueprint of High-End Dashboards"
 image: "/assets/images/3-figma-blueprint-header.png"
-categories: [Toolkit, DataViz, Figma]
+categories: [Toolkit, DataViz, Figma, Data Analysis]
 ---
 
 # 🎨 The Analyst’s Toolkit II. 
