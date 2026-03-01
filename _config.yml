@@ -1,18 +1,29 @@
 title: Tamas Szabo
-description: Senior Data Analyst | Data Visualization Expert
+description: "Senior Data Analyst | Data Visualization Expert. Transforming complex data into premium, design-first insights."
 baseurl: "" 
-url: "https://tamasszabo.org/"
+url: "https://tamasszabo.org"
 google_analytics: "G-69T22XTBL3"
+author: "Tamas Szabo"
 
 # Navigation links for the header
 header_pages:
-  - index.html
+  - index.md
   - cv.md
   - blog.md
 
+# Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-permalink: /:title/
+permalink: /blog/:title/
 future: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
