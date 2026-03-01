@@ -6,7 +6,7 @@ image: /assets/images/2-tableau-toolkit.jpg
 categories: [Toolkit, DataViz, Tableau]
 ---
 
-# The Analyst’s Toolkit I.
+# 📊 The Analyst’s Toolkit I.
 ## Tableau Public
 
 Kicking off my Analyst's Toolkit series, I have to start with my first "best friend": **[Tableau Public](https://public.tableau.com/en-us/s/download)**. 
