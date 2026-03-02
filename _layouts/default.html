@@ -55,12 +55,20 @@
     </main>
 
     <footer class="border-t border-slate-800 py-12 mt-20 text-center text-slate-500 text-sm">
-        <p class="mb-2">&copy; 2026 Tamas Szabo</p>
+        <div class="flex justify-center items-center gap-4 mb-4">
+            <p>&copy; 2026 Tamas Szabo</p>
+            <span class="text-slate-700">•</span>
+            <a href="{{ '/feed.xml' | relative_url }}" class="flex items-center gap-1.5 hover:text-orange-400 transition-colors duration-300" title="Subscribe via RSS">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.831c10.555.062 19.108 8.605 19.17 19.171h4.83c-.062-13.218-10.782-23.931-24-24.002z"/></svg>
+                <span>RSS</span>
+            </a>
+        </div>
         <p>Powered by <span class="text-slate-300">Jekyll</span>, <span class="text-slate-300">Tailwind</span> & <span class="text-indigo-400 font-semibold">Gemini</span></p>
     </footer>
 
 </body>
 </html>
+
 
 
 
