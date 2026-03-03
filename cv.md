@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cv
 title: Resume
 permalink: /cv/
 ---
@@ -49,3 +49,4 @@ Eötvös Loránd University | Budapest, Hungary
 - **Data Analysis**: SQL, Advanced Excel, KPI Framework Development
 - **Soft Skills**: Stakeholder Management, Mentoring, Cross-functional Collaboration, Workshop Facilitation
 - **Languages**: Hungarian (Native), English (Fluent - C1), German (Basic - A2)
+
