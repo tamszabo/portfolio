@@ -2,7 +2,10 @@
 layout: post
 title: "Beyond Reports: Crafting Premium, Accessible Data Products"
 image: "/assets/images/4-coolors-palette.png"
+categories: [Toolkit, DataViz, Coolors, Data Analysis]
 ---
+
+# 🎨 The Analyst’s Toolkit III. 
 
 In high-end analytics, a dashboard is more than a collection of charts—it is a **Premium Product**. To build a tool that executives actually use, you must balance three pillars: **Visual Authority**, **Universal Accessibility**, and **Strategic Emphasis**.
 
