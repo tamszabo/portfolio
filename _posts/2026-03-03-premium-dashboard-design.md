@@ -7,12 +7,12 @@ categories: [Toolkit, DataViz, Coolors, Data Analysis]
 
 # 🎨 The Analyst’s Toolkit III. 
 
-In high-end analytics, a dashboard is more than a collection of charts—it is a **Premium Product**. To build a tool that executives actually use, you must balance three pillars: **Visual Authority**, **Universal Accessibility**, and **Strategic Emphasis**.
+In high-end analytics, a dashboard is more than a collection of charts - it is a **Premium Product**. To build a tool that executives actually use, you must balance three pillars: **Visual Authority**, **Universal Accessibility**, and **Strategic Emphasis**.
 
 My secret weapon for mastering this balance is [Coolors.co](https://coolors.co/).
 
 ## 💎 Pillar 1: Visual Authority & Style
-A *Premium* feel comes from intentionality. Using Coolors, I move away from out-of-the-box software defaults to create bespoke palettes:
+A premium feel comes from intentionality. Using Coolors, I move away from out-of-the-box software defaults to create bespoke palettes:
 * **Cohesive Tones:** Whether I need a crisp **Dark Mode** for a command center or a **Light & Airy** look for a monthly PDF report, I can generate palettes that match a brand's DNA perfectly.
 * **Thematic Search:** From seasonal themes like *Christmas* to industry-specific vibes like *Space*, searching by topic ensures the dashboard *feels* like the subject matter it represents.
 
