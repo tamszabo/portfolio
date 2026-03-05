@@ -4,6 +4,43 @@ title: Resume
 permalink: /cv/
 ---
 
+<style>
+@media print {
+    /* 1. Hide the Web UI elements */
+    nav, footer, button {
+        display: none !important;
+    }
+
+    /* 2. Force the Dark Background */
+    body, html, .max-w-4xl, main {
+        background-color: #0f172a !important;
+        -webkit-print-color-adjust: exact !important; /* Chrome/Safari */
+        print-color-adjust: exact !important;         /* Firefox */
+        color: #cbd5e1 !important;                   /* Slate-300 */
+    }
+
+    /* 3. Ensure Headings and Logos stay vibrant */
+    h1, h2, h3 {
+        color: #ffffff !important;
+    }
+    .text-indigo-500, .text-indigo-400, .text-indigo-300 {
+        color: #818cf8 !important; /* Indigo-400 */
+    }
+    
+    /* 4. Layout adjustments for paper */
+    .relative {
+        page-break-inside: avoid; /* Prevents splitting a job across two pages */
+        margin-bottom: 2rem;
+    }
+    
+    main {
+        padding: 0 !important;
+        margin: 0 !important;
+        max-width: 100% !important;
+    }
+}
+</style>
+
 <div class="flex justify-between items-center mb-10 pb-4 border-b border-slate-800">
     <h1 class="text-3xl font-black text-white uppercase tracking-tighter">
         Tamas <span class="text-indigo-500">Szabo</span>
@@ -127,6 +164,7 @@ permalink: /cv/
         </div>
     </section>
 </div>
+
 
 
 
