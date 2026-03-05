@@ -17,7 +17,7 @@ permalink: /cv/
     <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mb-6">
         <h2 class="text-xl font-bold text-white">Senior Data Analyst</h2>
         <div class="flex gap-4 text-xs text-slate-500 font-mono">
-            <span>📍 Frankfurt, DE</span>
+            <span>📍 Frankfurt am Main, DE</span>
             <span>✉️ prostaw@gmail.com</span>
         </div>
     </div>
@@ -29,7 +29,7 @@ permalink: /cv/
 <section class="space-y-12">
     <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-8">Professional Experience</h2>
     <div class="relative pl-14">
-        <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
+        <div class="absolute left-0 top-1 w-12 h-12 bg-white rounded-md overflow-hidden border border-slate-700 shadow-sm flex items-center justify-center">
             <img src="{{ '/assets/logos/hyundai-logo.jpg' | relative_url }}" alt="Hyundai" class="max-w-full max-h-full object-contain">
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
@@ -45,7 +45,7 @@ permalink: /cv/
         </ul>
     </div>
     <div class="relative pl-14">
-        <div class="absolute left-0 top-1 w-10 h-10 bg-slate-900 rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
+        <div class="absolute left-0 top-1 w-12 h-12 bg-white rounded-md overflow-hidden border border-slate-700 shadow-sm flex items-center justify-center">
             <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="Starschema" class="max-w-full max-h-full object-contain">
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
@@ -61,7 +61,7 @@ permalink: /cv/
         </ul>
     </div>
     <div class="relative pl-14">
-        <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
+        <div class="absolute left-0 top-1 w-12 h-12 bg-white rounded-md overflow-hidden border border-slate-700 shadow-sm flex items-center justify-center">
             <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" class="max-w-full max-h-full object-contain">
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
@@ -76,7 +76,7 @@ permalink: /cv/
         </ul>
     </div>
     <div class="relative pl-14">
-        <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
+        <div class="absolute left-0 top-1 w-12 h-12 bg-white rounded-md overflow-hidden border border-slate-700 shadow-sm flex items-center justify-center">
             <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen" class="max-w-full max-h-full object-contain">
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
@@ -127,5 +127,6 @@ permalink: /cv/
         </div>
     </section>
 </div>
+
 
 
