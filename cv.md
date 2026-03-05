@@ -6,44 +6,51 @@ permalink: /cv/
 
 <style>
 @media print {
-    /* 1. Remove Web UI elements */
-    nav, footer, button, .border-b {
+    /* 1. Hide Web UI */
+    nav, footer, button {
         display: none !important;
     }
 
-    /* 2. Define the Paper Margins (The "Executive" Border) */
+    /* 2. Reset to Light Theme for Printing */
     @page {
-        margin: 2cm; /* This creates the physical margin on the paper */
+        margin: 1.5cm; /* Standard professional margin */
     }
 
-    /* 3. Force Dark Background and Fix Spacing */
-    body, html, main {
-        background-color: #0f172a !important;
-        -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
-        color: #cbd5e1 !important;
+    body, html, main, .max-w-5xl {
+        background: white !important;
+        color: #1e293b !important; /* Slate-800 for maximum readability */
         margin: 0 !important;
         padding: 0 !important;
+        width: 100% !important;
     }
 
-    /* 4. Ensure the Content doesn't touch the edge */
-    .max-w-5xl {
-        max-width: 100% !important;
-        padding: 0 !important;
-    }
-
-    /* 5. Typography and Highlighting */
+    /* 3. Adjust Typography for white paper */
     h1, h2, h3 {
-        color: #ffffff !important;
+        color: #0f172a !important; /* Darker Slate for headings */
     }
-    .text-indigo-500, .text-indigo-400, .text-indigo-300 {
-        color: #818cf8 !important;
+    
+    .text-indigo-500, .text-indigo-400 {
+        color: #4f46e5 !important; /* Solid Indigo-600 for contrast */
     }
 
-    /* 6. Avoid "Hanging" jobs at the bottom of the page */
+    .text-slate-400, .text-slate-500 {
+        color: #475569 !important; /* Slate-600 for subtext */
+    }
+
+    /* 4. Ensure Logos look crisp */
+    .absolute.left-0 {
+        border: 1px solid #e2e8f0 !important;
+        background: white !important;
+    }
+
+    /* 5. Clean up the Layout */
+    .border-b {
+        border-bottom: 1px solid #e2e8f0 !important;
+    }
+
     .relative {
         page-break-inside: avoid !important;
-        margin-bottom: 2.5rem !important;
+        margin-bottom: 2rem !important;
     }
 }
 </style>
@@ -171,6 +178,7 @@ permalink: /cv/
         </div>
     </section>
 </div>
+
 
 
 
