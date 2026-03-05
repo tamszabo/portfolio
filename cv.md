@@ -30,7 +30,7 @@ permalink: /cv/
     <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-8">Professional Experience</h2>
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
-            <img src="{{ '/assets/images/hyundai-logo.png' | relative_url }}" alt="Hyundai" class="max-w-full max-h-full object-contain">
+            <img src="{{ '/assets/logos/hyundai-logo.jpg' | relative_url }}" alt="Hyundai" class="max-w-full max-h-full object-contain">
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
             <h3 class="text-lg font-bold text-white">Hyundai Motor Europe</h3>
@@ -39,14 +39,14 @@ permalink: /cv/
         <p class="text-indigo-400 text-sm font-semibold mb-3 italic">Senior Data Analyst | Frankfurt am Main, Germany</p>
         <ul class="list-disc list-outside ml-4 space-y-2 text-slate-400 text-sm">
             <li><strong>Executive Insights:</strong> Engineered a comprehensive C-suite sales funnel report by creating a unified data model from SAP, Siebel, and GA4 datasets.</li>
-            <li><strong>Infrastructure Optimization:<strong> Orchestrated and executed a Tableau Server migration and upgrade, resulting in a significant increase in processing speeds and dashboard responsiveness.</li>
-            <li><strong>Data Literacy Leadership:<strong> Launched and led a Tableau mentorship program across the organization, successfully increasing data literacy and self-service analytics capabilities for regional teams.</li>
+            <li><strong>Infrastructure Optimization:</strong> Orchestrated and executed a Tableau Server migration and upgrade, resulting in a significant increase in processing speeds and dashboard responsiveness.</li>
+            <li><strong>Data Literacy Leadership:</strong> Launched and led a Tableau mentorship program across the organization, successfully increasing data literacy and self-service analytics capabilities for regional teams.</li>
             <li><strong>Stakeholder Management:</strong> Partnered with C-level leaders to reduce time-to-insight for regional performance reviews by 30%.</li>
         </ul>
     </div>
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-10 h-10 bg-slate-900 rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
-            <img src="{{ '/assets/images/starschema-logo.png' | relative_url }}" alt="Starschema" class="max-w-full max-h-full object-contain">
+            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="Starschema" class="max-w-full max-h-full object-contain">
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
             <h3 class="text-lg font-bold text-white">Starschema</h3>
@@ -54,15 +54,15 @@ permalink: /cv/
         </div>
         <p class="text-indigo-400 text-sm font-semibold mb-3 italic">Data Analyst | Budapest, Hungary</p>
         <ul class="list-disc list-outside ml-4 space-y-2 text-slate-400 text-sm">
-            <li><strong>Fortune 500 Consultancy:<strong> Acted as a consultant for global giants including <strong>Apple, GE, and BlackRock<strong>, performing rapid environment assessments and delivering high-impact business insights under tight deadlines.</li>
-            <li><strong>Strategic Sales Support:<strong> Served as the lead designer for a high-stakes sports analytics proof of concept (POC) for NFL and Soccer teams; the initiative directly resulted in securing the Los Angeles Rams as a marquee client.</li>
-            <li><strong>KPI Standardization:<strong> Defined and implemented global KPI frameworks, ensuring 100% transparency in management metrics across international teams.</li>
-            <li><strong>Workshop Facilitation:<strong> Educated non-technical stakeholders through targeted workshops, improving data understanding and reporting quality.</li>
+            <li><strong>Fortune 500 Consultancy:</strong> Acted as a consultant for global giants including <strong>Apple, GE, and BlackRock</strong>, performing rapid environment assessments and delivering high-impact business insights under tight deadlines.</li>
+            <li><strong>Strategic Sales Support:</strong> Served as the lead designer for a high-stakes sports analytics proof of concept (POC) for NFL and Soccer teams; the initiative directly resulted in securing the Los Angeles Rams as a marquee client.</li>
+            <li><strong>KPI Standardization:</strong> Defined and implemented global KPI frameworks, ensuring 100% transparency in management metrics across international teams.</li>
+            <li><strong>Workshop Facilitation:</strong> Educated non-technical stakeholders through targeted workshops, improving data understanding and reporting quality.</li>
         </ul>
     </div>
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
-            <img src="{{ '/assets/images/intrum-logo.png' | relative_url }}" alt="Intrum" class="max-w-full max-h-full object-contain">
+            <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" class="max-w-full max-h-full object-contain">
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
             <h3 class="text-lg font-bold text-white">Intrum</h3>
@@ -70,14 +70,14 @@ permalink: /cv/
         </div>
         <p class="text-indigo-400 text-sm font-semibold mb-3 italic">Business Intelligence Analyst | Budapest, Hungary</p>
         <ul class="list-disc list-outside ml-4 space-y-2 text-slate-400 text-sm">
-            <li><strong>Strategic Business Pivot:<strong> Collaborated with the controlling team to conduct a deep-dive cost analysis that identified non-profitable operations, directly leading to the strategic discontinuation of a major business line.</li>
-            <li><strong>Executive Education:<strong> Developed a suite of executive-level reports and mentored C-suite stakeholders on business intelligence best practices to drive data-driven decision-making.</li>
-            <li><strong>Infrastructure Growth:<strong> Contributed to the architecture of a centralized analytics infrastructure for faster regional data access.</li>
+            <li><strong>Strategic Business Pivot:</strong> Collaborated with the controlling team to conduct a deep-dive cost analysis that identified non-profitable operations, directly leading to the strategic discontinuation of a major business line.</li>
+            <li><strong>Executive Education:</strong> Developed a suite of executive-level reports and mentored C-suite stakeholders on business intelligence best practices to drive data-driven decision-making.</li>
+            <li><strong>Infrastructure Growth:</strong> Contributed to the architecture of a centralized analytics infrastructure for faster regional data access.</li>
         </ul>
     </div>
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-10 h-10 bg-white rounded-lg p-1.5 border border-slate-700 flex items-center justify-center">
-            <img src="{{ '/assets/images/raiffeisen-logo.png' | relative_url }}" alt="Raiffeisen" class="max-w-full max-h-full object-contain">
+            <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen" class="max-w-full max-h-full object-contain">
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
             <h3 class="text-lg font-bold text-white">Raiffeisen Bank</h3>
@@ -85,7 +85,7 @@ permalink: /cv/
         </div>
         <p class="text-indigo-400 text-sm font-semibold mb-3 italic">Fraud Risk Analyst Trainee | Budapest, Hungary</p>
         <ul class="list-disc list-outside ml-4 space-y-2 text-slate-400 text-sm">
-            <li><strong>Process Automation:<strong> Developed an automated Excel-based verification tool for the fraud team to validate customer IDs, significantly reducing manual verification errors and improving departmental efficiency.</li>
+            <li><strong>Process Automation:</strong> Developed an automated Excel-based verification tool for the fraud team to validate customer IDs, significantly reducing manual verification errors and improving departmental efficiency.</li>
         </ul>
     </div>
 </section>
@@ -121,10 +121,11 @@ permalink: /cv/
         <div>
             <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-4">Certificates</h2>
             <div class="flex items-center gap-3 bg-slate-900/50 p-3 rounded-lg border border-slate-800">
-                <img src="{{ '/assets/images/tableau-specialist.png' | relative_url }}" class="w-8 h-8 object-contain" alt="Tableau">
+                <img src="{{ '/assets/logos/tableau-logo.png' | relative_url }}" class="w-8 h-8 object-contain" alt="Tableau">
                 <p class="text-white font-bold text-xs uppercase tracking-tighter">Tableau Desktop Specialist</p>
             </div>
         </div>
     </section>
 </div>
+
 
