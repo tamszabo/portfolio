@@ -123,52 +123,56 @@ title: Home
     </div>
 </section>
 
-<section class="py-20 border-t border-slate-800">
-    <div class="text-center mb-16">
+<section class="py-20 border-t border-slate-800 overflow-hidden">
+    <div class="text-center mb-12">
         <h2 class="text-indigo-400 font-bold uppercase tracking-[0.3em] text-sm mb-4">Strategic Experience</h2>
         <p class="text-slate-400">Trusted by global leaders and industry giants.</p>
     </div>
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-x-12 gap-y-16 items-center max-w-5xl mx-auto px-6 opacity-80">
-        
-        <div class="flex items-center justify-center group h-16">
-            <img src="{{ '/assets/logos/hyundai-logo.jpg' | relative_url }}" alt="Hyundai" 
-                 class="max-w-[160px] max-h-full transition-transform duration-300 group-hover:scale-105">
+    <div class="relative flex overflow-x-hidden">
+        <div class="py-12 animate-marquee whitespace-nowrap flex items-center gap-16 md:gap-24">
+            <img src="{{ '/assets/logos/hyundai-logo.jpg' | relative_url }}" alt="Hyundai" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/apple-logo.svg.png' | relative_url }}" alt="Apple" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="HCLTech" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/blackrock-logo.svg.png' | relative_url }}" alt="BlackRock" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/general-electric-logo.svg.png' | relative_url }}" alt="GE" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
         </div>
 
-        <div class="flex items-center justify-center group h-16">
-            <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" 
-                 class="max-w-[150px] max-h-full transition-transform duration-300 group-hover:scale-105">
-        </div>
-
-        <div class="flex items-center justify-center group h-16">
-            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="Starschema HCLTech" 
-                 class="max-w-[170px] max-h-full transition-transform duration-300 group-hover:scale-105">
-        </div>
-
-        <div class="flex items-center justify-center group h-16">
-            <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen Bank" 
-                 class="max-w-[180px] max-h-full transition-transform duration-300 group-hover:scale-105">
-        </div>
-
-        <div class="flex items-center justify-center group h-16">
-            <img src="{{ '/assets/logos/apple-logo.svg.png' | relative_url }}" alt="Apple" 
-                 class="max-w-[110px] max-h-full transition-transform duration-300 group-hover:scale-105">
-        </div>
-
-        <div class="flex items-center justify-center group h-16">
-            <img src="{{ '/assets/logos/blackrock-logo.svg.png' | relative_url }}" alt="BlackRock" 
-                 class="max-w-[180px] max-h-full transition-transform duration-300 group-hover:scale-105">
-        </div>
-
-        <div class="flex items-center justify-center group h-16">
-            <img src="{{ '/assets/logos/general-electric-logo.svg.png' | relative_url }}" alt="GE General Electric" 
-                 class="max-w-[130px] max-h-full transition-transform duration-300 group-hover:scale-105">
-        </div>
-
-        <div class="flex flex-col items-center justify-center h-16 group">
-            <span class="text-indigo-400 font-black text-2xl tracking-tighter opacity-80 group-hover:opacity-100 group-hover:text-white transition-all group-hover:scale-105">...AND MORE</span>
-            <span class="text-[10px] text-slate-600 uppercase tracking-widest mt-1 opacity-80">Global BI</span>
+        <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex items-center gap-16 md:gap-24">
+            <img src="{{ '/assets/logos/hyundai-logo.jpg' | relative_url }}" alt="Hyundai" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/apple-logo.svg.png' | relative_url }}" alt="Apple" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="HCLTech" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/blackrock-logo.svg.png' | relative_url }}" alt="BlackRock" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/general-electric-logo.svg.png' | relative_url }}" alt="GE" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
+            <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen" class="h-10 md:h-12 w-auto brightness-0 invert opacity-60">
         </div>
     </div>
 </section>
+
+<style>
+    @keyframes marquee {
+        0% { transform: translateX(0%); }
+        100% { transform: translateX(-100%); }
+    }
+
+    @keyframes marquee2 {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(0%); }
+    }
+
+    .animate-marquee {
+        animation: marquee 30s linear infinite;
+    }
+
+    .animate-marquee2 {
+        animation: marquee2 30s linear infinite;
+    }
+    
+    /* Optional: Pause on hover so people can see the logos clearly */
+    .animate-marquee:hover, .animate-marquee2:hover {
+        animation-play-state: paused;
+    }
+</style>
