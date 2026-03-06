@@ -54,7 +54,7 @@ title: Home
             <div class="max-w-3xl mx-auto mb-16 text-left">
                 <div class="relative p-8 md:p-12 bg-indigo-500/5 border-l-4 border-indigo-500 rounded-r-3xl">
                     <p class="text-2xl md:text-3xl font-medium text-white leading-relaxed italic">
-                        "Most companies are <span class="text-indigo-400">drowning in data</span> but starving for insights. They have 100+ dashboards, but the CEO still doesn't know <span class="underline decoration-indigo-500/50 underline-offset-8">why sales dropped last Tuesday</span>."
+                        Most companies are <span class="text-indigo-400">drowning in data</span> but starving for insights. They have 100+ dashboards, but the CEO still doesn't know <span class="text-indigo-400">why sales dropped last Tuesday</span>.
                     </p>
                 </div>
             </div>
@@ -124,44 +124,51 @@ title: Home
 </section>
 
 <section class="py-20 border-t border-slate-800">
-    <div class="text-center mb-12">
+    <div class="text-center mb-16">
         <h2 class="text-indigo-400 font-bold uppercase tracking-[0.3em] text-sm mb-4">Strategic Experience</h2>
         <p class="text-slate-400">Trusted by global leaders and industry giants.</p>
     </div>
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center opacity-60">
-        <div class="flex flex-col items-center group">
-            <span class="text-white font-black text-xl tracking-tighter group-hover:text-indigo-500 transition-colors">HYUNDAI</span>
-            <span class="text-[10px] text-slate-500 uppercase tracking-widest mt-2">Direct</span>
-        </div>
-        <div class="flex flex-col items-center group">
-            <span class="text-white font-black text-xl tracking-tighter group-hover:text-indigo-500 transition-colors">STARSCHEMA</span>
-            <span class="text-[10px] text-slate-500 uppercase tracking-widest mt-2">Direct</span>
-        </div>
-        <div class="flex flex-col items-center group">
-            <span class="text-white font-black text-xl tracking-tighter group-hover:text-indigo-500 transition-colors">INTRUM</span>
-            <span class="text-[10px] text-slate-500 uppercase tracking-widest mt-2">Direct</span>
-        </div>
-        <div class="flex flex-col items-center group">
-            <span class="text-white font-black text-xl tracking-tighter group-hover:text-indigo-500 transition-colors">RAIFFEISEN BANK</span>
-            <span class="text-[10px] text-slate-500 uppercase tracking-widest mt-2">Direct</span>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-x-12 gap-y-16 items-center max-w-5xl mx-auto px-6">
+        
+        <div class="flex items-center justify-center group h-16">
+            <img src="{{ '/assets/logos/hyundai-logo.jpg' | relative_url }}" alt="Hyundai" 
+                 class="max-w-[140px] max-h-full brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300 opacity-60 group-hover:opacity-100">
         </div>
 
-        <div class="flex flex-col items-center group">
-            <span class="text-white font-black text-xl tracking-tighter group-hover:text-indigo-500 transition-colors">APPLE</span>
-            <span class="text-[10px] text-slate-500 uppercase tracking-widest mt-2">Consultant</span>
+        <div class="flex items-center justify-center group h-16">
+            <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" 
+                 class="max-w-[130px] max-h-full brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300 opacity-60 group-hover:opacity-100">
         </div>
-        <div class="flex flex-col items-center group">
-            <span class="text-white font-black text-xl tracking-tighter group-hover:text-indigo-500 transition-colors">BLACKROCK</span>
-            <span class="text-[10px] text-slate-500 uppercase tracking-widest mt-2">Consultant</span>
+
+        <div class="flex items-center justify-center group h-16">
+            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="Starschema HCLTech" 
+                 class="max-w-[150px] max-h-full brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300 opacity-60 group-hover:opacity-100">
         </div>
-        <div class="flex flex-col items-center group">
-            <span class="text-white font-black text-xl tracking-tighter group-hover:text-indigo-500 transition-colors">GE</span>
-            <span class="text-[10px] text-slate-500 uppercase tracking-widest mt-2">Consultant</span>
+
+        <div class="flex items-center justify-center group h-16">
+            <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen Bank" 
+                 class="max-w-[160px] max-h-full brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300 opacity-60 group-hover:opacity-100">
         </div>
-        <div class="flex flex-col items-center group">
-            <span class="text-white font-black text-xl tracking-tighter group-hover:text-indigo-500 transition-colors">...AND MORE</span>
-            <span class="text-[10px] text-slate-500 uppercase tracking-widest mt-2">Global BI</span>
+
+        <div class="flex items-center justify-center group h-16">
+            <img src="{{ '/assets/logos/apple-logo.svg.png' | relative_url }}" alt="Apple" 
+                 class="max-w-[100px] max-h-full brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300 opacity-60 group-hover:opacity-100">
+        </div>
+
+        <div class="flex items-center justify-center group h-16">
+            <img src="{{ '/assets/logos/blackrock-logo.svg.png' | relative_url }}" alt="BlackRock" 
+                 class="max-w-[160px] max-h-full brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300 opacity-60 group-hover:opacity-100">
+        </div>
+
+        <div class="flex items-center justify-center group h-16">
+            <img src="{{ '/assets/logos/general-electric-logo.svg.png' | relative_url }}" alt="GE General Electric" 
+                 class="max-w-[120px] max-h-full brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300 opacity-60 group-hover:opacity-100">
+        </div>
+
+        <div class="flex flex-col items-center justify-center h-16 group">
+            <span class="text-indigo-400 font-black text-2xl tracking-tighter opacity-60 group-hover:opacity-100 group-hover:text-white transition">...AND MORE</span>
+            <span class="text-[10px] text-slate-600 uppercase tracking-widest mt-1 opacity-60">Global BI</span>
         </div>
     </div>
 </section>
