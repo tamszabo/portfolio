@@ -69,7 +69,7 @@ permalink: /cv/
         <h2 class="text-xl font-bold text-white">Senior Data Analyst</h2>
         <div class="flex gap-4 text-xs text-slate-500 font-mono">
             <span>📍 Frankfurt am Main, DE</span>
-            <span>✉️ <a href="/cdn-cgi/l/email-protection" class="__cf_email__ text-slate-500 hover:text-indigo-400 transition">[email protected]</a></span>
+            <span>✉️ prostaw@gmail.com</span>
         </div>
     </div>
     <p class="text-slate-400 leading-relaxed italic border-l-2 border-indigo-500 pl-4">
@@ -186,4 +186,5 @@ permalink: /cv/
         </div>
     </section>
 </div>
+
 
