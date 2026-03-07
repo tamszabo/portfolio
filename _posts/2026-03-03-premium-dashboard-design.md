@@ -69,7 +69,7 @@ I’ve curated a collection of my favorite consultancy-ready palettes—from *Bl
       &lt;color&gt;#E76F51&lt;/color&gt;
     &lt;/color-palette&gt;
 
-    &lt;color-palette name="Black &amp; Gold Elegance" type="regular"&gt;
+    &lt;color-palette name="Black and Gold Elegance" type="regular"&gt;
       &lt;color&gt;#000000&lt;/color&gt;
       &lt;color&gt;#14213D&lt;/color&gt;
       &lt;color&gt;#FCA311&lt;/color&gt;
