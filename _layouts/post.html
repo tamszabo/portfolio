@@ -42,6 +42,38 @@ layout: default
     {{ content }}
 </article>
 
+<!-- Series navigation -->
+{% if page.series %}
+    {% assign series_posts = site.posts | where: "series", page.series | sort: "series_part" %}
+    {% if series_posts.size > 1 %}
+    <div class="my-12 p-6 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl">
+        <div class="flex items-center gap-2 mb-4">
+            <span class="text-indigo-400 font-black text-xs uppercase tracking-[0.2em]">Series</span>
+            <span class="text-slate-700">·</span>
+            <span class="text-indigo-400 font-black text-xs uppercase tracking-[0.2em]">{{ page.series }}</span>
+        </div>
+        <div class="space-y-2">
+            {% for s_post in series_posts %}
+            <a href="{{ s_post.url | relative_url }}"
+               class="flex items-center gap-3 p-3 rounded-xl transition-all
+                      {% if s_post.url == page.url %}bg-indigo-500/15 border border-indigo-500/40 cursor-default{% else %}hover:bg-slate-800/60 border border-transparent hover:border-slate-700{% endif %}">
+                <span class="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-black
+                             {% if s_post.url == page.url %}bg-indigo-500 text-white{% else %}bg-slate-800 text-slate-400{% endif %}">
+                    {{ s_post.series_part }}
+                </span>
+                <span class="text-sm font-bold {% if s_post.url == page.url %}text-white{% else %}text-slate-400 group-hover:text-white{% endif %}">
+                    {{ s_post.title }}
+                </span>
+                {% if s_post.url == page.url %}
+                <span class="ml-auto text-indigo-400 text-xs font-mono uppercase tracking-widest">You are here</span>
+                {% endif %}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+{% endif %}
+
 <hr class="border-slate-800 my-12">
 
 <!-- Share row -->
