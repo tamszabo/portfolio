@@ -176,7 +176,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
     <h2 class="text-xs font-black uppercase tracking-[0.2em] text-indigo-500 mb-4">Get in Touch</h2>
     <p class="text-slate-400 mb-10 max-w-xl">Tell me about your situation and which engagement interests you. I'll get back to you within 1 business day.</p>
 
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6 max-w-2xl">
+    <form action="https://formspree.io/f/mkoqobgw" method="POST" class="space-y-6 max-w-2xl">
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
