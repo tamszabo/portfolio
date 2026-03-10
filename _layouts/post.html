@@ -119,6 +119,25 @@ layout: default
     </div>
 </div>
 
+<!-- Comments -->
+<div class="mt-16 mb-4">
+    <h3 class="text-white font-black text-xl mb-2">Comments</h3>
+    <p class="text-slate-500 text-sm mb-6">Comments are powered by <a href="https://giscus.app" target="_blank" class="text-indigo-400 hover:underline">Giscus</a> via GitHub Discussions. A GitHub account is required to comment.</p>
+
+    <!-- GDPR consent gate -->
+    <div id="giscus-consent" class="p-8 bg-slate-800/40 border border-slate-700 rounded-2xl text-center">
+        <p class="text-slate-400 text-sm mb-1">To load comments, Giscus connects to GitHub.</p>
+        <p class="text-slate-500 text-xs mb-5">No data is stored on this site. GitHub's <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" class="text-indigo-400 hover:underline">privacy policy</a> applies.</p>
+        <button onclick="loadGiscus()"
+            class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-2.5 rounded-xl transition-all text-sm uppercase tracking-widest">
+            Load Comments
+        </button>
+    </div>
+
+    <!-- Giscus mounts here -->
+    <div id="giscus-container" class="hidden"></div>
+</div>
+
 <!-- Prev / Next navigation -->
 {% assign all_posts = site.posts %}
 {% for post in all_posts %}
@@ -160,4 +179,30 @@ function copyLink() {
         setTimeout(function() { tooltip.style.opacity = '0'; }, 2000);
     });
 }
+</script>
+<script>
+function loadGiscus() {
+    document.getElementById('giscus-consent').classList.add('hidden');
+    document.getElementById('giscus-container').classList.remove('hidden');
+    var script = document.createElement('script');
+    script.src = 'https://giscus.app/client.js';
+    script.setAttribute('data-repo', 'tamszabo/portfolio');
+    script.setAttribute('data-repo-id', 'R_kgDORW9dfw');
+    script.setAttribute('data-category', 'Announcements');
+    script.setAttribute('data-category-id', 'DIC_kwDORW9df84C4EwC');
+    script.setAttribute('data-mapping', 'og:title');
+    script.setAttribute('data-strict', '0');
+    script.setAttribute('data-reactions-enabled', '1');
+    script.setAttribute('data-emit-metadata', '0');
+    script.setAttribute('data-input-position', 'top');
+    script.setAttribute('data-theme', 'dark_dimmed');
+    script.setAttribute('data-lang', 'en');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.async = true;
+    document.getElementById('giscus-container').appendChild(script);
+    localStorage.setItem('giscus_consent', 'true');
+}
+
+// Auto-load if user already consented in a previous visit
+if (localStorage.getItem('giscus_consent') === 'true') { loadGiscus(); }
 </script>
