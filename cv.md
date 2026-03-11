@@ -62,6 +62,10 @@ permalink: /cv/
     <button onclick="window.print()" class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-indigo-400 transition border border-slate-800 px-4 py-2 rounded-lg">
         Print to PDF
     </button>
+    <a href="{{ '/assets/tamas-szabo-cv.pdf' | relative_url }}" download
+       class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-indigo-400 transition border border-slate-800 px-4 py-2 rounded-lg">
+        ↓ Download PDF
+    </a>
 </div>
 
 <section class="mb-12">
@@ -186,5 +190,3 @@ permalink: /cv/
         </div>
     </section>
 </div>
-
-
