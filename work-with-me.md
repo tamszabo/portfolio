@@ -177,6 +177,8 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
     <p class="text-slate-400 mb-10 max-w-xl">Tell me about your situation and which engagement interests you. I'll get back to you within 1 business day.</p>
 
     <form action="https://formspree.io/f/mkoqobgw" method="POST" class="space-y-6 max-w-2xl">
+        <input type="hidden" name="_subject" value="New enquiry from tamasszabo.org">
+        <input type="hidden" name="_next" value="https://tamasszabo.org/thank-you/">
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
