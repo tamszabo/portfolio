@@ -1,74 +1,88 @@
 ---
 layout: post
-title: "Makeover Monday: Redesigning Financial Markets Data in Tableau"
-date: 2026-03-13
-image: /assets/images/6-financial-markets.png
-categories: [DataViz, Data Analysis]
-description: "Makeover Monday is the weekly challenge that keeps my Tableau skills sharp. Here's how I redesigned a financial markets dataset — the design decisions, the data story, and the live dashboard."
+title: "Makeover Monday: The Weekly Habit That Sharpens Every Analyst"
+date: 2026-03-14
+image: /assets/images/6-makeover-monday.png
+categories: [Career, DataViz, Data Analysis]
+description: "Makeover Monday is the best weekly practice habit in data visualization. Here's how I use it to stay sharp, build my portfolio, and think like a better analyst — one dataset at a time."
+series: "The Analyst's Toolkit"
+series_part: 4
 author: Tamas Szabo
 ---
 
-# 📈 What Is Makeover Monday?
+# 📅 The Analyst's Toolkit IV.
 
-If you work in data and you're not doing Makeover Monday, you're leaving skill development on the table.
+Every musician practices scales. Every athlete does drills. Every writer keeps a journal.
 
-[Makeover Monday](https://www.makeovermonday.co.uk/) is a free, weekly data visualisation challenge started by Andy Kriebel and Eve Barratt. Every Monday, a dataset is published — anything from global energy consumption to sports statistics to financial markets — along with an original chart that represents it. Your job is to redesign it. Better story, better design, better clarity. Then share it with the community on Tableau Public and social media.
+Data analysts? Most of us wait for the next project brief.
 
-There are no formal prizes or leaderboard — though occasionally a submission earns a [Viz of the Day](https://public.tableau.com/app/discover/viz-of-the-day) feature from Tableau Public, which is a genuine honour in the community. Mostly though it is a weekly discipline that forces you to think critically about how data is visualised — and to actually build something.
-
-## 🏋️ Why It Matters
-
-Most analysts I've worked with are technically proficient but have had little exposure to visual design principles. They know how to aggregate data and build calculated fields, but they've never asked *why* they chose a bar chart over a line chart, or why their KPI tiles are green when the business is struggling.
-
-Makeover Monday fixes this in a way no tutorial can, because it puts you in front of a real dataset, a real original visualisation, and a community of hundreds of other analysts doing the same thing. You start to develop opinions. You learn to justify your choices. You build a portfolio of work that demonstrates not just technical skill but editorial judgment.
-
-It's also a forcing function. Knowing that every Monday has a deadline means you actually finish things — which is the single biggest difference between analysts who grow and analysts who don't.
+That's a mistake — and **[Makeover Monday](https://www.makeovermonday.co.uk/)** is the fix.
 
 ---
 
-## 💹 2024 Week 40 Challenge: Financial Markets
+## 🔄 What Is Makeover Monday?
 
-This submission is from Week 40 of 2024. The dataset covers 6 financial market performance. The original chart was a line chart with a table. Functional report with conservative design.
+Makeover Monday is a free, weekly data visualization challenge. Every week, the organizers publish a dataset and an existing chart. Your job is simple: **take the data, redesign the visual, and share it.**
 
-My redesign goal was to turn it into something executive-ready: a dashboard that answers the question *"how are the markets performing?"* before the viewer has read a single number.
+No brief. No boss. No stakeholder asking for an Excel export.
 
----
+Just you, the data, and a blank Tableau canvas.
 
-## 🎨 The Design Decisions
-
-**Dark mode as the foundation**
-
-Financial data lives in terminal screens and Bloomberg dashboards. Dark mode isn't an aesthetic choice here — it's a contextual signal. A navy background immediately reads as "financial" to anyone who has spent time in that world. It also handles colour contrast better: green gains and red losses pop against dark backgrounds in a way they never do on white.
-
-I used `#212529` as the base — a dark charcoal that feels more at home in a financial context, and provides just enough warmth to avoid the cold, clinical feel of a true black background.
-
-**Dark-themed line chart**
-
-The original used a standard light-themed line chart to show index performance over time — clean, but visually flat and undifferentiated from any default Tableau output. I kept the line chart format since it's the right choice for continuous price movement across time, but reskinned it completely to the dark theme. Against a `#212529` background, each index line reads with much more contrast and intentionality. The data being visualised is the same as in the [original source](https://curvo.eu/backtest/en/compare-indexes/euro-stoxx-50-vs-ftse-100-vs-msci-china-vs-nasdaq-100-vs-nyse-arca-gold-bugs-vs-sp-500?currency=usd) — Euro Stoxx 50, FTSE 100, MSCI China, Nasdaq 100, NYSE Arca Gold Bugs, and S&P 500 — the difference is entirely in how that data is presented.
-
-**Individual KPIs instead of a table**
-
-The original placed a summary table beneath the line chart — six rows of numbers that required the viewer to scan horizontally and mentally compare values. I replaced this with individual KPI tiles, one per market. Each tile shows the index name and its return at a glance, coloured blue or pink. No scanning required — the viewer's eye moves across six tiles and the comparison happens instantly.
-
-Blue = positive return, pink = negative return. That's the only colour logic in the entire dashboard. When every colour has one job and one job only, the viewer reads the data without thinking about it.
+The community has been running since 2016, with thousands of submissions published publicly on Tableau Public every week. That means you're not just practicing in isolation — you're contributing to one of the largest open data viz communities in the world.
 
 ---
 
-## 📊 The Data Story
+## 🏋️ Why I Treat It as a Weekly Drill
 
-The financial markets data has a deceptive first impression — and that's exactly what makes it interesting.
+When I joined **Starschema**, I was surrounded by analysts who were genuinely exceptional at Tableau. The gap between where I was and where they were felt enormous. Reading documentation wasn't closing it. Watching tutorials wasn't closing it either.
 
-At first glance, the line chart looks like a broad bull market story. Most lines trend upward from the starting point and the overall picture reads as positive. But look closer and one index breaks the pattern completely: MSCI China declined significantly over the period, moving in the opposite direction to every other market in the dataset.
+What actually moved the needle was **deliberate repetition on real data** — and Makeover Monday gave me exactly that.
 
-This is the kind of insight that gets lost in a table. When six rows of numbers are presented side by side, the eye averages them — it sees "mostly positive" and moves on. When the same data is plotted as lines on a shared axis, the divergence becomes impossible to miss. One line goes down while five go up, and suddenly the story changes from "markets performed well" to "global markets performed well — except China."
+Here's what a typical week looks like for me:
 
-That's the difference between data that informs and data that misleads by omission.
+<div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
+    <div class="flex flex-col gap-2 p-5 bg-slate-800/40 border border-slate-700 rounded-2xl">
+        <span class="text-indigo-400 font-black text-xs uppercase tracking-widest">Monday</span>
+        <span class="text-white font-bold text-sm">Download the dataset</span>
+        <span class="text-slate-400 text-sm">Look at the original chart. Note what's working and — more importantly — what isn't. What story is it trying to tell? Is it succeeding?</span>
+    </div>
+    <div class="flex flex-col gap-2 p-5 bg-slate-800/40 border border-slate-700 rounded-2xl">
+        <span class="text-indigo-400 font-black text-xs uppercase tracking-widest">Tuesday–Wednesday</span>
+        <span class="text-white font-bold text-sm">Build the redesign</span>
+        <span class="text-slate-400 text-sm">One to two hours maximum. The time constraint is intentional — it mirrors real corporate deadlines and forces you to make decisions instead of perfecting forever.</span>
+    </div>
+    <div class="flex flex-col gap-2 p-5 bg-slate-800/40 border border-slate-700 rounded-2xl">
+        <span class="text-indigo-400 font-black text-xs uppercase tracking-widest">Thursday–Friday</span>
+        <span class="text-white font-bold text-sm">Publish and review</span>
+        <span class="text-slate-400 text-sm">Post to Tableau Public. Then spend 20 minutes browsing other submissions. This is where the real learning happens — you'll see approaches you'd never have thought of.</span>
+    </div>
+</div>
+
+That's it. Three to four hours per week, consistently applied over months, compounds into a skill level that no course can replicate.
 
 ---
 
-## 📺 Live Dashboard
+## 💡 What It Actually Teaches You
 
-Explore the full interactive version below. Hover over any element for the underlying data, and use the toolbar to filter by time period:
+Most analysts think Makeover Monday is about making prettier charts. It isn't. After years of doing it, here's what it actually trains:
+
+**Critical thinking about existing visuals.** Every week starts with the same question: *what is wrong with this chart?* After a year of asking that question weekly, you develop an instinct for spotting bad data communication instantly — in client dashboards, in board presentations, in your own work.
+
+**Speed.** The self-imposed time constraint teaches you to make a good decision in two minutes rather than a perfect decision in two hours. That speed is exactly what separates senior analysts from junior ones in a corporate environment.
+
+**Breadth of data domains.** One week it's financial markets. The next it's global health data. Then climate, then sport, then economics. Each dataset forces you to think about what chart type actually fits *this* data — not the chart type you're most comfortable with.
+
+**A public portfolio, built automatically.** Every submission you publish becomes a Tableau Public viz with a shareable URL. By the end of a year, you have 40+ pieces of work, spanning dozens of topics and chart types, all publicly visible to recruiters and clients.
+
+---
+
+## 📊 My Entry: Financial Markets
+
+To show you what this looks like in practice, here's one of my own Makeover Monday submissions — a redesign of a financial markets dataset.
+
+The original chart presented the data as a dense table with conditional formatting. Readable, yes. But it buried the trend and forced the viewer to do the analytical work themselves.
+
+My redesign focused on making the market movement immediately legible — pulling the signal out of the noise so the viewer understands the story before they read a single number.
 
 <div class="not-prose my-10">
     <div class="w-full rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
@@ -109,36 +123,62 @@ Explore the full interactive version below. Hover over any element for the under
 
 ---
 
-## 🔁 The Makeover Monday Habit
+## 🚀 How to Get Started
 
-I treat Makeover Monday the same way I treat my home workouts. You don't do it because every session feels great. You do it because the compound effect of showing up every week is real and measurable — and because the weeks you skip are always the ones you regret.
+If you've never participated before, the barrier is lower than you think:
 
-If you're an analyst and you're not already doing it, start this Monday. The dataset takes 10 minutes to download. You don't need a perfect viz — you need a finished one. The community is generous with feedback and the learning curve is steep in exactly the right direction.
+1. Go to **[makeovermonday.co.uk](https://www.makeovermonday.co.uk/)** and download the current week's dataset
+2. Open Tableau Public (free) and build something — anything — in under two hours
+3. Publish to your Tableau Public profile
+4. Share it on LinkedIn or X with the hashtag **#MakeoverMonday**
 
-The archive of everything I've built for Makeover Monday is on my [Tableau Public profile](https://public.tableau.com/app/profile/tamasszabo/vizzes). Each one is a snapshot of where my thinking was that week — which means looking back through them is one of the most honest performance reviews I've ever done.
+That's the entire process. 
+
+<div class="p-6 bg-indigo-500/5 border-l-4 border-indigo-500 rounded-r-2xl my-8">
+    <h4 class="text-white font-bold mb-2">💡 One rule I follow</h4>
+    <p class="text-slate-400 text-sm">I never look at other people's submissions <em>before</em> I build mine. The moment you see someone else's elegant solution, your brain stops exploring and starts copying. Protect your creative process — publish first, browse second.</p>
+</div>
+
+---
+
+## 🔑 The Takeaway
+
+Tableau Public gave me the stage. Figma gave me the blueprint. Coolors gave me the palette. But Makeover Monday gave me the **repetitions**.
+
+Skill in data visualization is not built by reading about it. It's built by doing it, weekly, on real data, in public, under a self-imposed deadline — and then honestly reviewing the gap between what you made and what the best submissions looked like.
+
+That gap closes faster than you'd expect. But only if you show up every week.
+
+<div class="not-prose mt-12 p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl text-center space-y-4">
+    <h3 class="text-white font-bold text-xl">The Toolkit Series continues</h3>
+    <p class="text-slate-400 text-sm">Tableau Public → Figma → Coolors → Makeover Monday — the full practice stack, one post at a time.</p>
+    <a href="/blog/" class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+        See All Posts →
+    </a>
+</div>
 
 <div class="not-prose mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
 
-    <!-- Community CTA -->
-    <div class="p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl space-y-4">
-        <p class="text-indigo-400 font-black text-xs uppercase tracking-widest">Join the Challenge</p>
-        <h3 class="text-white font-bold text-xl leading-snug">Try Makeover Monday yourself</h3>
-        <p class="text-slate-400 text-sm">Every Monday, a new dataset. Free, open to everyone, and genuinely the best Tableau practice you'll find.</p>
-        <a href="https://www.makeovermonday.co.uk/" target="_blank"
-           class="inline-block border border-indigo-500 text-indigo-400 hover:bg-indigo-500 hover:text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
-            makeovermonday.co.uk →
-        </a>
-    </div>
+<!-- Community CTA -->
+<div class="p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl space-y-4">
+    <p class="text-indigo-400 font-black text-xs uppercase tracking-widest">Join the Challenge</p>
+    <h3 class="text-white font-bold text-xl leading-snug">Try Makeover Monday yourself</h3>
+    <p class="text-slate-400 text-sm">Every Monday, a new dataset. Free, open to everyone, and genuinely the best Tableau practice you'll find.</p>
+    <a href="https://www.makeovermonday.co.uk/" target="_blank"
+       class="inline-block border border-indigo-500 text-indigo-400 hover:bg-indigo-500 hover:text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+        makeovermonday.co.uk →
+    </a>
+</div>
 
-    <!-- Tableau profile CTA -->
-    <div class="p-8 bg-indigo-500/10 border border-indigo-500/40 rounded-3xl space-y-4">
-        <p class="text-indigo-400 font-black text-xs uppercase tracking-widest">My Work</p>
-        <h3 class="text-white font-bold text-xl leading-snug">See the full archive</h3>
-        <p class="text-slate-400 text-sm">Every Makeover Monday viz I've published — plus executive dashboards, sport analytics, and more on Tableau Public.</p>
-        <a href="https://public.tableau.com/app/profile/tamasszabo/vizzes" target="_blank"
-           class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
-            View Tableau Profile →
-        </a>
-    </div>
+<!-- Tableau profile CTA -->
+<div class="p-8 bg-indigo-500/10 border border-indigo-500/40 rounded-3xl space-y-4">
+    <p class="text-indigo-400 font-black text-xs uppercase tracking-widest">My Work</p>
+    <h3 class="text-white font-bold text-xl leading-snug">See the full archive</h3>
+    <p class="text-slate-400 text-sm">Every Makeover Monday viz I've published — plus executive dashboards, sport analytics, and more on Tableau Public.</p>
+    <a href="https://public.tableau.com/app/profile/tamasszabo/vizzes" target="_blank"
+       class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+        View Tableau Profile →
+    </a>
+</div>
 
 </div>
