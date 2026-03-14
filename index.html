@@ -76,7 +76,7 @@ title: Home
         <p class="text-slate-400 mt-2">Visualizations and deep dives from ClutchStats & Tableau.</p>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div class="group bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all flex flex-col h-full">
             <div class="aspect-video w-full">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/mIoDbCBpBZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -116,29 +116,10 @@ title: Home
                 </div>
             </div>
         </div>
-        <div class="group bg-slate-800/40 border border-slate-700 rounded-3xl overflow-hidden hover:border-indigo-500 transition-all flex flex-col h-full">
-            <a href="https://public.tableau.com/views/InterSeasonStats/Inter" target="_blank" class="aspect-video w-full bg-slate-900 overflow-hidden block">
-                <img src="{{ '/assets/images/2-inter.png' | relative_url }}"
-                     alt="Inter Milan — Serie A Results"
-                     class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-            </a>
-            <div class="p-6 flex-grow flex flex-col justify-between">
-                <div>
-                    <h3 class="text-xl font-bold text-white mb-2 underline decoration-indigo-500 decoration-4 underline-offset-4">Inter Milan — Serie A</h3>
-                    <p class="text-slate-400 text-sm mb-4">Applying executive-level clarity to the Beautiful Game — a data-driven breakdown of the Nerazzurri's recent dominance.</p>
-                </div>
-                <div class="flex justify-between items-center">
-                    <div class="flex gap-2">
-                        <span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-xs font-mono rounded-full">Tableau</span>
-                        <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-mono rounded-full">Sports Analytics</span>
-                    </div>
-                    <a href="https://public.tableau.com/views/InterSeasonStats/Inter" target="_blank" class="text-indigo-400 text-xs font-bold hover:underline italic uppercase tracking-widest">View Viz →</a>
-                </div>
-            </div>
-        </div>
-
     </div>
 </section>
+
+<section class="py-20 border-t border-slate-800 overflow-hidden relative">
     <div class="text-center mb-12">
         <h2 class="text-indigo-400 font-bold uppercase tracking-[0.3em] text-sm mb-4">Strategic Experience</h2>
         <p class="text-slate-400 px-6">Trusted by global leaders and industry giants.</p>
@@ -149,7 +130,67 @@ title: Home
     <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-[#0f172a] to-transparent z-10 pointer-events-none"></div>
 
     <div class="flex overflow-hidden group">
-        <div id="logo-track" class="flex items-center gap-16 md:gap-24 py-4 whitespace-nowrap animate-scroll-left">
+        <div class="flex items-center gap-16 md:gap-24 animate-scroll-left py-4 whitespace-nowrap">
+            {% assign logos = "hyundai-white-logo.png,Senior Data Analyst|apple-white-logo.png,Fortune 500 Consultant|hcltech-logo.jpg,Fortune 500 Consultant|blackrock-white-logo.png,Fortune 500 Consultant|intrum-logo.jpg,BI Analyst|general-electric-logo.svg.png,Fortune 500 Consultant|raiffeisen-bank-logo.jpg,Fraud Risk Analyst" | split: "|" %}
+            <!-- Set 1 -->
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/hyundai-white-logo.png' | relative_url }}" alt="Hyundai" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Senior Data Analyst</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/apple-white-logo.png' | relative_url }}" alt="Apple" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Analytics Consultant</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/blackrock-white-logo.png' | relative_url }}" alt="BlackRock" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Analytics Consultant</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/general-electric-logo.svg.png' | relative_url }}" alt="GE" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Analytics Consultant</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="HCLTech" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Data Analyst</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">BI Analyst</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Fraud Risk Analyst</span>
+            </div>
+            <!-- Set 2 (duplicate for seamless loop) -->
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/hyundai-white-logo.png' | relative_url }}" alt="Hyundai" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Senior Data Analyst</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/apple-white-logo.png' | relative_url }}" alt="Apple" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Analytics Consultant</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/blackrock-white-logo.png' | relative_url }}" alt="BlackRock" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Analytics Consultant</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/general-electric-logo.svg.png' | relative_url }}" alt="GE" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Analytics Consultant</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="HCLTech" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Data Analyst</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/intrum-logo.jpg' | relative_url }}" alt="Intrum" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">BI Analyst</span>
+            </div>
+            <div class="flex flex-col items-center gap-2 flex-shrink-0">
+                <img src="{{ '/assets/logos/raiffeisen-bank-logo.jpg' | relative_url }}" alt="Raiffeisen" class="h-8 md:h-10 w-auto object-contain">
+                <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Fraud Risk Analyst</span>
+            </div>
+            <!-- Set 3 (duplicate for seamless loop) -->
             <div class="flex flex-col items-center gap-2 flex-shrink-0">
                 <img src="{{ '/assets/logos/hyundai-white-logo.png' | relative_url }}" alt="Hyundai" class="h-8 md:h-10 w-auto object-contain">
                 <span class="text-slate-500 text-xs font-mono uppercase tracking-widest">Senior Data Analyst</span>
@@ -180,16 +221,6 @@ title: Home
             </div>
         </div>
     </div>
-
-    <script>
-        (function() {
-            var track = document.getElementById('logo-track');
-            // Clone once so the loop is seamless
-            var clone = track.cloneNode(true);
-            clone.setAttribute('aria-hidden', 'true');
-            track.parentNode.appendChild(clone);
-        })();
-    </script>
 </section>
 
 <!-- Newsletter -->
@@ -203,28 +234,33 @@ title: Home
             A practical Tableau or DataViz technique, straight to your inbox. The kind of thing that saves you an hour on Monday morning.
         </p>
 
-        <form action="https://buttondown.com/api/emails/embed-subscribe/tamasszabo"
-              method="post"
-              class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+        <div class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
             <input type="email"
-                   name="email"
+                   id="hero-email"
                    placeholder="your@email.com"
-                   required
                    class="flex-1 px-4 py-3 bg-slate-800 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors text-sm font-mono">
-            <button type="submit"
+            <button onclick="subscribeSubstack('hero-email')"
                     class="px-6 py-3 bg-indigo-500 hover:bg-indigo-400 text-white font-black rounded-xl transition-all text-sm uppercase tracking-widest whitespace-nowrap shadow-lg shadow-indigo-500/20">
                 Subscribe →
             </button>
-        </form>
+        </div>
 
-        <p class="text-slate-600 text-xs font-mono mt-4">No spam. Unsubscribe any time. Powered by <a href="https://buttondown.com/refer/tamasszabo" target="_blank" class="hover:text-slate-400 transition-colors">Buttondown</a>.</p>
+        <p class="text-slate-600 text-xs font-mono mt-4">No spam. Unsubscribe any time. Powered by <a href="https://substack.com" target="_blank" class="hover:text-slate-400 transition-colors">Substack</a>.</p>
+
+        <script>
+        function subscribeSubstack(inputId) {
+            var email = document.getElementById(inputId).value;
+            if (!email) return;
+            window.open('https://szabotamas.substack.com/subscribe?email=' + encodeURIComponent(email), '_blank');
+        }
+        </script>
     </div>
 </section>
 
 <style>
     @keyframes scroll-left {
         0% { transform: translateX(0); }
-        100% { transform: translateX(-50%); }
+        100% { transform: translateX(calc(-100% / 3)); }
     }
 
     .animate-scroll-left {
