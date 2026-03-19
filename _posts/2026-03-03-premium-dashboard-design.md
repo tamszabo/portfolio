@@ -48,14 +48,14 @@ To bring that premium feel into Tableau, you must go beyond the default color pa
 ### 🎁 Download My Favorite Palettes
 I've curated a collection of my favorite consultancy-ready palettes — from *Black & Gold Elegance* to *Ocean Sunset*. Click below to expand the code, then copy it into your Preferences file:
 
-<details class="bg-slate-900/50 rounded-xl border border-slate-800 p-4 mt-6">
-<summary class="cursor-pointer font-bold text-indigo-400 hover:text-indigo-300 list-none flex justify-between items-center">
+<details class="bg-[#252525]/50 rounded-xl border border-[#2a2a2a] p-4 mt-6">
+<summary class="cursor-pointer font-bold text-[#4a8e91] hover:text-[#6aacaf] list-none flex justify-between items-center">
     <span>▶ Click to reveal Tableau XML Code</span>
-    <button id="copy-palette-btn" onclick="copyPaletteCode(event)" class="text-xs bg-indigo-500/20 hover:bg-indigo-500/40 text-indigo-300 px-3 py-1 rounded-lg transition-all">Copy Code</button>
+    <button id="copy-palette-btn" onclick="copyPaletteCode(event)" class="text-xs bg-[#3c6e71]/20 hover:bg-[#3c6e71]/40 text-[#6aacaf] px-3 py-1 rounded-lg transition-all">Copy Code</button>
 </summary>
 
 <div class="mt-4 overflow-x-auto">
-<pre id="tableauCode" class="text-sm text-slate-300 font-mono leading-relaxed bg-[#0b1222] p-4 rounded-lg border border-slate-700/50">
+<pre id="tableauCode" class="text-sm text-[#d9d9d9] font-mono leading-relaxed bg-[#252525] p-4 rounded-lg border border-[#3c6e71]/50">
 &lt;?xml version='1.0'?&gt;
 &lt;workbook&gt;
   &lt;preferences&gt;
@@ -102,19 +102,19 @@ function copyPaletteCode(e) {
         var btn = document.getElementById('copy-palette-btn');
         var original = btn.innerText;
         btn.innerText = '✓ Copied!';
-        btn.classList.add('bg-indigo-500/40', 'text-white');
+        btn.classList.add('bg-[#3c6e71]/40', 'text-white');
         setTimeout(function() {
             btn.innerText = original;
-            btn.classList.remove('bg-indigo-500/40', 'text-white');
+            btn.classList.remove('bg-[#3c6e71]/40', 'text-white');
         }, 2000);
     });
 }
 </script>
 
-<div class="not-prose mt-12 p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl text-center space-y-4">
+<div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">The Toolkit Series continues</h3>
-    <p class="text-slate-400 text-sm">Tableau Public → Figma → Coolors — and more to come. The next post in the series is already in the works.</p>
-    <a href="/blog/" class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+    <p class="text-[#b0bfc0] text-sm">Tableau Public → Figma → Coolors — and more to come. The next post in the series is already in the works.</p>
+    <a href="/blog/" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         See All Posts →
     </a>
 </div>
