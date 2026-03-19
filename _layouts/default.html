@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#0f172a">
+    <meta name="theme-color" content="#353535">
 
     {% seo %}
     {% if page.image %}
@@ -41,34 +41,49 @@
             theme: {
                 extend: {
                     fontFamily: { sans: ['Roboto', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            bg:      '#353535',
+                            surface: '#252525',
+                            card:    '#2a2a2a',
+                            border:  '#3c6e71',
+                            primary: '#3c6e71',
+                            hover:   '#4a8e91',
+                            light:   '#6aacaf',
+                            deep:    '#284b63',
+                            text:    '#d9d9d9',
+                            muted:   '#b0bfc0',
+                            dim:     '#8a9a9b',
+                        }
+                    }
                 }
             }
         }
     </script>
 </head>
-<body class="bg-[#0f172a] text-slate-300 selection:bg-indigo-500/30 selection:text-indigo-200">
+<body class="bg-[#353535] text-[#d9d9d9] selection:bg-[#3c6e71]/30 selection:text-[#8ecfd2]">
 
-    <nav class="sticky top-0 z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
+    <nav class="sticky top-0 z-50 bg-[#353535]/80 backdrop-blur-md border-b border-[#2a2a2a]">
         <div class="max-w-5xl mx-auto px-6 h-16 flex justify-between items-center">
             <a href="{{ site.baseurl }}/" class="font-black text-xl tracking-tighter text-white uppercase">
                 TAMAS
             </a>
             <div class="flex items-center gap-6 text-sm font-medium">
                 <a href="{{ site.baseurl }}/"
-                   class="transition {% if page.url == '/' or page.url == '/index.html' %}text-white border-b-2 border-indigo-500 pb-0.5{% else %}text-slate-400 hover:text-white{% endif %}">
+                   class="transition {% if page.url == '/' or page.url == '/index.html' %}text-white border-b-2 border-[#3c6e71] pb-0.5{% else %}text-[#b0bfc0] hover:text-white{% endif %}">
                     Home
                 </a>
                 <a href="{{ site.baseurl }}/cv/"
-                   class="transition {% if page.url contains '/cv' %}text-white border-b-2 border-indigo-500 pb-0.5{% else %}text-slate-400 hover:text-white{% endif %}">
+                   class="transition {% if page.url contains '/cv' %}text-white border-b-2 border-[#3c6e71] pb-0.5{% else %}text-[#b0bfc0] hover:text-white{% endif %}">
                     CV
                 </a>
                 <a href="{{ site.baseurl }}/blog/"
-                   class="transition {% if page.url contains '/blog' %}text-white border-b-2 border-indigo-500 pb-0.5{% else %}text-slate-400 hover:text-white{% endif %}">
+                   class="transition {% if page.url contains '/blog' %}text-white border-b-2 border-[#3c6e71] pb-0.5{% else %}text-[#b0bfc0] hover:text-white{% endif %}">
                     Blog
                 </a>
                 <a href="{{ site.baseurl }}/work-with-me/"
                    class="px-4 py-1.5 text-xs font-black uppercase tracking-widest rounded-lg transition-all
-                          {% if page.url contains '/work-with-me' %}bg-indigo-400 text-white{% else %}bg-indigo-500 text-white hover:bg-indigo-400{% endif %}">
+                          {% if page.url contains '/work-with-me' %}bg-[#4a8e91] text-white{% else %}bg-[#3c6e71] text-white hover:bg-[#4a8e91]{% endif %}">
                     Hire Me
                 </a>
             </div>
@@ -79,26 +94,26 @@
         {{ content }}
     </main>
 
-    <footer class="border-t border-slate-800 py-12 mt-20 text-center text-slate-500 text-sm">
+    <footer class="border-t border-[#2a2a2a] py-12 mt-20 text-center text-[#8a9a9b] text-sm">
         <!-- Footer nav -->
         <div class="flex justify-center items-center gap-6 text-xs font-medium uppercase tracking-widest mb-6">
             <a href="{{ site.baseurl }}/" class="hover:text-white transition">Home</a>
-            <span class="text-slate-700">·</span>
+            <span class="text-[#404040]">·</span>
             <a href="{{ site.baseurl }}/cv/" class="hover:text-white transition">CV</a>
-            <span class="text-slate-700">·</span>
+            <span class="text-[#404040]">·</span>
             <a href="{{ site.baseurl }}/blog/" class="hover:text-white transition">Blog</a>
-            <a href="https://buttondown.com/tamasszabo" target="_blank" class="hover:text-indigo-400 transition">Newsletter</a>
+            <a href="https://szabotamas.substack.com" target="_blank" class="hover:text-[#4a8e91] transition">Newsletter</a>
         </div>
 
         <!-- CTA -->
-        <a href="/cdn-cgi/l/email-protection#4e3e3c213d3a2f390e29232f2722602d2123" class="inline-block mb-8 px-6 py-3 bg-indigo-500 text-white text-sm font-bold rounded-xl hover:bg-indigo-400 transition-all active:scale-95 shadow-lg shadow-indigo-500/20">
+        <a href="/cdn-cgi/l/email-protection#4e3e3c213d3a2f390e29232f2722602d2123" class="inline-block mb-8 px-6 py-3 bg-[#3c6e71] text-white text-sm font-bold rounded-xl hover:bg-[#4a8e91] transition-all active:scale-95 shadow-lg shadow-[#3c6e71]/20">
             Let's Chat →
         </a>
 
         <!-- Legal + RSS -->
         <div class="flex justify-center items-center gap-4">
             <p>&copy; 2026 Tamas Szabo</p>
-            <span class="text-slate-700">•</span>
+            <span class="text-[#404040]">•</span>
             <a href="{{ '/feed.xml' | relative_url }}"
                class="flex items-center gap-1.5 hover:text-orange-400 transition-colors duration-300"
                title="Subscribe via RSS">
@@ -110,19 +125,19 @@
 
     <!-- GDPR Cookie Consent Banner -->
     <div id="cookie-banner"
-         class="fixed bottom-0 left-0 right-0 z-50 bg-slate-900 border-t border-slate-700 px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm"
+         class="fixed bottom-0 left-0 right-0 z-50 bg-[#252525] border-t border-[#3c6e71] px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm"
          style="display:none!important">
-        <p class="text-slate-400 text-center sm:text-left">
+        <p class="text-[#b0bfc0] text-center sm:text-left">
             This site uses cookies for analytics. See my
-            <a href="{{ site.baseurl }}/privacy/" class="text-indigo-400 hover:underline">privacy policy</a>.
+            <a href="{{ site.baseurl }}/privacy/" class="text-[#4a8e91] hover:underline">privacy policy</a>.
         </p>
         <div class="flex gap-3 flex-shrink-0">
             <button onclick="handleConsent('declined')"
-                    class="px-4 py-2 text-xs font-bold uppercase tracking-widest text-slate-400 border border-slate-700 rounded-lg hover:border-slate-500 transition">
+                    class="px-4 py-2 text-xs font-bold uppercase tracking-widest text-[#b0bfc0] border border-[#3c6e71] rounded-lg hover:border-[#4a8e91] transition">
                 Decline
             </button>
             <button onclick="handleConsent('accepted')"
-                    class="px-4 py-2 text-xs font-bold uppercase tracking-widest text-white bg-indigo-500 rounded-lg hover:bg-indigo-400 transition">
+                    class="px-4 py-2 text-xs font-bold uppercase tracking-widest text-white bg-[#3c6e71] rounded-lg hover:bg-[#4a8e91] transition">
                 Accept
             </button>
         </div>
