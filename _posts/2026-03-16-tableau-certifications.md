@@ -33,149 +33,149 @@ If you've seen older guides referring to "Tableau Desktop Certified Associate" o
 <div class="not-prose space-y-6 my-10">
 
     <!-- Cert 1: Desktop Foundations -->
-    <div class="p-8 bg-slate-800/40 border border-slate-700 rounded-3xl hover:border-indigo-500 transition-all duration-300">
+    <div class="p-8 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-3xl hover:border-[#3c6e71] transition-all duration-300">
         <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
             <div>
-                <span class="text-indigo-400 font-mono text-xs uppercase tracking-widest">Foundational</span>
+                <span class="text-[#4a8e91] font-mono text-xs uppercase tracking-widest">Foundational</span>
                 <h3 class="text-xl font-black text-white mt-1">Salesforce Certified Tableau Desktop Foundations</h3>
-                <p class="text-slate-400 text-sm mt-1 italic">Exam code: Analytics-101</p>
+                <p class="text-[#b0bfc0] text-sm mt-1 italic">Exam code: Analytics-101</p>
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$100</p>
-                <p class="text-slate-500 text-xs font-mono">Does not expire</p>
+                <p class="text-[#8a9a9b] text-xs font-mono">Does not expire</p>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Format</p>
-                <p class="text-slate-400 text-sm">45 questions · 60 minutes · Multiple choice</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Format</p>
+                <p class="text-[#b0bfc0] text-sm">45 questions · 60 minutes · Multiple choice</p>
             </div>
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
-                <p class="text-slate-400 text-sm">None. Familiarity with Tableau Desktop recommended.</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
+                <p class="text-[#b0bfc0] text-sm">None. Familiarity with Tableau Desktop recommended.</p>
             </div>
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
-                <p class="text-slate-400 text-sm">Anyone new to Tableau wanting to formalise foundational skills</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
+                <p class="text-[#b0bfc0] text-sm">Anyone new to Tableau wanting to formalise foundational skills</p>
             </div>
         </div>
     </div>
 
     <!-- Cert 2: Data Analyst -->
-    <div class="p-8 bg-indigo-500/5 border border-indigo-500/30 rounded-3xl hover:border-indigo-400 transition-all duration-300">
+    <div class="p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/30 rounded-3xl hover:border-[#4a8e91] transition-all duration-300">
         <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
             <div>
                 <div class="flex items-center gap-2">
-                    <span class="text-indigo-400 font-mono text-xs uppercase tracking-widest">Advanced</span>
-                    <span class="px-2 py-0.5 bg-indigo-500 text-white text-xs font-black uppercase rounded-full">Most Popular</span>
+                    <span class="text-[#4a8e91] font-mono text-xs uppercase tracking-widest">Advanced</span>
+                    <span class="px-2 py-0.5 bg-[#3c6e71] text-white text-xs font-black uppercase rounded-full">Most Popular</span>
                 </div>
                 <h3 class="text-xl font-black text-white mt-1">Salesforce Certified Tableau Data Analyst</h3>
-                <p class="text-slate-400 text-sm mt-1 italic">Exam code: Analytics-DA-201</p>
+                <p class="text-[#b0bfc0] text-sm mt-1 italic">Exam code: Analytics-DA-201</p>
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$200</p>
-                <p class="text-slate-500 text-xs font-mono">Retake: $100 · Expires after 2 years</p>
+                <p class="text-[#8a9a9b] text-xs font-mono">Retake: $100 · Expires after 2 years</p>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Format</p>
-                <p class="text-slate-400 text-sm">60 questions + up to 5 unscored · Multiple choice + hands-on · Pass: 65%</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Format</p>
+                <p class="text-[#b0bfc0] text-sm">60 questions + up to 5 unscored · Multiple choice + hands-on · Pass: 65%</p>
             </div>
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
-                <p class="text-slate-400 text-sm">No formal prerequisites. Knowledge of Tableau Desktop, Prep, and Server or Cloud recommended.</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
+                <p class="text-[#b0bfc0] text-sm">No formal prerequisites. Knowledge of Tableau Desktop, Prep, and Server or Cloud recommended.</p>
             </div>
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
-                <p class="text-slate-400 text-sm">Practising analysts who want the credential that carries the most weight with employers</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
+                <p class="text-[#b0bfc0] text-sm">Practising analysts who want the credential that carries the most weight with employers</p>
             </div>
         </div>
     </div>
 
     <!-- Cert 3: Server Admin -->
-    <div class="p-8 bg-slate-800/40 border border-slate-700 rounded-3xl hover:border-indigo-500 transition-all duration-300">
+    <div class="p-8 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-3xl hover:border-[#3c6e71] transition-all duration-300">
         <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
             <div>
-                <span class="text-indigo-400 font-mono text-xs uppercase tracking-widest">Advanced</span>
+                <span class="text-[#4a8e91] font-mono text-xs uppercase tracking-widest">Advanced</span>
                 <h3 class="text-xl font-black text-white mt-1">Salesforce Certified Tableau Server Administrator</h3>
-                <p class="text-slate-400 text-sm mt-1 italic">Exam code: Analytics-Admn-201</p>
+                <p class="text-[#b0bfc0] text-sm mt-1 italic">Exam code: Analytics-Admn-201</p>
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$250</p>
-                <p class="text-slate-500 text-xs font-mono">Expires after 2 years</p>
+                <p class="text-[#8a9a9b] text-xs font-mono">Expires after 2 years</p>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Format</p>
-                <p class="text-slate-400 text-sm">80 questions · 90 minutes · Multiple choice · Pass: 75%</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Format</p>
+                <p class="text-[#b0bfc0] text-sm">80 questions · 90 minutes · Multiple choice · Pass: 75%</p>
             </div>
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
-                <p class="text-slate-400 text-sm">6+ months working with Tableau Server recommended</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
+                <p class="text-[#b0bfc0] text-sm">6+ months working with Tableau Server recommended</p>
             </div>
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
-                <p class="text-slate-400 text-sm">IT administrators and system consultants managing Tableau Server deployments</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
+                <p class="text-[#b0bfc0] text-sm">IT administrators and system consultants managing Tableau Server deployments</p>
             </div>
         </div>
     </div>
 
     <!-- Cert 4: Consultant -->
-    <div class="p-8 bg-slate-800/40 border border-slate-700 rounded-3xl hover:border-indigo-500 transition-all duration-300">
+    <div class="p-8 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-3xl hover:border-[#3c6e71] transition-all duration-300">
         <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
             <div>
-                <span class="text-indigo-400 font-mono text-xs uppercase tracking-widest">Advanced</span>
+                <span class="text-[#4a8e91] font-mono text-xs uppercase tracking-widest">Advanced</span>
                 <h3 class="text-xl font-black text-white mt-1">Salesforce Certified Tableau Consultant</h3>
-                <p class="text-slate-400 text-sm mt-1 italic">Exam code: Analytics-Con-301</p>
+                <p class="text-[#b0bfc0] text-sm mt-1 italic">Exam code: Analytics-Con-301</p>
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$250</p>
-                <p class="text-slate-500 text-xs font-mono">Expires after 2 years</p>
+                <p class="text-[#8a9a9b] text-xs font-mono">Expires after 2 years</p>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Format</p>
-                <p class="text-slate-400 text-sm">40–45 questions + hands-on lab tasks · 1 year experience required</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Format</p>
+                <p class="text-[#b0bfc0] text-sm">40–45 questions + hands-on lab tasks · 1 year experience required</p>
             </div>
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
-                <p class="text-slate-400 text-sm">1+ year with Tableau Desktop, Cloud, Bridge, Prep, and Server</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
+                <p class="text-[#b0bfc0] text-sm">1+ year with Tableau Desktop, Cloud, Bridge, Prep, and Server</p>
             </div>
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
-                <p class="text-slate-400 text-sm">Consultants designing and implementing analytics solutions for clients</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
+                <p class="text-[#b0bfc0] text-sm">Consultants designing and implementing analytics solutions for clients</p>
             </div>
         </div>
     </div>
 
     <!-- Cert 5: Architect -->
-    <div class="p-8 bg-slate-800/40 border border-slate-700 rounded-3xl hover:border-indigo-500 transition-all duration-300">
+    <div class="p-8 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-3xl hover:border-[#3c6e71] transition-all duration-300">
         <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
             <div>
-                <span class="text-indigo-400 font-mono text-xs uppercase tracking-widest">Advanced</span>
+                <span class="text-[#4a8e91] font-mono text-xs uppercase tracking-widest">Advanced</span>
                 <h3 class="text-xl font-black text-white mt-1">Salesforce Certified Tableau Architect</h3>
-                <p class="text-slate-400 text-sm mt-1 italic">Exam code: Analytics-Arch-201</p>
+                <p class="text-[#b0bfc0] text-sm mt-1 italic">Exam code: Analytics-Arch-201</p>
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$250</p>
-                <p class="text-slate-500 text-xs font-mono">Expires after 2 years</p>
+                <p class="text-[#8a9a9b] text-xs font-mono">Expires after 2 years</p>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Format</p>
-                <p class="text-slate-400 text-sm">Advanced — leads and manages Tableau Server infrastructure at enterprise scale</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Format</p>
+                <p class="text-[#b0bfc0] text-sm">Advanced — leads and manages Tableau Server infrastructure at enterprise scale</p>
             </div>
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
-                <p class="text-slate-400 text-sm">Significant enterprise Tableau Server experience required</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
+                <p class="text-[#b0bfc0] text-sm">Significant enterprise Tableau Server experience required</p>
             </div>
-            <div class="bg-slate-900/50 rounded-xl p-4 border border-slate-800">
-                <p class="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
-                <p class="text-slate-400 text-sm">Senior platform architects managing large-scale enterprise deployments</p>
+            <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
+                <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
+                <p class="text-[#b0bfc0] text-sm">Senior platform architects managing large-scale enterprise deployments</p>
             </div>
         </div>
     </div>
@@ -213,7 +213,7 @@ The first was a Udemy course specifically built for this exam: [Tableau Desktop 
 The second was Tableau Tim's dedicated preparation video on YouTube:
 
 <div class="not-prose my-8">
-    <div class="aspect-video w-full rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
+    <div class="aspect-video w-full rounded-2xl overflow-hidden border border-[#3c6e71] shadow-2xl">
         <iframe
             src="https://www.youtube.com/embed/ynODtMexgC8"
             class="w-full h-full"
@@ -221,7 +221,7 @@ The second was Tableau Tim's dedicated preparation video on YouTube:
             allowfullscreen>
         </iframe>
     </div>
-    <p class="text-slate-500 text-xs text-center mt-3 font-mono">Tableau Tim's certification prep — free, thorough, and directly relevant to the exam.</p>
+    <p class="text-[#8a9a9b] text-xs text-center mt-3 font-mono">Tableau Tim's certification prep — free, thorough, and directly relevant to the exam.</p>
 </div>
 
 Between these two resources and hands-on practice in Tableau Public, I felt well-prepared on exam day. I didn't use anything else.
@@ -260,9 +260,9 @@ All Tableau certifications are now administered through **Trailhead Academy**:
 
 Results are immediate. If you pass, your badge appears in your Trailhead profile within 24 hours and can be shared directly to LinkedIn.
 
-<div class="p-6 bg-indigo-500/5 border-l-4 border-indigo-500 rounded-r-2xl my-8">
+<div class="p-6 bg-[#3c6e71]/5 border-l-4 border-[#3c6e71] rounded-r-2xl my-8">
     <h4 class="text-white font-bold mb-2">💡 One practical tip on retakes</h4>
-    <p class="text-slate-400 text-sm">If you fail, the retake fee is $100 for the Data Analyst certification — half the original price. There's a mandatory waiting period before retaking, so use that time to revisit the specific domains where you scored lowest. The score report tells you exactly where the gaps are.</p>
+    <p class="text-[#b0bfc0] text-sm">If you fail, the retake fee is $100 for the Data Analyst certification — half the original price. There's a mandatory waiting period before retaking, so use that time to revisit the specific domains where you scored lowest. The score report tells you exactly where the gaps are.</p>
 </div>
 
 ---
@@ -291,10 +291,10 @@ For consultants specifically, it's a trust signal that costs $100 once and never
 
 The most important thing I'd say, though, is this: the certification validates skills you should already have. Build the skills first — through real projects, Tableau Public, and Makeover Monday. Then take the exam to formalise what you already know. In that order, it's genuinely worth it.
 
-<div class="not-prose mt-12 p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl text-center space-y-4">
+<div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">Questions about the certification process?</h3>
-    <p class="text-slate-400 text-sm max-w-md mx-auto">I've been through it — feel free to drop a comment below or reach out directly.</p>
-    <a href="mailto:prostaw@gmail.com" class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+    <p class="text-[#b0bfc0] text-sm max-w-md mx-auto">I've been through it — feel free to drop a comment below or reach out directly.</p>
+    <a href="mailto:prostaw@gmail.com" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         Get in Touch →
     </a>
 </div>
