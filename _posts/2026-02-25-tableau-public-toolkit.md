@@ -39,16 +39,16 @@ To show you what this looks like in practice, I stepped away from corporate KPIs
 Being a massive Nerazzurri fan, I wanted to showcase the club's recent success through a professional lens — applying the same executive-style clarity I use at Hyundai to the Beautiful Game. It's one thing to say Inter is successful; it's another to see the data prove it.
 
 <div class="not-prose my-12 group">
-    <a href="https://public.tableau.com/views/InterSeasonStats/Inter" target="_blank" class="block overflow-hidden rounded-3xl border border-slate-700 shadow-2xl transition-all duration-500 hover:border-indigo-500 hover:shadow-indigo-500/20">
+    <a href="https://public.tableau.com/views/InterSeasonStats/Inter" target="_blank" class="block overflow-hidden rounded-3xl border border-[#3c6e71] shadow-2xl transition-all duration-500 hover:border-[#3c6e71] hover:shadow-[#3c6e71]/20">
         <img src="{{ '/assets/images/2-inter.png' | relative_url }}"
              alt="Inter Milan - Serie A Results"
              class="w-full h-auto transition-transform duration-700 group-hover:scale-105">
-        <div class="bg-slate-800/80 backdrop-blur-md p-4 flex justify-between items-center border-t border-slate-700">
+        <div class="bg-[#2a2a2a]/80 backdrop-blur-md p-4 flex justify-between items-center border-t border-[#3c6e71]">
             <div>
                 <p class="text-white font-bold">Inter Milan — Serie A Results</p>
-                <p class="text-slate-400 text-sm italic">Click to open the interactive version on Tableau Public</p>
+                <p class="text-[#b0bfc0] text-sm italic">Click to open the interactive version on Tableau Public</p>
             </div>
-            <span class="text-indigo-400 font-black text-2xl group-hover:translate-x-2 transition-transform">→</span>
+            <span class="text-[#4a8e91] font-black text-2xl group-hover:translate-x-2 transition-transform">→</span>
         </div>
     </a>
 </div>
@@ -58,20 +58,20 @@ Being a massive Nerazzurri fan, I wanted to showcase the club's recent success t
 I didn't reach Senior level by guessing. I stood on the shoulders of giants. If you want to level up, these three resources are non-negotiable:
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
-    <a href="https://www.youtube.com/@vizwiz" target="_blank" class="group flex flex-col gap-2 p-5 bg-slate-800/40 border border-slate-700 rounded-2xl hover:border-indigo-500 transition-all">
-        <span class="text-indigo-400 font-black text-sm uppercase tracking-widest">Andy Kriebel</span>
-        <span class="text-slate-400 text-sm">The master of efficiency. He'll teach you to build in 30 seconds what used to take you 30 minutes.</span>
-        <span class="text-indigo-400 text-xs font-bold mt-auto group-hover:underline">Watch on YouTube →</span>
+    <a href="https://www.youtube.com/@vizwiz" target="_blank" class="group flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl hover:border-[#3c6e71] transition-all">
+        <span class="text-[#4a8e91] font-black text-sm uppercase tracking-widest">Andy Kriebel</span>
+        <span class="text-[#b0bfc0] text-sm">The master of efficiency. He'll teach you to build in 30 seconds what used to take you 30 minutes.</span>
+        <span class="text-[#4a8e91] text-xs font-bold mt-auto group-hover:underline">Watch on YouTube →</span>
     </a>
-    <a href="https://www.youtube.com/@TableauTim" target="_blank" class="group flex flex-col gap-2 p-5 bg-slate-800/40 border border-slate-700 rounded-2xl hover:border-indigo-500 transition-all">
-        <span class="text-indigo-400 font-black text-sm uppercase tracking-widest">Tableau Tim</span>
-        <span class="text-slate-400 text-sm">The best resource for understanding the <em>why</em> behind new features and complex settings.</span>
-        <span class="text-indigo-400 text-xs font-bold mt-auto group-hover:underline">Watch on YouTube →</span>
+    <a href="https://www.youtube.com/@TableauTim" target="_blank" class="group flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl hover:border-[#3c6e71] transition-all">
+        <span class="text-[#4a8e91] font-black text-sm uppercase tracking-widest">Tableau Tim</span>
+        <span class="text-[#b0bfc0] text-sm">The best resource for understanding the <em>why</em> behind new features and complex settings.</span>
+        <span class="text-[#4a8e91] text-xs font-bold mt-auto group-hover:underline">Watch on YouTube →</span>
     </a>
-    <a href="https://www.flerlagetwins.com/" target="_blank" class="group flex flex-col gap-2 p-5 bg-slate-800/40 border border-slate-700 rounded-2xl hover:border-indigo-500 transition-all">
-        <span class="text-indigo-400 font-black text-sm uppercase tracking-widest">The Flerlage Twins</span>
-        <span class="text-slate-400 text-sm">They push the boundaries of what's possible. If you think a chart can't be done in Tableau, they've built it.</span>
-        <span class="text-indigo-400 text-xs font-bold mt-auto group-hover:underline">Visit their blog →</span>
+    <a href="https://www.flerlagetwins.com/" target="_blank" class="group flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl hover:border-[#3c6e71] transition-all">
+        <span class="text-[#4a8e91] font-black text-sm uppercase tracking-widest">The Flerlage Twins</span>
+        <span class="text-[#b0bfc0] text-sm">They push the boundaries of what's possible. If you think a chart can't be done in Tableau, they've built it.</span>
+        <span class="text-[#4a8e91] text-xs font-bold mt-auto group-hover:underline">Visit their blog →</span>
     </a>
 </div>
 
@@ -81,10 +81,10 @@ The biggest lesson I learned from my time at Starschema and my transition to int
 
 **Just do it.**
 
-<div class="not-prose mt-12 p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl text-center space-y-4">
+<div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">Up Next in the Toolkit Series</h3>
-    <p class="text-slate-400 text-sm">How I use Figma to design dashboards before I ever open Tableau — and why it changes everything.</p>
-    <a href="/blog/figma-blueprint/" class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+    <p class="text-[#b0bfc0] text-sm">How I use Figma to design dashboards before I ever open Tableau — and why it changes everything.</p>
+    <a href="/blog/figma-blueprint/" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         Read Part II: Figma →
     </a>
 </div>
