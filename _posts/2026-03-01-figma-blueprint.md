@@ -51,10 +51,10 @@ Showing a stakeholder a polished product mockup before launch is good. Showing t
 
 By using Figma as my blueprint, I bridge the gap between **Data Analysis** and **Product Design** — delivering solutions that aren't just accurate, but are a genuine joy to use.
 
-<div class="not-prose mt-12 p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-3xl text-center space-y-4">
+<div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">Want to build something together?</h3>
-    <p class="text-slate-400 text-sm">If you need executive-ready dashboards built with this approach, let's talk.</p>
-    <a href="mailto:prostaw@gmail.com" class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+    <p class="text-[#b0bfc0] text-sm">If you need executive-ready dashboards built with this approach, let's talk.</p>
+    <a href="mailto:prostaw@gmail.com" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         Get in Touch →
     </a>
 </div>
