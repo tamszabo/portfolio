@@ -20,7 +20,7 @@ permalink: /blog/
         <div class="flex flex-col md:flex-row gap-8 items-start md:items-center">
             
             {% if post.image %}
-            <div class="w-full md:w-48 h-32 flex-shrink-0 overflow-hidden rounded-2xl border border-[#3c6e71]">
+            <div class="w-full md:w-64 h-40 flex-shrink-0 overflow-hidden rounded-2xl border border-[#3c6e71]">
                 <img src="{{ post.image | relative_url }}" 
                      class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                      alt="{{ post.title }}">
