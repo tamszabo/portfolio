@@ -2,7 +2,7 @@
 layout: post
 title: "The Complete Guide to Tableau Certifications (And Which One You Actually Need)"
 date: 2026-03-16
-image: /assets/images/7-tableau-certifications.svg
+image: /assets/images/7-tableau-certifications.png
 categories: [Career, DataViz, Data Analysis]
 description: "Five Tableau certifications, one honest guide. Here's what each one tests, what it costs, how to prepare, and which one is worth your time — from someone who's been through the process."
 author: Tamas Szabo
