@@ -47,7 +47,7 @@ Within the Power BI and Power Platform space specifically, there are currently f
                 <p class="text-[#8a9a9b] text-sm mt-1 italic">Exam: PL-900</p>
             </div>
             <div class="flex-shrink-0 text-right">
-                <p class="text-2xl font-black text-white">$165</p>
+                <p class="text-2xl font-black text-white">$99</p>
                 <p class="text-[#8a9a9b] text-xs font-mono">Renew annually (free)</p>
             </div>
         </div>
