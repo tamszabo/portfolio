@@ -17,6 +17,9 @@ author:
   name: "Tamas Szabo"
   email: "prostaw@gmail.com"
 
+twitter:
+  card: summary_large_image
+
 google_analytics: "G-69T22XTBL3"
 
 # Build settings
