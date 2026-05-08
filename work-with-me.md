@@ -44,7 +44,6 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
                     <p class="text-[#b0bfc0] text-sm mt-1 italic">The honest second opinion your BI setup needs.</p>
                 </div>
                 <div class="flex-shrink-0 text-right">
-                    <p class="text-2xl font-black text-white">€1,200 <span class="text-[#8a9a9b] font-normal text-base">– €2,000</span></p>
                     <p class="text-[#8a9a9b] text-xs font-mono">Fixed price · ~1 week</p>
                 </div>
             </div>
@@ -79,7 +78,6 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
                     <p class="text-[#b0bfc0] text-sm mt-1 italic">Stop measuring everything. Start measuring what matters.</p>
                 </div>
                 <div class="flex-shrink-0 text-right">
-                    <p class="text-2xl font-black text-white">€2,500 <span class="text-[#8a9a9b] font-normal text-base">– €4,000</span></p>
                     <p class="text-[#8a9a9b] text-xs font-mono">Fixed price · 2–3 weeks</p>
                 </div>
             </div>
@@ -115,7 +113,6 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
                 </div>
                 <div class="flex-shrink-0 text-right flex flex-col items-end gap-1">
                     <span class="px-3 py-1 bg-[#3c6e71] text-white text-xs font-black uppercase tracking-widest rounded-full">Most Popular</span>
-                    <p class="text-2xl font-black text-white">€8,000 <span class="text-[#8a9a9b] font-normal text-base">– €12,000</span></p>
                     <p class="text-[#8a9a9b] text-xs font-mono">Fixed price · 4–6 weeks</p>
                 </div>
             </div>
@@ -207,9 +204,9 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
             <select id="engagement" name="engagement"
                 class="w-full bg-[#2a2a2a]/60 border border-[#3c6e71] focus:border-[#4a8e91] focus:outline-none focus:ring-2 focus:ring-[#3c6e71]/40 rounded-xl px-4 py-3 text-white text-sm transition-colors appearance-none">
                 <option value="" disabled selected class="text-[#8a9a9b]">Select an engagement...</option>
-                <option value="audit">Dashboard Audit — from €1,200</option>
-                <option value="kpi">KPI Framework Sprint — from €2,500</option>
-                <option value="build">Executive Dashboard Build — from €8,000</option>
+                <option value="audit">Dashboard Audit</option>
+                <option value="kpi">KPI Framework Sprint</option>
+                <option value="build">Executive Dashboard Build</option>
                 <option value="unsure">Not sure yet — let's talk</option>
             </select>
         </div>
