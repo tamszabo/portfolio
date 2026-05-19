@@ -19,8 +19,8 @@ permalink: /cv/
     <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mb-6">
         <h2 class="text-xl font-bold text-white">Senior Data Analyst</h2>
         <div class="flex gap-4 text-xs text-[#8a9a9b] font-mono">
-            <span>📍 Frankfurt am Main, DE</span>
-            <span>✉️ prostaw@gmail.com</span>
+            <span>📍 Budapest, Hungary</span>
+            <a href="/work-with-me/#contact" class="hover:text-[#4a8e91] transition-colors">✉️ Get in touch</a>
         </div>
     </div>
     <p class="text-[#b0bfc0] leading-relaxed italic border-l-2 border-[#3c6e71] pl-4">
