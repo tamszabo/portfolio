@@ -25,7 +25,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
         <span class="text-[#404040]">·</span>
         <span>Fortune 500 Clients</span>
         <span class="text-[#404040]">·</span>
-        <span>Frankfurt, DE — Remote-friendly</span>
+        <span>Budapest, Hungary — Remote-friendly</span>
     </div>
 </section>
 
