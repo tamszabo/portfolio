@@ -17,7 +17,7 @@ description: "Privacy policy for tamasszabo.org — what data is collected, how 
 
 ## Who is responsible
 
-This website is operated by **Tamas Szabo**, Frankfurt am Main, Germany. You can reach me at [hello@tamasszabo.org](mailto:hello@tamasszabo.org) for any privacy-related questions.
+This website is operated by **Tamas Szabo**, Budapest, Hungary. You can reach me at [hello@tamasszabo.org](mailto:hello@tamasszabo.org) for any privacy-related questions.
 
 ---
 
