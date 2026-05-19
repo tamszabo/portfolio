@@ -17,7 +17,7 @@ description: "Privacy policy for tamasszabo.org — what data is collected, how 
 
 ## Who is responsible
 
-This website is operated by **Tamas Szabo**, Frankfurt am Main, Germany. You can reach me at [prostaw@gmail.com](mailto:prostaw@gmail.com) for any privacy-related questions.
+This website is operated by **Tamas Szabo**, Frankfurt am Main, Germany. You can reach me at [hello@tamasszabo.org](mailto:hello@tamasszabo.org) for any privacy-related questions.
 
 ---
 
@@ -67,7 +67,7 @@ As a resident of the EU/EEA, you have the right to:
 - **Withdraw consent** at any time (without affecting prior processing)
 - **Lodge a complaint** with your local data protection authority
 
-To exercise any of these rights, contact me at [prostaw@gmail.com](mailto:prostaw@gmail.com). I will respond within 30 days.
+To exercise any of these rights, contact me at [hello@tamasszabo.org](mailto:hello@tamasszabo.org). I will respond within 30 days.
 
 ---
 
