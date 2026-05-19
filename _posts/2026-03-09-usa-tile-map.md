@@ -379,7 +379,7 @@ Saving the coordinates as calculated fields also means the grid travels with you
 <div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">Want to use this in your own workbook?</h3>
     <p class="text-[#b0bfc0] text-sm max-w-md mx-auto">All four calculations are in the collapsible blocks above — copy them directly into any Tableau project. If you build something with this technique, I'd love to see it.</p>
-    <a href="mailto:prostaw@gmail.com" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+    <a href="/work-with-me/#contact" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         Share Your Map →
     </a>
 </div>
