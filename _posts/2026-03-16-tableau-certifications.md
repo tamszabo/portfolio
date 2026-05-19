@@ -294,7 +294,7 @@ The most important thing I'd say, though, is this: the certification validates s
 <div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">Questions about the certification process?</h3>
     <p class="text-[#b0bfc0] text-sm max-w-md mx-auto">I've been through it — feel free to drop a comment below or reach out directly.</p>
-    <a href="mailto:prostaw@gmail.com" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
+    <a href="/work-with-me/#contact" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         Get in Touch →
     </a>
 </div>
