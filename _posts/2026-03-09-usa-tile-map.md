@@ -4,17 +4,17 @@ title: "How to Build a USA Tile Map in Tableau (Where Every State Gets Equal Spa
 date: 2026-03-09
 image: /assets/images/5-usa-tilemap.png
 categories: [DataViz, Data Analysis]
-description: "Rhode Island is 425x smaller than Alaska — but does that make it less important to your analysis? Here's how to build a tile map in Tableau where every state gets equal visual weight."
+description: "Rhode Island is 425x smaller than Alaska but does that make it less important to your analysis? Here's how to build a tile map in Tableau where every state gets equal visual weight."
 author: Tamas Szabo
 ---
 
 # 🗺️ The Problem With Standard US Maps
 
-If you've ever put US state data on a geographic map in Tableau, you already know the frustration. Alaska dominates the top-left corner. Texas and California eat up most of the visual real estate. And Rhode Island, Connecticut, Delaware — states that might be *critical* to your analysis — are practically invisible.
+If you've ever put US state data on a geographic map in Tableau, you already know the frustration. Alaska dominates the top-left corner - or wherever you put it. Texas and California eat up most of the visual real estate. Meanwhile Rhode Island, Connecticut, Delaware or the other smaller states that might be *critical* to your analysis are practically invisible.
 
 The standard choropleth map is geographically accurate, but analytically misleading. It encodes area as importance, when what you actually care about is the *data value* in each state.
 
-The solution is a **tile map** — a grid layout where every state gets an equal-sized cell, positioned to loosely mirror the actual geography of the US. Same spatial intuition, zero distortion.
+The solution is a **tile map**. Agrid layout where every state gets an equal-sized cell, positioned to loosely mirror the actual geography of the US. Same spatial intuition, zero distortion.
 
 Here's exactly how I build mine in Tableau.
 
@@ -24,9 +24,9 @@ Here's exactly how I build mine in Tableau.
 
 Instead of plotting states on a real map, we assign each state an **x (Column) and y (Row) coordinate** in a grid. Tableau then plots them as a scatter chart, and we use shapes or square marks to fill each cell.
 
-The result: a layout that *feels* geographically familiar — the Northeast is still top-right, the Southeast is still bottom-right, Alaska sits in the top-left — but every state occupies identical space. Rhode Island is just as visible as Texas.
+The result: a layout that *feels* geographically familiar — the Northeast is still top-right, the Southeast is still bottom-right, Alaska sits in the top-left but every state occupies identical space. Rhode Island is just as visible as Texas.
 
-This technique gives you something a standard map never can: **full creative control**. You can assign any shape, color, size, or label to each state cell, and you can reposition individual states simply by changing a coordinate value.
+This technique gives you a better chance to analyze the US market state by state. You can assign any shape, color, size, or label to each state cell, and you can reposition individual states simply by changing a coordinate value.
 
 ---
 
@@ -38,7 +38,7 @@ You need four calculations. Create each one in Tableau via **Analysis > Create C
 
 ### Calculation 1 — State Name
 
-This is your anchor field. If your data source already has a `State` field with full state names, you can use that directly. If not, create this mapping from whatever identifier you have (abbreviation, FIPS code, etc.). The key requirement is that the names match exactly across all four calculations.
+This is your anchor field. If your data source already has a **State** field with full state names, you can use that directly. If not, create this mapping from whatever identifier you have (abbreviation, FIPS code, etc.). The key requirement is that the names match exactly across all four calculations.
 
 <details class="bg-[#252525]/50 rounded-xl border border-[#2a2a2a] p-4 my-6">
 <summary class="cursor-pointer font-bold text-[#4a8e91] hover:text-[#6aacaf] list-none flex justify-between items-center">
@@ -312,11 +312,11 @@ END</pre>
 
 Once your four calculated fields are ready:
 
-1. **Drag `Column` to Columns** and `Row` to Rows on the sheet
-2. **Right-click both pills** and set them to **Dimension** — not Measure. This prevents Tableau from aggregating the coordinates
-3. **Change the mark type to Square** — this gives each state an equal-sized filled tile
-4. **Drag `State Abbreviation` to Label** — centre-align it so it sits in the middle of each square
-5. **Drag your metric** (e.g. sales, jobs, whatever your data contains) **to Color**
+1. Drag **Column** to Columns and **Row** to Rows on the sheet.
+2. Right-click both pills and set them to **Dimension** (from Measure). This prevents Tableau from aggregating the coordinates.
+3. Change the mark type to Square. This gives each state an equal-sized filled tile.
+4. Drag **State Abbreviation** to Label. Center align it so it sits in the middle of each square.
+5. Drag your metric (e.g. sales, revenue, order, or whatever your data contains) to Color.
 
 <div class="p-6 bg-[#3c6e71]/5 border-l-4 border-[#3c6e71] rounded-r-2xl my-8">
     <h4 class="text-white font-bold mb-2">💡 Pro Tip: Hide the Headers</h4>
@@ -348,7 +348,7 @@ Once your four calculated fields are ready:
     </div>
 </div>
 
-The real power shows up in dense, data-heavy dashboards. When you need the viewer to compare all 50 states at once — not just spot which large states are red — a tile map does the job that a choropleth simply cannot.
+The real power shows up when you need the viewer to compare all 50 states at once.
 
 ---
 
@@ -372,7 +372,7 @@ Here's a live example using this exact technique — US job demand data mapped a
 
 ## 🔑 The Key Insight
 
-The tile map isn't just a design preference — it's an analytical decision. When your data has a value for every state and you need a viewer to make fair comparisons across all of them, equal-area representation is the *correct* choice. Geography should inform layout, not distort perception.
+The tile map isn't just a design preference. When your data has a value for every state and you need a viewer to make fair comparisons across all of them, equal-area representation is the *correct* choice.
 
 Saving the coordinates as calculated fields also means the grid travels with your workbook. Copy the four calculations into any new Tableau project and your tile map scaffold is ready in under a minute.
 
