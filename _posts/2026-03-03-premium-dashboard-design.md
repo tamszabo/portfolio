@@ -37,11 +37,11 @@ The most common mistake in design is trying to make everything *pop*. If everyth
 As I detailed in my [Figma Blueprint post](/blog/figma-blueprint/), the design starts in Figma using the **Coolors Plugin**. I lock in the palette during the mockup phase so that by the time I move into Tableau, every color choice is already validated.
 
 ## ⚙️ Implementation: Custom Palettes in Tableau
-To bring that premium feel into Tableau, you must go beyond the default color palettes by modifying your `Preferences.tps` file.
+To bring that premium feel into Tableau, you must go beyond the default color palettes by modifying your **Preferences.tps** file.
 
-1. **Locate:** Go to `Documents > My Tableau Repository`.
-2. **Edit:** Open `Preferences.tp` in a text editor (VS Code or Notepad both work).
-3. **Inject:** Add your hex codes inside the `<preferences>` tag.
+1. **Locate:** Go to **Documents > My Tableau Repository**.
+2. **Edit:** Open **Preferences.tp** in a text editor (VS Code or Notepad both work).
+3. **Inject:** Add your hex codes inside the file. See the code below.
 
 > **Pro Tip:** For a detailed breakdown of palette types, check the [Official Tableau Documentation](https://help.tableau.com/current/pro/desktop/en-us/formatting_create_custom_colors.htm).
 
