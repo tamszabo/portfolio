@@ -18,9 +18,9 @@ But before I tell you why I love it, I have to tell you how I found it.
 
 ## My Catalyst for BI
 
-My journey into Business Intelligence started with a struggle. Back when I was working at **Intrum**, our tool of choice was **QlikSense**. For about a year, I fought with it — trying to bend the data to my will, building complex calculations, and constantly feeling limited by the tool rather than empowered by it.
+My journey into Business Intelligence started with a challenges. Back when I was working at **Intrum**, our tool of choice was **QlikSense**. For about a year, I fought with it and trying to bend the data to my will, building complex calculations, and constantly feeling limited by the tool rather than empowered by it.
 
-That frustration became my motivation. I knew there had to be other ways to visualize data, so I started exploring **Tableau** on my own time. That curiosity changed my career. Soon after, I joined **Starschema**, where I had the absolute luxury of working alongside some of the best data analysts in Hungary. Seeing what the pros could do with Tableau was a revelation — it was like seeing fire for the first time.
+That frustration became my motivation. I knew there had to be other ways to visualize data, so I started exploring **Tableau** on my own time. That curiosity changed my career. Soon after, I joined **Starschema**, where I had the absolute luxury of working alongside some of the best data analysts in Hungary. Seeing what the pros could do with Tableau was a revelation.
 
 ## More Than Just a Free Tool
 
@@ -28,7 +28,7 @@ If you think Tableau Public is just a "lite" version of the professional softwar
 
 ### Steal with Pride (The Analyst's Secret)
 
-In the corporate world, we call it "benchmarking." On Tableau Public, I call it **Steal with Pride**. One of the best features of the platform is the ability to "open the hood" — you can download any public workbook and see exactly how the world's best developers structured their containers, built their calculated fields, and achieved that clean "SaaS" look.
+One of the best features of the platform is you can download any public workbook and see exactly how the world's best developers structured their containers, built their calculated fields, and achieved that clean "SaaS" look.
 
 A great place to start: search for [Viz of the Day](https://public.tableau.com/app/discover/viz-of-the-day) picks and download the ones that impress you. Reverse-engineer them. That's how you level up faster than any course can teach you.
 
@@ -36,7 +36,7 @@ A great place to start: search for [Viz of the Day](https://public.tableau.com/a
 
 To show you what this looks like in practice, I stepped away from corporate KPIs and focused on a lifelong passion: **Inter Milan**.
 
-Being a massive Nerazzurri fan, I wanted to showcase the club's recent success through a professional lens — applying the same executive-style clarity I use at Hyundai to the Beautiful Game. It's one thing to say Inter is successful; it's another to see the data prove it.
+Being a massive Nerazzurri fan, I wanted to showcase the club's recent success through a professional lens. Applying the same executive-style clarity I use at Hyundai to the Beautiful Game. It's one thing to say Inter is successful. It's another to see the data prove it.
 
 <div class="not-prose my-12 group">
     <a href="https://public.tableau.com/views/InterSeasonStats/Inter" target="_blank" class="block overflow-hidden rounded-3xl border border-[#3c6e71] shadow-2xl transition-all duration-500 hover:border-[#3c6e71] hover:shadow-[#3c6e71]/20">
@@ -55,12 +55,12 @@ Being a massive Nerazzurri fan, I wanted to showcase the club's recent success t
 
 ## Learn from the Masters
 
-I didn't reach Senior level by guessing. I stood on the shoulders of giants. If you want to level up, these three resources are non-negotiable:
+I didn't reach Senior level by guessing. If you want to level up, these three resources are non-negotiable:
 
 <div class="not-prose grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
     <a href="https://www.youtube.com/@vizwiz" target="_blank" class="group flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl hover:border-[#3c6e71] transition-all">
         <span class="text-[#4a8e91] font-black text-sm uppercase tracking-widest">Andy Kriebel</span>
-        <span class="text-[#b0bfc0] text-sm">The master of efficiency. He'll teach you to build in 30 seconds what used to take you 30 minutes.</span>
+        <span class="text-[#b0bfc0] text-sm">He'll teach you to build in 30 seconds what used to take you 30 minutes.</span>
         <span class="text-[#4a8e91] text-xs font-bold mt-auto group-hover:underline">Watch on YouTube →</span>
     </a>
     <a href="https://www.youtube.com/@TableauTim" target="_blank" class="group flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl hover:border-[#3c6e71] transition-all">
@@ -77,7 +77,7 @@ I didn't reach Senior level by guessing. I stood on the shoulders of giants. If 
 
 ## The Takeaway: Just Do It
 
-The biggest lesson I learned from my time at Starschema and my transition to international roles is this: **you can only learn this by doing.** Stop watching. Start clicking.
+The biggest lesson I learned from my time at Starschema and my transition to international roles is this: **you can only learn this by doing.**
 
 **Just do it.**
 
