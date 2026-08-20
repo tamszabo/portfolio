@@ -16,16 +16,16 @@ Most data analysts start with a blank canvas in Tableau or Power BI. They drag a
 
 **The result?** Static, "Excel-looking" reports that are hard to navigate and uninspiring to look at. They are functional, but they don't inspire confidence or delight the user.
 
-My journey into design-first analytics started during my time at **Starschema**, where I learned the foundational principles of dashboard UI from my former team lead, [Tamas Varga](https://www.linkedin.com/in/tam%C3%A1s-varga-b0b5b286/) (shout out to him!). That experience shifted my perspective: a dashboard isn't just a report — it's a product.
+My journey into design-first analytics started during my time at **Starschema**, where I learned the foundational principles of dashboard UI from my former team lead, [Tamas Varga](https://www.linkedin.com/in/tam%C3%A1s-varga-b0b5b286/) (shout out to him!). That experience shifted my perspective: a dashboard isn't just a report it's a product.
 
 ---
 
 ## 🚀 The Power of Simultaneous Discovery
 
-I don't wait for finished data to start the design, and I don't wait for a finished design to look at the data. My process is a deliberate dual-track workflow:
+My process is a deliberate dual-track workflow:
 
-1. **In Tableau:** I dive into the raw data. I build ugly exploratory sheets to see what the distributions look like, which charts reveal the insights best, and where the **story** lies.
-2. **In [Figma](https://www.figma.com/):** Simultaneously, I sketch the layout. Knowing what charts are possible lets me design containers that fit the data perfectly — rather than trying to squeeze a complex scatterplot into a tiny box later.
+1. **In Tableau:** I dive into the raw data. I build regular exploratory sheets to see what the distributions look like, which charts reveal the insights best, and where the **story** lies.
+2. **In [Figma](https://www.figma.com/):** Simultaneously, I sketch the layout. Knowing what charts are possible lets me design containers that fit the data perfectly rather than trying to squeeze a complex scatterplot into a tiny box later.
 
 This back-and-forth ensures the final design is both **aesthetically pleasing** and **technically feasible**.
 
@@ -38,18 +38,18 @@ Tableau slows down with dozens of nested containers and images. By designing the
 
 ### 2. Brand Consistency and Precision
 In Figma, I define a strict **Style Tile** before building a single sheet:
-* **Typography:** Clean, readable sans-serif fonts at consistent sizes.
+* **Typography:** Clean, readable fonts at consistent sizes.
 * **Palette:** I source professional color palettes from **Coolors** to ensure perfect contrast and mood (more on that in the next post).
-* **Pixel-Perfect Alignment:** Every element has a precise x,y coordinate and width/height. This level of obsession with alignment is what separates a report from a professional interface.
+* **Pixel-Perfect Alignment:** Every element has a precise x,y coordinate and width/height. This level of obsession with alignment is what separates a medior analyst from a senior one.
 
 ### 3. Stakeholder Buy-in: The "Real Data" Hook
-Showing a stakeholder a polished product mockup before launch is good. Showing them **their actual sales data** inside that mockup is a game-changer. When they see their current numbers beautifully visualized, the conversation shifts from *"Does this work?"* to *"When can we have this?"* — and the buy-in process becomes effortless.
+Showing a stakeholder a polished product mockup before launch is good. Showing them **their actual sales data** inside that mockup is a game-changer. When they see their current numbers beautifully visualized, the conversation shifts from *"Does this work?"* to *"When can we have this?"* and the buy-in process becomes effortless.
 
 ---
 
 ## 🏁 Final Thought
 
-By using Figma as my blueprint, I bridge the gap between **Data Analysis** and **Product Design** — delivering solutions that aren't just accurate, but are a genuine joy to use.
+By using Figma as my blueprint, I bridge the gap between **Data Analysis** and **Product Design**. Delivering solutions that aren't just accurate, but visually appealing.
 
 <div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">Want to build something together?</h3>
