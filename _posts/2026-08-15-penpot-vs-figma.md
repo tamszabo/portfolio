@@ -33,12 +33,11 @@ The ownership question matters more than it might seem. Because Penpot is open s
 
 Let's be honest. Figma is the industry standard for good reason.
 
-It's fast, polished, and the collaboration experience is genuinely excellent. Real-time multiplayer editing, comments, design tokens, a mature component system, and a plugin ecosystem with a solution for almost every niche need. Every designer you hire already knows it, every plugin you might want already exists, and every design system reference you find online ships as a Figma library.
+It's fast, polished, and the collaboration experience is genuinely excellent. Real-time multiuser editing, comments, design tokens, a mature component system, and a plugin ecosystem with a solution for almost every niche need. Every designer you hire already knows it, every plugin you might want already exists, and every design system reference you find online ships as a Figma library.
 
 For analysts using Figma to frame dashboards — sketching layouts, defining colour systems, wireframing before building in Tableau — it's a smooth, friction-free experience. The auto-layout system is powerful, and once you've internalised how it works, it's genuinely fast to use.
 
-The tradeoff? As a publicly traded company, Figma is now under pressure to grow revenue. Price hikes, feature paywalling, and shifting priorities are real risks for any tool that's gone from an independent startup to a listed company. Your designs live in Figma's cloud, under Figma's terms — and those terms will increasingly be shaped by what Wall Street expects.
-
+The tradeoff? As a publicly traded company, Figma is now under pressure to grow revenue. Price hikes, feature paywalling, and shifting priorities are real risks for any tool that's gone from an independent startup to a listed company.
 ---
 
 ## 🌱 What Penpot Does Well
