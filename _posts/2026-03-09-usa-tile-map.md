@@ -10,7 +10,7 @@ author: Tamas Szabo
 
 # 🗺️ The Problem With Standard US Maps
 
-If you've ever put US state data on a geographic map in Tableau, you already know the frustration. Alaska dominates the top-left corner - or wherever you put it. Texas and California eat up most of the visual real estate. Meanwhile Rhode Island, Connecticut, Delaware or the other smaller states that might be *critical* to your analysis are practically invisible.
+If you've ever put US state data on a geographic map in Tableau, you already know the frustration. Alaska dominates the top-left corner. Texas and California eat up most of the visual real estate. Meanwhile Rhode Island, Connecticut, Delaware or the other smaller states that might be *critical* to your analysis are practically invisible.
 
 The standard choropleth map is geographically accurate, but analytically misleading. It encodes area as importance, when what you actually care about is the *data value* in each state.
 
@@ -24,7 +24,7 @@ Here's exactly how I build mine in Tableau.
 
 Instead of plotting states on a real map, we assign each state an **x (Column) and y (Row) coordinate** in a grid. Tableau then plots them as a scatter chart, and we use shapes or square marks to fill each cell.
 
-The result: a layout that *feels* geographically familiar — the Northeast is still top-right, the Southeast is still bottom-right, Alaska sits in the top-left but every state occupies identical space. Rhode Island is just as visible as Texas.
+The result: a layout that *feels* geographically familiar: the Northeast is still top-right, the Southeast is still bottom-right, Alaska sits in the top-left but every state occupies identical space. Rhode Island is just as visible as Texas.
 
 This technique gives you a better chance to analyze the US market state by state. You can assign any shape, color, size, or label to each state cell, and you can reposition individual states simply by changing a coordinate value.
 
