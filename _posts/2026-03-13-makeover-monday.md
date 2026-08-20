@@ -14,9 +14,7 @@ author: Tamas Szabo
 
 Every musician practices scales. Every athlete does drills. Every writer keeps a journal.
 
-Data analysts? Most of us wait for the next project brief.
-
-That's a mistake — and **[Makeover Monday](https://www.makeovermonday.co.uk/)** is the fix.
+Data analysts? We use **[Makeover Monday](https://www.makeovermonday.co.uk/)**.
 
 ---
 
@@ -28,15 +26,15 @@ No brief. No boss. No stakeholder asking for an Excel export.
 
 Just you, the data, and a blank Tableau canvas.
 
-The community has been running since 2016, with thousands of submissions published publicly on Tableau Public every week. That means you're not just practicing in isolation — you're contributing to one of the largest open data viz communities in the world.
+The community has been running since 2016, with thousands of submissions published on Tableau Public every week. That means you're not just practicing in isolation but you're contributing to one of the largest open data viz communities in the world.
 
 ---
 
 ## 🏋️ Why I Treat It as a Weekly Drill
 
-When I joined **Starschema**, I was surrounded by analysts who were genuinely exceptional at Tableau. The gap between where I was and where they were felt enormous. Reading documentation wasn't closing it. Watching tutorials wasn't closing it either.
+When I joined **Starschema**, I was surrounded by analysts who were exceptional at Tableau. The gap between where I was and where they were felt enormous. Reading documentation wasn't closing it. Watching tutorials wasn't closing it either.
 
-What actually moved the needle was **deliberate repetition on real data** — and Makeover Monday gave me exactly that.
+What actually moved the needle was deliberate repetition on real datasets. Makeover Monday gave me exactly that.
 
 Here's what a typical week looks like for me:
 
@@ -44,17 +42,17 @@ Here's what a typical week looks like for me:
     <div class="flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl">
         <span class="text-[#4a8e91] font-black text-xs uppercase tracking-widest">Monday</span>
         <span class="text-white font-bold text-sm">Download the dataset</span>
-        <span class="text-[#b0bfc0] text-sm">Look at the original chart. Note what's working and — more importantly — what isn't. What story is it trying to tell? Is it succeeding?</span>
+        <span class="text-[#b0bfc0] text-sm">Look at the original chart. Note what's working and more importantly what isn't. What story is it trying to tell? Is it succeeding?</span>
     </div>
     <div class="flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl">
-        <span class="text-[#4a8e91] font-black text-xs uppercase tracking-widest">Tuesday–Wednesday</span>
+        <span class="text-[#4a8e91] font-black text-xs uppercase tracking-widest">Tuesday</span>
         <span class="text-white font-bold text-sm">Build the redesign</span>
-        <span class="text-[#b0bfc0] text-sm">One to two hours maximum. The time constraint is intentional — it mirrors real corporate deadlines and forces you to make decisions instead of perfecting forever.</span>
+        <span class="text-[#b0bfc0] text-sm">One to two hours maximum. The time constraint is intentional. It mirrors real corporate deadlines and forces you to make decisions instead of perfecting forever.</span>
     </div>
     <div class="flex flex-col gap-2 p-5 bg-[#2a2a2a]/40 border border-[#3c6e71] rounded-2xl">
-        <span class="text-[#4a8e91] font-black text-xs uppercase tracking-widest">Thursday–Friday</span>
+        <span class="text-[#4a8e91] font-black text-xs uppercase tracking-widest">Wednesday</span>
         <span class="text-white font-bold text-sm">Publish and review</span>
-        <span class="text-[#b0bfc0] text-sm">Post to Tableau Public. Then spend 20 minutes browsing other submissions. This is where the real learning happens — you'll see approaches you'd never have thought of.</span>
+        <span class="text-[#b0bfc0] text-sm">Post to Tableau Public. Then spend 20 minutes browsing other submissions. This is where the real learning happens. You'll see approaches you'd never have thought of.</span>
     </div>
 </div>
 
@@ -66,11 +64,11 @@ That's it. Three to four hours per week, consistently applied over months, compo
 
 Most analysts think Makeover Monday is about making prettier charts. It isn't. After years of doing it, here's what it actually trains:
 
-**Critical thinking about existing visuals.** Every week starts with the same question: *what is wrong with this chart?* After a year of asking that question weekly, you develop an instinct for spotting bad data communication instantly — in client dashboards, in board presentations, in your own work.
+**Critical thinking about existing visuals.** Every week starts with the same question: *what is wrong with this chart?* After a year of asking that question weekly, you develop an instinct for spotting bad data communication instantly: in client dashboards, in board presentations, in your own work.
 
 **Speed.** The self-imposed time constraint teaches you to make a good decision in two minutes rather than a perfect decision in two hours. That speed is exactly what separates senior analysts from junior ones in a corporate environment.
 
-**Breadth of data domains.** One week it's financial markets. The next it's global health data. Then climate, then sport, then economics. Each dataset forces you to think about what chart type actually fits *this* data — not the chart type you're most comfortable with.
+**Breadth of data domains.** One week it's financial markets. The next it's global health data. Then climate, then sport, then economics. Each dataset forces you to think about what chart type actually fits *this* data and not the chart type you're most comfortable with.
 
 **A public portfolio, built automatically.** Every submission you publish becomes a Tableau Public viz with a shareable URL. By the end of a year, you have 40+ pieces of work, spanning dozens of topics and chart types, all publicly visible to recruiters and clients.
 
@@ -78,11 +76,11 @@ Most analysts think Makeover Monday is about making prettier charts. It isn't. A
 
 ## 📊 My Entry: Financial Markets
 
-To show you what this looks like in practice, here's one of my own Makeover Monday submissions — a redesign of a financial markets dataset.
+To show you what this looks like in practice, here's one of my own Makeover Monday submissions: a redesign of a financial markets dataset.
 
 The original chart presented the data as a dense table with conditional formatting. Readable, yes. But it buried the trend and forced the viewer to do the analytical work themselves.
 
-My redesign focused on making the market movement immediately legible — pulling the signal out of the noise so the viewer understands the story before they read a single number.
+My redesign focused on making the market movement immediately legible: pulling the signal out of the noise so the viewer understands the story before they read a single number.
 
 <div class="not-prose my-10">
     <div class="w-full rounded-2xl overflow-hidden border border-[#3c6e71] shadow-2xl">
@@ -127,16 +125,16 @@ My redesign focused on making the market movement immediately legible — pullin
 
 If you've never participated before, the barrier is lower than you think:
 
-1. Go to **[makeovermonday.co.uk](https://www.makeovermonday.co.uk/)** and download the current week's dataset
-2. Open Tableau Public (free) and build something — anything — in under two hours
-3. Publish to your Tableau Public profile
-4. Share it on LinkedIn or X with the hashtag **#MakeoverMonday**
+1. Go to **[makeovermonday.co.uk](https://www.makeovermonday.co.uk/)** and download the current week's dataset.
+2. Open Tableau Public (free) and build something in under two hours.
+3. Publish to your Tableau Public profile.
+4. Share it on LinkedIn or X with the hashtag **#MakeoverMonday**.
 
 That's the entire process. 
 
 <div class="p-6 bg-[#3c6e71]/5 border-l-4 border-[#3c6e71] rounded-r-2xl my-8">
     <h4 class="text-white font-bold mb-2">💡 One rule I follow</h4>
-    <p class="text-[#b0bfc0] text-sm">I never look at other people's submissions <em>before</em> I build mine. The moment you see someone else's elegant solution, your brain stops exploring and starts copying. Protect your creative process — publish first, browse second.</p>
+    <p class="text-[#b0bfc0] text-sm">I never look at other people's submissions <em>before</em> I build mine. The moment you see someone else's elegant solution, your brain stops exploring and starts copying. Protect your creative process: publish first, browse second.</p>
 </div>
 
 ---
@@ -145,7 +143,7 @@ That's the entire process.
 
 Tableau Public gave me the stage. Figma gave me the blueprint. Coolors gave me the palette. But Makeover Monday gave me the **repetitions**.
 
-Skill in data visualization is not built by reading about it. It's built by doing it, weekly, on real data, in public, under a self-imposed deadline — and then honestly reviewing the gap between what you made and what the best submissions looked like.
+Skill in data visualization is not built by reading about it. It's built by doing it, weekly, on real data, in public, under a self-imposed deadline and then honestly reviewing the gap between what you made and what the best submissions looked like.
 
 That gap closes faster than you'd expect. But only if you show up every week.
 
