@@ -4,13 +4,13 @@ title: "The Complete Guide to Power BI & Power Platform Certifications (From Som
 date: 2026-03-24
 image: /assets/images/9-powerbi-certifications.png
 categories: [Career, DataViz, Data Analysis]
-description: "I'm a Tableau-certified analyst learning Power BI. Here's the honest breakdown of every Microsoft certification in the ecosystem — what they test, what they cost, and which one I'm targeting first."
+description: "I'm a Tableau certified analyst learning Power BI. Here's the honest breakdown of every Microsoft certification in the ecosystem. What they test, what they cost, and which one I'm targeting first."
 author: Tamas Szabo
 ---
 
 # 🎓 Power BI & Power Platform Certifications: An Honest Guide
 
-Full transparency: I don't hold any Power BI certifications yet. I'm preparing for PL-300 now, with PL-200 planned as my follow-up. I'm writing this publicly because the journey is just as useful to document as the destination — and because my [Tableau certifications guide](/blog/tableau-certifications/) was one of the most-read posts on this site.
+Full transparency: I don't hold any Power BI certifications yet. I'm preparing for PL-300 now, with PL-200 planned as my follow-up. I'm writing this publicly because the journey is just as useful to document as the destination.
 
 The Microsoft landscape is bigger and more complex than Tableau's. This is my attempt to map it clearly.
 
@@ -20,9 +20,9 @@ The Microsoft landscape is bigger and more complex than Tableau's. This is my at
 
 Microsoft uses three tiers across all products:
 
-**Fundamentals** — entry-level, no prerequisites, proves basic product knowledge.
-**Associate** — role-based, tests practical skills. This is where most analysts should aim.
-**Expert** — advanced, often requires an Associate credential first.
+**Fundamentals**: entry-level, no prerequisites, proves basic product knowledge.
+**Associate**: role-based, tests practical skills. This is where most analysts should aim.
+**Expert**: advanced, often requires an Associate credential first.
 
 There are five certifications worth knowing in the Power BI and Power Platform space.
 
@@ -189,23 +189,23 @@ There are five certifications worth knowing in the Power BI and Power Platform s
 
 ## 💡 One Big Advantage Over Tableau: Free Annual Renewal
 
-Microsoft role-based certifications require annual renewal — but it's a free online assessment on Microsoft Learn, not a full retake. 30–45 minutes, no exam centre, no fee.
+Microsoft role-based certifications require annual renewal but it's a free online assessment on Microsoft Learn, not a full retake. 30–45 minutes, no exam centre, no fee.
 
 Compare that to Tableau's $200 retake every two years. If you hold multiple Microsoft credentials simultaneously, that difference adds up fast.
 
 ---
 
-## 🎯 Which One to Target — And My Plan
+## 🎯 Which One to Target and My Plan
 
 **Analyst focused on dashboards:** start with **PL-300**. Most recognised, most relevant to daily work, highest employer demand.
 
-**Consultant wanting full ecosystem breadth:** follow PL-300 with **PL-200**. It covers Power Apps, Power Automate, and Dataverse alongside Power BI — the combination that enterprise clients increasingly ask for.
+**Consultant wanting full ecosystem breadth:** follow PL-300 with **PL-200**. It covers Power Apps, Power Automate, and Dataverse alongside Power BI. The combination that enterprise clients increasingly ask for.
 
 **Complete beginner:** start with **PL-900** to orient yourself before committing to an Associate exam.
 
 **Skip PL-400 and PL-600** unless you're in a development or architecture role.
 
-My plan is PL-300 first — it consolidates what I'm actively doing right now in Power BI. PL-200 follows as the consulting layer on top. PL-300 gives me the analyst credential. PL-200 gives me the consultant credential. Together they cover both sides of the work I want to do.
+My plan is PL-300 first. It consolidates what I'm actively doing right now in Power BI. PL-200 follows as the consulting layer on top. PL-300 gives me the analyst credential. PL-200 gives me the consultant credential. Together they cover both sides of the work I want to do.
 
 ---
 
@@ -215,26 +215,26 @@ All exams go through **Pearson VUE** via [learn.microsoft.com/credentials](https
 
 One important note: register with a **personal Microsoft account**, not a work or school account. If you leave the company, exam records tied to a work account become unrecoverable.
 
-Book a **physical test centre** over online proctoring if you can. The online software can be temperamental — connection issues, environment checks that fail on exam day. Given the preparation investment, it's worth removing that variable.
+Book a **physical test centre** over online proctoring if you can. The online software can be temperamental: connection issues, environment checks that fail on exam day. Given the preparation investment, it's worth removing that variable.
 
-And ask your employer to cover the $165 before paying yourself. Most companies have L&D budgets for exactly this, and Microsoft Partner organisations often have free exam vouchers available.
+And ask your employer to cover the $165 before paying yourself. Most companies have Learning & Development budgets for exactly this, and Microsoft Partner organizations often have free exam vouchers available.
 
 <div class="p-6 bg-[#3c6e71]/5 border-l-4 border-[#3c6e71] rounded-r-2xl my-8">
     <h4 class="text-white font-bold mb-2">📚 How I'm preparing</h4>
-    <p class="text-[#b0bfc0] text-sm">Microsoft Learn first — the official PL-300 learning path is free and built directly from the exam objectives. Then hands-on practice in a developer environment (the Power Apps Developer Plan is free). Practice tests in the final weeks. I'll write the post-exam report once I've sat it.</p>
+    <p class="text-[#b0bfc0] text-sm">Microsoft Learn first. The official PL-300 learning path is free and built directly from the exam objectives. Then hands-on practice in a developer environment (the Power Apps Developer Plan is free). Practice tests in the final weeks. I'll write the post-exam report once I've sat it.</p>
 </div>
 
 ---
 
 ## 🔑 The Takeaway
 
-The Microsoft ecosystem is broader than Tableau's — more credentials, more paths, more ways to differentiate. The flip side is it's easier to study for the wrong exam.
+The Microsoft ecosystem is broader than Tableau's: more credentials, more paths, more ways to differentiate. The flip side is it's easier to study for the wrong exam.
 
-Simple framework: **analyst → PL-300. Consultant → PL-300 then PL-200. Beginner → PL-900 first.** Regardless of which you choose — get hands-on before you open a practice test. These are not theory exams.
+Simple framework: **analyst → PL-300. Consultant → PL-300 then PL-200. Beginner → PL-900 first.** Regardless of which you choose, get hands-on before you open a practice test. These are not theory exams.
 
 <div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">Also preparing for a Power Platform exam?</h3>
-    <p class="text-[#b0bfc0] text-sm max-w-md mx-auto">Drop a comment below — I'd love to hear which certification you're targeting and how you're approaching it.</p>
+    <p class="text-[#b0bfc0] text-sm max-w-md mx-auto">Drop a comment below. I'd love to hear which certification you're targeting and how you're approaching it.</p>
     <a href="/blog/" class="inline-block bg-[#3c6e71] hover:bg-[#4a8e91] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm uppercase tracking-widest">
         See All Posts →
     </a>
