@@ -12,7 +12,7 @@ author: Tamas Szabo
 
 Full transparency: I don't hold any Power BI certifications yet. I'm preparing for PL-300 now, with PL-200 planned as my follow-up. I'm writing this publicly because the journey is just as useful to document as the destination.
 
-The Microsoft landscape is bigger and more complex than Tableau's. This is my attempt to map it clearly.
+The Microsoft landscape is bigger and more complex than [Tableau](https://tamasszabo.org/blog/tableau-certifications/)'s. This is my attempt to map it clearly.
 
 ---
 
