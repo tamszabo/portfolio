@@ -10,13 +10,13 @@ author: Tamas Szabo
 
 # 🗺️ How to Build a Europe Tile Map in Tableau
 
-If you've read my [USA Tile Map post](/blog/usa-tile-map/), you already know the concept: instead of plotting countries on a geographic map — where large countries visually dominate and small ones disappear — a tile map assigns every country an equal-sized cell on a grid, positioned to loosely mirror the real geography.
+If you've read my [USA Tile Map post](/blog/usa-tile-map/), you already know the concept: instead of plotting countries on a geographic map (where large countries visually dominate and small ones disappear) a tile map assigns every country an equal-sized cell on a grid, positioned to loosely mirror the real geography.
 
 For the USA, this is a solved problem. There are dozens of well-established tile map layouts used in TV broadcasts, political communications, and newsrooms. When you search for US state tile map coordinates in Tableau, you have plenty of options.
 
 **For Europe, the situation is completely different.**
 
-European tile map layouts are surprisingly rare. The continent is geographically irregular, with microstates (Monaco, Liechtenstein, Vatican City, San Marino), island nations (Cyprus, Malta, Iceland), and a non-rectangular overall shape that makes grid placement genuinely difficult. Getting a layout that feels geographically intuitive — where the viewer's spatial memory of Europe isn't confused by the tile positions — takes real iteration.
+European tile map layouts are surprisingly rare. The continent is geographically irregular, with microstates (Monaco, Liechtenstein, Vatican City, San Marino), island nations (Cyprus, Malta, Iceland), and a non-rectangular overall shape that makes grid placement genuinely difficult. Getting a layout that feels geographically intuitive (where the viewer's spatial memory of Europe isn't confused by the tile positions) takes real iteration.
 
 I spent several days working through this with colleagues, tweaking positions, comparing to the actual map, and adjusting until the layout felt right. This post shares the result: a 47-country European tile map with all five calculated fields, ready to drop into any Tableau workbook.
 
@@ -24,7 +24,7 @@ I spent several days working through this with colleagues, tweaking positions, c
 
 ## 🎯 The Viz That Started It All
 
-I used this tile map layout to visualise the Spartacus Gay Travel Index 2023 — a ranking of 47 European countries by their LGBTQ+ friendliness, based on 6 criteria including anti-discrimination laws, marriage equality, adoption rights, and local hostility levels.
+I used this tile map layout to visualize the Spartacus Gay Travel Index 2023: a ranking of 47 European countries by their LGBTQ+ friendliness, based on 6 criteria including anti-discrimination laws, marriage equality, adoption rights, and local hostility levels.
 
 The tile map was the right choice here for exactly the same reason it works for the USA: every country gets equal visual weight. Malta, Luxembourg, and Monaco are just as visible as France, Germany, and Ukraine.
 
@@ -68,13 +68,13 @@ The tile map was the right choice here for exactly the same reason it works for 
 
 ## ⚙️ The Five Calculated Fields
 
-The technique is identical to the [USA Tile Map approach](/blog/usa-tile-map/) — four coordinate calculations plus one bonus field for flag images. Create each one in Tableau via **Analysis → Create Calculated Field**.
+The technique is identical to the [USA Tile Map approach](/blog/usa-tile-map/): four coordinate calculations plus one bonus field for flag images. Create each one in Tableau via **Analysis → Create Calculated Field**.
 
 ---
 
-### Calculation 1 — Country Abbreviation
+### Calculation 1: Country Abbreviation
 
-Maps full country names to their ISO Alpha-2 country codes. Used as the tile label — two-letter codes keep tiles readable at any size.
+Maps full country names to their ISO Alpha-2 country codes. Used as the tile label. Two-letter codes keep tiles readable at any size.
 
 <details class="bg-[#252525] rounded-xl border border-[#3c6e71] p-4 my-6">
 <summary class="cursor-pointer font-bold text-[#4a8e91] hover:text-[#6aacaf] list-none flex justify-between items-center">
@@ -136,9 +136,9 @@ END</pre>
 
 ---
 
-### Calculation 2 — Country Name
+### Calculation 2: Country Name
 
-The reverse mapping — from country code to full name. Useful if your data source uses ISO codes rather than full names.
+The reverse mapping from country code to full name. Useful if your data source uses ISO codes rather than full names.
 
 <details class="bg-[#252525] rounded-xl border border-[#3c6e71] p-4 my-6">
 <summary class="cursor-pointer font-bold text-[#4a8e91] hover:text-[#6aacaf] list-none flex justify-between items-center">
@@ -200,9 +200,9 @@ END</pre>
 
 ---
 
-### Calculation 3 — Column (X coordinate)
+### Calculation 3: Column (X coordinate)
 
-Places each country along the horizontal axis. Values range from 0 (far west — Iceland, Ireland, Portugal) to 9 (far east — Bulgaria, Moldova, Russia, Türkiye).
+Places each country along the horizontal axis. Values range from 0 (far west: Iceland, Ireland, Portugal) to 9 (far east: Bulgaria, Moldova, Russia, Türkiye).
 
 <details class="bg-[#252525] rounded-xl border border-[#3c6e71] p-4 my-6">
 <summary class="cursor-pointer font-bold text-[#4a8e91] hover:text-[#6aacaf] list-none flex justify-between items-center">
@@ -264,7 +264,7 @@ END</pre>
 
 ---
 
-### Calculation 4 — Row (Y coordinate)
+### Calculation 4: Row (Y coordinate)
 
 Places each country along the vertical axis. Row 1 is the south (Malta, Cyprus, Greece), Row 13 is the far north (Iceland, Finland, Norway, Sweden).
 
@@ -328,11 +328,11 @@ END</pre>
 
 ---
 
-### Calculation 5 — Country Flags (Bonus)
+### Calculation 5: Country Flags (Bonus)
 
-This is the field that makes the viz stand out. Using a free open-source SVG flag library hosted on GitHub, each tile can display a circular country flag as a shape mark instead of — or alongside — the country code label.
+This is the field that makes the viz stand out. Using a free open-source SVG flag library hosted on GitHub, each tile can display a circular country flag as a shape mark instead of or alongside the country code label.
 
-The flags come from [hatscripts/circle-flags](https://github.com/HatScripts/circle-flags) — a clean, consistently styled circular flag set with good coverage including Kosovo (`xk`).
+The flags come from [hatscripts/circle-flags](https://github.com/HatScripts/circle-flags) a clean, consistently styled circular flag set with good coverage including Kosovo (`xk`).
 
 To use it: drag this calculated field to **Shape** on the Marks card and set the mark type to **Shape**. Then assign the URL field as a custom shape using Tableau's shape palette, or use it in a tooltip.
 
@@ -400,12 +400,12 @@ END</pre>
 
 Once all five fields are created, the build process is identical to the USA tile map:
 
-1. Drag **Column** to Columns and **Row** to Rows
-2. Right-click both pills → set to **Dimension** (not Measure)
-3. Change the mark type to **Square**
-4. Drag **Country Abbreviation** to **Label** — centre-align it
-5. Drag your metric to **Color**
-6. Right-click both axes → deselect **Show Header** to hide the numeric labels
+1. Drag **Column** to Columns and **Row** to Rows.
+2. Right-click both pills → set to **Dimension** (not Measure).
+3. Change the mark type to **Square**.
+4. Drag **Country Abbreviation** to **Label** and centre-align it.
+5. Drag your metric to **Color**.
+6. Right-click both axes → deselect **Show Header** to hide the numeric labels.
 
 <div class="p-6 bg-[#3c6e71]/5 border-l-4 border-[#3c6e71] rounded-r-2xl my-8">
     <h4 class="text-white font-bold mb-2">💡 Using the flag calculation</h4>
@@ -416,23 +416,23 @@ Once all five fields are created, the build process is identical to the USA tile
 
 ## 🤔 Why European Tile Maps Are Harder Than US Ones
 
-A few layout decisions worth explaining — because if you want to adapt this for your own use, understanding the tradeoffs helps.
+A few layout decisions worth explaining because if you want to adapt this for your own use, understanding the tradeoffs helps.
 
-**The microstate problem.** Monaco, Liechtenstein, San Marino, and Vatican City all need their own tile despite being smaller than most cities. Placing them on the grid requires finding positions that don't displace their larger neighbours. These were some of the hardest positions to finalise — they kept pushing Italy, France, and Switzerland out of plausible locations.
+**The microstate problem.** Monaco, Liechtenstein, San Marino, and Vatican City all need their own tile despite being smaller than most cities. Placing them on the grid requires finding positions that don't displace their larger neighbours. These were some of the hardest positions to finalize they kept pushing Italy, France, and Switzerland out of plausible locations.
 
-**Iceland and the Atlantic fringe.** Iceland sits at Column 0, Row 13 — the top-left corner. It's geographically accurate in relative terms but feels visually isolated in a way that Alaska never does on a US tile map, because Alaska at least sits adjacent to the continental grid. Ireland and the UK also sit at Column 0–1, which compresses the western fringe significantly.
+**Iceland and the Atlantic fringe.** Iceland sits at Column 0, Row 13 in the top-left corner. It's geographically accurate in relative terms but feels visually isolated in a way that Alaska never does on a US tile map, because Alaska at least sits adjacent to the continental grid. Ireland and the UK also sit at Column 0–1, which compresses the western fringe significantly.
 
-**The Balkans.** The western Balkans pack six countries (Slovenia, Croatia, Bosnia, Montenegro, Serbia, North Macedonia) into a narrow geographic band. Getting their relative positions to feel right took the most iterations. The current layout isn't perfect — no layout can be when this many small countries share borders — but it preserves the north-to-south sequence reliably.
+**The Balkans.** The western Balkans pack six countries (Slovenia, Croatia, Bosnia, Montenegro, Serbia, North Macedonia) into a narrow geographic band. Getting their relative positions to feel right took the most iterations. The current layout isn't perfect. Nno layout can be when this many small countries share borders but it preserves the north-to-south sequence reliably.
 
-**Russia.** Russia is geographically enormous but only gets one tile. Its placement at Column 9, Row 8 puts it roughly where its European territory sits — east of the Baltic states and Ukraine — while acknowledging it can't represent the full country.
+**Russia.** Russia is geographically enormous but only gets one tile. Its placement at Column 9, Row 8 puts it roughly where its European territory sits: east of the Baltic states and Ukraine while acknowledging it can't represent the full country.
 
 ---
 
 ## 🔑 The Key Insight
 
-The lack of established European tile map layouts isn't a technical limitation — it's a gap that simply hasn't been filled. The US layout has been iterated on by newsrooms and data journalists for over a decade. Europe hasn't had the same investment.
+The lack of established European tile map layouts isn't a technical limitation. It's a gap that simply hasn't been filled. The US layout has been iterated on by newsrooms and data journalists for over a decade. Europe hasn't had the same investment.
 
-This layout covers all 47 countries I needed for the Spartacus dataset. If you're working with a subset — EU members only, Western Europe, or a different regional cut — you can drop the irrelevant countries and the grid will still hold its shape.
+This layout covers all 47 countries I needed for the Spartacus dataset. If you're working with a subset (EU members only, Western Europe, or a different regional cut) you can drop the irrelevant countries and the grid will still hold its shape.
 
 Copy the calculations, adapt the coordinates if you need to, and share what you build.
 
