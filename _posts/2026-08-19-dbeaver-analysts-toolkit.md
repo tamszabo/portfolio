@@ -4,7 +4,7 @@ title: "DBeaver: The SQL Client I've Used Since Day One"
 date: 2026-08-19
 image: "/assets/images/15-dbeaver-analysts-toolkit-header.png"
 categories: [Career, Data Analysis, Open Source]
-description: "DBeaver is the open source SQL client I've used since day one. Here's why it's earned that loyalty — plus an honest look at Beekeeper Studio and DbGate, two newer alternatives worth knowing."
+description: "DBeaver is the open source SQL client I've used since day one. Here's why it's earned that loyalty plus an honest look at Beekeeper Studio and DbGate, two newer alternatives worth knowing."
 series: "The Analyst's Toolkit"
 series_part: 6
 author: Tamas Szabo
