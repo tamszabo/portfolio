@@ -65,7 +65,7 @@ LEFT JOIN products p ON o.product_id = p.id
 WHERE o.status = 'completed'
 ```
 
-Notice I use **LEFT JOIN**, not just *JOIN*. This is intentional and important. A regular *JOIN* (also called an *INNER JOIN*) will silently drop any row from your main table that doesn't have a match in the joined table. In practice, this turns your join into an accidental filter and you might not even notice it in the results.
+Notice I use **LEFT JOIN**, not just **JOIN**. This is intentional and important. A regular **JOIN** (also called an *INNER JOIN*) will silently drop any row from your main table that doesn't have a match in the joined table. In practice, this turns your join into an accidental filter and you might not even notice it in the results.
 
 With **LEFT JOIN**, all rows from the main table are preserved. If there's no match in the joined table, you get a *NULL* instead of a missing row. That's a much safer default, and it makes data gaps visible rather than hiding them.
 
@@ -75,7 +75,7 @@ The join conditions and the filters live in separate, predictable places. Anyone
 
 ## 🏷️ Meaningful table aliases, not alphabet soup
 
-Closely related: if you're aliasing your tables *a*, *b*, *c*, *d*, I promise your colleagues are not thanking you for it.
+Closely related: if you're aliasing your tables **a**, **b**, **c**, **d**, I promise your colleagues are not thanking you for it.
 
 When a query has four or five tables, single-letter aliases tell you nothing. You're constantly scrolling back up to remember what *b* was. Instead, I use short but descriptive abbreviations based on the table name:
 
@@ -85,7 +85,7 @@ LEFT JOIN sales_funnel sf ON ai.account_id = sf.account_id
 LEFT JOIN product_catalog pc ON sf.product_id = pc.id
 ```
 
-*ai*, *sf*, *pc*: you don't need to look these up. They carry enough context to be self-explanatory throughout the query. Two or three characters is usually the sweet spot.
+**ai**, **sf**, **pc**: you don't need to look these up. They carry enough context to be self-explanatory throughout the query. Two or three characters is usually the sweet spot.
 
 ---
 
