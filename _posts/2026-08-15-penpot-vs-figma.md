@@ -13,7 +13,7 @@ author: Tamas Szabo
 
 This post is also a small manifesto. I've become genuinely passionate about open source software lately, and **Penpot** is one of the most exciting examples of what open source can look like when it's done right.
 
-If you've followed this series, you know I've been building my design workflow around a small set of tools: **Figma** for wireframing and layout, **Coolors** for colour palette building, and **Tableau Public** for the actual visualizations. Today I want to introduce a tool that's been sitting in the back of my mind for a while — Penpot — and talk honestly about why I haven't fully switched to it yet, even though I really want to.
+If you've followed this series, you know I've been building my design workflow around a small set of tools: **Figma** for wireframing and layout, **Coolors** for colour palette building, and **Tableau Public** for the actual visualizations. Today I want to introduce a tool that's been sitting in the back of my mind for a while and talk honestly about why I haven't fully switched to it yet, even though I really want to.
 
 ---
 
@@ -35,14 +35,14 @@ Let's be honest. Figma is the industry standard for good reason.
 
 It's fast, polished, and the collaboration experience is genuinely excellent. Real-time multiuser editing, comments, design tokens, a mature component system, and a plugin ecosystem with a solution for almost every niche need. Every designer you hire already knows it, every plugin you might want already exists, and every design system reference you find online ships as a Figma library.
 
-For analysts using Figma to frame dashboards — sketching layouts, defining colour systems, wireframing before building in Tableau — it's a smooth, friction-free experience. The auto-layout system is powerful, and once you've internalised how it works, it's genuinely fast to use.
+For analysts using Figma to frame dashboards — sketching layouts, defining colour systems, wireframing before building in Tableau: it's a smooth, friction-free experience. The auto-layout system is powerful, and once you've internalized how it works, it's genuinely fast to use.
 
 The tradeoff? As a publicly traded company, Figma is now under pressure to grow revenue. Price hikes, feature paywalling, and shifting priorities are real risks for any tool that's gone from an independent startup to a listed company.
 ---
 
 ## 🌱 What Penpot Does Well
 
-Penpot is no longer just an "open source alternative." With the release of Penpot 2.0, it has become a mature tool that offers features Figma still doesn't have like true CSS Grid. For analysts, that might sound like a developer concern, but it matters for layout precision.
+Penpot is no longer just an open source alternative. With the release of Penpot 2.0, it has become a mature tool that offers features Figma still doesn't have like true CSS Grid. For analysts, that might sound like a developer concern, but it matters for layout precision.
 
 A few things Penpot genuinely gets right:
 
