@@ -31,6 +31,22 @@ permalink: /cv/
 <section class="space-y-12">
     <h2 class="text-xs font-black uppercase tracking-[0.2em] text-[#3c6e71] mb-8">Professional Experience</h2>
 
+    <!-- Career Break -->
+    <div class="relative pl-14">
+        <div class="absolute left-0 top-1 w-12 h-12 bg-[#1a1a1a] rounded-md border border-[#3c6e71] shadow-sm flex items-center justify-center">
+            <span class="text-xl">🌱</span>
+        </div>
+        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+            <h3 class="text-lg font-bold text-white">Career Break</h3>
+            <span class="text-sm font-mono text-[#8a9a9b]">08/2025 — 07/2026</span>
+        </div>
+        <p class="text-[#4a8e91] text-sm font-semibold mb-3 italic">Career Transition | AI Upskilling & Personal Projects</p>
+        <ul class="list-disc list-outside ml-4 space-y-2 text-[#b0bfc0] text-sm">
+            <li><strong>AI Upskilling:</strong> Dedicated focused time to hands-on AI tooling and workflows, building practical fluency ahead of transitioning into a new field.</li>
+            <li><strong>Personal Project:</strong> Designed and built a personal website end-to-end using AI-assisted development, from concept through deployment.</li>
+        </ul>
+    </div>
+    
     <!-- Hyundai -->
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-12 h-12 bg-white rounded-md overflow-hidden border border-[#3c6e71] shadow-sm flex items-center justify-center">
