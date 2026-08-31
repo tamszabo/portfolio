@@ -33,7 +33,7 @@ permalink: /cv/
 
     <!-- Career Break -->
     <div class="relative pl-14">
-        <div class="absolute left-0 top-1 w-12 h-12 bg-[#1a1a1a] rounded-md border border-[#3c6e71] shadow-sm flex items-center justify-center">
+        <div class="absolute left-0 top-1 w-12 h-12 rounded-md border border-[#3c6e71] shadow-sm flex items-center justify-center">
             <span class="text-xl">🌱</span>
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
