@@ -24,13 +24,31 @@ permalink: /cv/
         </div>
     </div>
     <p class="text-[#b0bfc0] leading-relaxed italic border-l-2 border-[#3c6e71] pl-4">
-        Senior Data Analyst with over 8 years of experience driving executive decision-making within international corporate environments. Proven track record of translating complex datasets into actionable business insights for C-level stakeholders across multiple European markets. Expert in bridging the gap between Business and IT through strategic KPI frameworks and cross-functional leadership.
+        Senior Data Analyst with over 9 years of experience driving executive decision-making within international corporate environments. Proven track record of translating complex datasets into actionable business insights for C-level stakeholders across multiple European markets. Expert in bridging the gap between Business and IT through strategic KPI frameworks and cross-functional leadership.
     </p>
 </section>
 
 <section class="space-y-12">
     <h2 class="text-xs font-black uppercase tracking-[0.2em] text-[#3c6e71] mb-8">Professional Experience</h2>
 
+    <!-- Pay10 EU -->
+    <div class="relative pl-14">
+        <div class="absolute left-0 top-1 w-12 h-12 bg-white rounded-md overflow-hidden border border-[#3c6e71] shadow-sm flex items-center justify-center">
+            <img src="{{ '/assets/logos/pay10-logo.png' | relative_url }}" alt="Pay10 EU" class="max-w-full max-h-full object-contain">
+        </div>
+        <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+            <h3 class="text-lg font-bold text-white">Pay10 EU</h3>
+            <span class="text-sm font-mono text-[#8a9a9b]">08/2026 — Present</span>
+        </div>
+        <p class="text-[#4a8e91] text-sm font-semibold mb-3 italic">Financial Specialist | Budapest, Hungary</p>
+        <ul class="list-disc list-outside ml-4 space-y-2 text-[#b0bfc0] text-sm">
+            <li><strong>BI Solution Development:</strong> Build and maintain Business Intelligence solutions, supporting reporting-related projects across the organization.</li>
+            <li><strong>Regulatory Reporting:</strong> Prepare and validate regulatory and statutory reports - including central bank (Magyar Nemzeti Bank) reporting - while maintaining data quality controls and supporting audits and inspections.</li>
+            <li><strong>Stakeholder Collaboration:</strong> Partner with stakeholders to gather reporting requirements and support forecasting, budgeting, and performance analysis.</li>
+            <li><strong>Reporting Automation:</strong> Run complex queries and analysis, automate reporting processes, and deliver regular and ad-hoc insights for management decision-making.</li>
+        </ul>
+    </div>
+    
     <!-- Career Break -->
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-12 h-12 rounded-md border border-[#3c6e71] shadow-sm flex items-center justify-center">
