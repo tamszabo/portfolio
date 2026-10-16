@@ -4,15 +4,10 @@ title: Resume
 permalink: /cv/
 ---
 
-
 <div class="flex justify-between items-center mb-10 pb-4 border-b border-[#2a2a2a]">
     <h1 class="text-3xl font-black text-white uppercase tracking-tighter">
         Tamas <span class="text-[#3c6e71]">Szabo</span>
     </h1>
-    <a href="{{ '/assets/tamas-szabo-cv.pdf' | relative_url }}" download
-       class="text-xs font-bold uppercase tracking-widest text-[#8a9a9b] hover:text-[#4a8e91] transition border border-[#2a2a2a] px-4 py-2 rounded-lg">
-        ↓ Download PDF
-    </a>
 </div>
 
 <section class="mb-12">
