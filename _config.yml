@@ -20,8 +20,6 @@ author:
 twitter:
   card: summary_large_image
 
-google_analytics: "G-69T22XTBL3"
-
 # Build settings
 plugins:
   - jekyll-feed
