@@ -8,6 +8,8 @@ description: "In 2020, The Last Dance reignited my love for the NBA. It sent me 
 author: Tamas Szabo
 ---
 
+# The Last Dance reignited my love for the NBA
+
 *In the spring of 2020, the world stopped, but the 72-10 Chicago Bulls started running again on my screen. I didn't know then that a documentary would reconstruct my entire relationship with the sport.*
 
 ---
