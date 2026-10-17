@@ -19,7 +19,7 @@ permalink: /cv/
         </div>
     </div>
     <p class="text-[#b0bfc0] leading-relaxed italic border-l-2 border-[#3c6e71] pl-4">
-        Senior Data Analyst with over 9 years of experience driving executive decision-making within international corporate environments. Proven track record of translating complex datasets into actionable business insights for C-level stakeholders across multiple European markets. Expert in bridging the gap between Business and IT through strategic KPI frameworks and cross-functional leadership.
+        Senior Data Analyst with over 8 years of experience driving executive decision-making within international corporate environments. Proven track record of translating complex datasets into actionable business insights for C-level stakeholders across multiple European markets. Expert in bridging the gap between Business and IT through strategic KPI frameworks and cross-functional leadership.
     </p>
 </section>
 
