@@ -39,7 +39,7 @@ permalink: /blog/
                 </h2>
                 
                 <p class="text-[#b0bfc0] text-sm leading-relaxed max-w-2xl">
-                    {{ post.excerpt | strip_html | truncate: 160 }}
+                    {{ post.description | default: post.excerpt | strip_html | truncate: 160 }}
                 </p>
 
                 {% if post.categories %}
