@@ -5,15 +5,13 @@ permalink: /privacy/
 description: "Privacy policy for tamasszabo.org — what data is collected, how it's used, and your rights under GDPR."
 ---
 
-<div class="max-w-3xl">
-
-<header class="mb-12">
+<header class="mb-12 max-w-3xl">
     <p class="text-[#4a8e91] font-black text-xs uppercase tracking-[0.3em] mb-4">Legal</p>
     <h1 class="text-5xl font-black text-white tracking-tight italic uppercase mb-4">Privacy Policy</h1>
     <p class="text-[#8a9a9b] text-sm font-mono">Last updated: October 2026</p>
 </header>
 
-<div class="prose prose-invert prose-teal max-w-none prose-headings:text-white prose-headings:font-black prose-p:text-[#b0bfc0] prose-strong:text-[#4a8e91] prose-a:text-[#4a8e91] prose-li:text-[#b0bfc0]">
+<div class="prose prose-invert prose-teal max-w-3xl prose-headings:text-white prose-headings:font-black prose-p:text-[#b0bfc0] prose-strong:text-[#4a8e91] prose-a:text-[#4a8e91] prose-li:text-[#b0bfc0]" markdown="1">
 
 ## Who is responsible
 
@@ -109,5 +107,5 @@ If you accept analytics, Google Analytics may set its own cookies in your browse
 ## Changes to this policy
 
 If I make material changes, I will update the "Last updated" date at the top of this page. I won't notify you individually, so check back if you're curious.
-</div>
+
 </div>
