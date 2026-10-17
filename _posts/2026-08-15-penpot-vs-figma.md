@@ -9,7 +9,7 @@ series: "The Analyst's Toolkit"
 series_part: 5
 author: Tamas Szabo
 ---
-# 🛠 The Analyst's Toolkit IV.
+# 🛠 The Analyst's Toolkit V.
 
 This post is also a small manifesto. I've become genuinely passionate about open source software lately, and **Penpot** is one of the most exciting examples of what open source can look like when it's done right.
 
