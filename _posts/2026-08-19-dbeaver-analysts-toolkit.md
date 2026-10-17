@@ -9,7 +9,7 @@ series: "The Analyst's Toolkit"
 series_part: 6
 author: Tamas Szabo
 ---
-# 🦫 The Analyst's Toolkit V.
+# 🦫 The Analyst's Toolkit VI.
 
 Some tools you try, evaluate, and move on from. DBeaver isn't one of those tools.
 
