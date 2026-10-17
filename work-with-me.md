@@ -223,7 +223,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
             Send Message →
         </button>
 
-        <p class="text-[#8a9a9b] text-xs">I respond within 1 business day. Your details are never shared with third parties.</p>
+        <p class="text-[#8a9a9b] text-xs">I respond within 1 business day. Your details are processed by Formspree (my form provider) and delivered to my inbox. See the <a href="/privacy/" class="text-[#4a8e91] hover:underline">privacy policy</a>.</p>
 
     </form>
 </section>
