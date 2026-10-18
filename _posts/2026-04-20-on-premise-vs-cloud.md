@@ -23,9 +23,9 @@ Ask most business leaders why they prefer on-premise infrastructure, and securit
 
 This is one of the most persistent myths in enterprise technology and it can be a genuinely dangerous one.
 
-Consider who is responsible for the security of your on-premise server. Your internal IT team. Maybe a handful of people, generalists at best, with limited specialization in cybersecurity. Now consider who is responsible for securing Amazon Web Services, Google Cloud, or Microsoft Azure. Teams of thousands of the best cybersecurity experts in the world, whose entire job and whose company's entire reputation depends on keeping those systems safe. They are running penetration tests, patching vulnerabilities, and monitoring threats around the clock at a scale no single company's IT department could ever match.
+Consider who is responsible for the security of your on-premise server. Your internal IT team. Maybe a handful of people, generalists at best, with limited specialization in cybersecurity. Now consider who is responsible for securing Amazon Web Services, Google Cloud, or Microsoft Azure. Large teams of dedicated security specialists, whose entire job and whose company's entire reputation depends on keeping those systems safe. They are running penetration tests, patching vulnerabilities, and monitoring threats around the clock at a scale few companies' IT departments can match.
 
-Cloud providers invest more in security in a single quarter than most companies spend in a decade.
+For most organizations, no in-house team can realistically match the security investment of a major cloud provider.
 
 But here's the more important point: the most common way organizations get compromised isn't through their infrastructure at all. It's through people.
 
@@ -97,6 +97,22 @@ On-premise will always be playing catch-up here. You can't buy hardware fast eno
 
 ---
 
+## 🌍 Data sovereignty: the question security doesn't answer
+
+For European organizations in particular, "is it secure?" is only half of the question. The other half is "whose laws apply to this data?"
+
+Storing data in an EU region of a US-owned provider does not automatically settle that. US providers can be subject to US legal requests (for example under the CLOUD Act) regardless of where the servers physically sit. The rules for transatlantic data transfers have also changed several times, from Safe Harbor to Privacy Shield to the current EU-US Data Privacy Framework, and the first two were struck down in court. Whether the current one holds is not something anyone can promise you.
+
+That doesn't make cloud the wrong choice. It means the legal question has to be asked alongside the technical one, and the answer can shift the decision in different ways:
+
+- **EU-based or sovereign cloud offerings**, where the provider and its legal entity sit in the EU.
+- **Customer-controlled encryption keys**, so access to your data depends on keys you hold, ideally outside the provider.
+- **On-premise or private hosting** for the most sensitive workloads, kept separate from everything else.
+
+For many analytics workloads this is a short conversation with your legal and compliance team. For regulated or politically sensitive data, it can be the deciding factor.
+
+---
+
 ## 🏛️ So when does on-premise still make sense?
 
 It would be dishonest to pretend cloud is always the right answer. There are legitimate scenarios where on-premise infrastructure remains the better choice:
@@ -105,7 +121,7 @@ It would be dishonest to pretend cloud is always the right answer. There are leg
 - **Significant existing investment**: some organizations have already invested so heavily in on-premise infrastructure that the migration cost and disruption outweighs the benefits of switching.
 - **Extremely stable, predictable workloads**: in rare cases, very high-volume but highly predictable workloads can be cheaper to run on owned hardware than on cloud subscriptions.
 
-These are exceptions, not the rule. And even in regulated industries, cloud providers have invested heavily in compliance certifications and data sovereignty solutions that are closing this gap rapidly.
+These are exceptions, not the rule. And even in regulated industries, cloud providers have invested heavily in compliance certifications and sovereignty options, which narrow this gap, though how far depends on your specific legal requirements.
 
 ---
 
@@ -129,6 +145,7 @@ The on-premise versus cloud debate is often framed as a technology question. It 
             <li>"What is the true total cost, including maintenance, staffing, and hardware replacement?"</li>
             <li>"How fast do we need to scale, and can our infrastructure keep pace?"</li>
             <li>"What is our actual security posture?"</li>
+            <li>"Whose laws and courts apply to our data, wherever it is stored?"</li>
             <li>"What would we do with the resources we currently spend on infrastructure management?"</li>
         </ul>
     </div>

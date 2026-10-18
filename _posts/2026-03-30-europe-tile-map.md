@@ -403,7 +403,7 @@ Once all five fields are created, the build process is identical to the USA tile
 1. Drag **Column** to Columns and **Row** to Rows.
 2. Right-click both pills → set to **Dimension** (not Measure).
 3. Change the mark type to **Square**.
-4. Drag **Country Abbreviation** to **Label** and centre-align it.
+4. Drag **Country Abbreviation** to **Label** and center-align it.
 5. Drag your metric to **Color**.
 6. Right-click both axes → deselect **Show Header** to hide the numeric labels.
 
@@ -418,7 +418,7 @@ Once all five fields are created, the build process is identical to the USA tile
 
 A few layout decisions worth explaining because if you want to adapt this for your own use, understanding the tradeoffs helps.
 
-**The microstate problem.** Monaco, Liechtenstein, San Marino, and Vatican City all need their own tile despite being smaller than most cities. Placing them on the grid requires finding positions that don't displace their larger neighbours. These were some of the hardest positions to finalize they kept pushing Italy, France, and Switzerland out of plausible locations.
+**The microstate problem.** Monaco, Liechtenstein, San Marino, and Vatican City all need their own tile despite being smaller than most cities. Placing them on the grid requires finding positions that don't displace their larger neighbors. These were some of the hardest positions to finalize they kept pushing Italy, France, and Switzerland out of plausible locations.
 
 **Iceland and the Atlantic fringe.** Iceland sits at Column 0, Row 13 in the top-left corner. It's geographically accurate in relative terms but feels visually isolated in a way that Alaska never does on a US tile map, because Alaska at least sits adjacent to the continental grid. Ireland and the UK also sit at Column 0–1, which compresses the western fringe significantly.
 

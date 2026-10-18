@@ -49,7 +49,7 @@ Here's what keeps me coming back:
 
 * **It connects to everything.** PostgreSQL, MySQL, SQL Server, Oracle, Snowflake, BigQuery, SQLite. If you've heard of it, DBeaver connects to it. As an analyst moving across projects and clients, this matters enormously. I don't need a different tool for every database flavour.
 * **The SQL editor is exceptional.** Autocomplete, syntax highlighting, script management, execution plans, everything you need to write and debug complex queries comfortably.
-* **ER diagrams out of the box.** Being able to visualise table relationships visually without a separate tool is a genuine time-saver, especially when you're onboarding to a new database you've never seen before.
+* **ER diagrams out of the box.** Being able to visualize table relationships visually without a separate tool is a genuine time-saver, especially when you're onboarding to a new database you've never seen before.
 * **It has never failed me.** Not once. That sounds like a low bar, but stability in a tool you use every single day is everything.
 * **The community is enormous.** Millions of users, a thriving GitHub, and documentation that actually answers your questions. If you hit a problem with DBeaver, someone else has hit it before you and documented the solution.
 

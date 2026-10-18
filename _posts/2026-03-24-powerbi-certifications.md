@@ -88,7 +88,7 @@ There are five certifications worth knowing in the Power BI and Power Platform s
             </div>
             <div class="bg-[#252525] rounded-xl p-4 border border-[#2a2a2a]">
                 <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
-                <p class="text-[#b0bfc0] text-sm">Practising analysts — the credential with the most employer recognition in the BI space</p>
+                <p class="text-[#b0bfc0] text-sm">Practicing analysts — the credential with the most employer recognition in the BI space</p>
             </div>
         </div>
     </div>
@@ -189,7 +189,7 @@ There are five certifications worth knowing in the Power BI and Power Platform s
 
 ## 💡 One Big Advantage Over Tableau: Free Annual Renewal
 
-Microsoft Associate and Expert certifications require annual renewal, but it's a free online assessment (Fundamentals certifications like PL-900 don't expire at all) on Microsoft Learn, not a full retake. 30–45 minutes, no exam centre, no fee.
+Microsoft Associate and Expert certifications require annual renewal, but it's a free online assessment (Fundamentals certifications like PL-900 don't expire at all) on Microsoft Learn, not a full retake. 30–45 minutes, no exam center, no fee.
 
 Compare that to Tableau's $200 retake every two years. If you hold multiple Microsoft credentials simultaneously, that difference adds up fast.
 
@@ -197,7 +197,7 @@ Compare that to Tableau's $200 retake every two years. If you hold multiple Micr
 
 ## 🎯 Which One to Target and My Plan
 
-**Analyst focused on dashboards:** start with **PL-300**. Most recognised, most relevant to daily work, highest employer demand.
+**Analyst focused on dashboards:** start with **PL-300**. Most recognized, most relevant to daily work, highest employer demand.
 
 **Consultant wanting full ecosystem breadth:** follow PL-300 with **PL-200**. It covers Power Apps, Power Automate, and Dataverse alongside Power BI. The combination that enterprise clients increasingly ask for.
 
@@ -215,7 +215,7 @@ All exams go through **Pearson VUE** via [learn.microsoft.com/credentials](https
 
 One important note: register with a **personal Microsoft account**, not a work or school account. If you leave the company, exam records tied to a work account become unrecoverable.
 
-Book a **physical test centre** over online proctoring if you can. The online software can be temperamental: connection issues, environment checks that fail on exam day. Given the preparation investment, it's worth removing that variable.
+Book a **physical test center** over online proctoring if you can. The online software can be temperamental: connection issues, environment checks that fail on exam day. Given the preparation investment, it's worth removing that variable.
 
 And ask your employer to cover the $165 before paying yourself. Most companies have Learning & Development budgets for exactly this, and Microsoft Partner organizations often have free exam vouchers available.
 

@@ -30,16 +30,16 @@ For analysts who want professional-looking dashboards without a dual-track Figma
 
 ---
 
-## 📊 Data Modelling: Tableau Is More Limiting Than People Admit
+## 📊 Data Modeling: Tableau Is More Limiting Than People Admit
 
-Here's where I'll say something that might be controversial among Tableau advocates: Power BI's data modelling capabilities are stronger for most enterprise use cases.
+Here's where I'll say something that might be controversial among Tableau advocates: Power BI's data modeling capabilities are stronger for most enterprise use cases.
 
 The ability to **create a new table directly inside Power BI** without leaving the tool is something Tableau simply cannot match cleanly. In Tableau, if you need a date dimension, a parameter list, or a simple lookup table, you have to build a skeleton Excel file and add it as a separate data source. It works, but it adds friction, creates a dependency on an external file, and is easy to break when someone moves a folder.
 
-In Power BI, you open the data view, write a DAX expression, and the table exists. It's a fundamentally better experience for data modelling work.
+In Power BI, you open the data view, write a DAX expression, and the table exists. It's a fundamentally better experience for data modeling work.
 
 <div class="p-6 bg-[#3c6e71]/5 border-l-4 border-[#3c6e71] rounded-r-2xl my-8">
-    <h4 class="text-white font-bold mb-2">My favourite Power BI feature</h4>
+    <h4 class="text-white font-bold mb-2">My favorite Power BI feature</h4>
     <p class="text-[#b0bfc0] text-sm">Creating calculated tables natively. In Tableau, building a date spine or a list of values requires an external Excel file as a scaffold. In Power BI you write a simple DAX expression like <code>CALENDAR(DATE(2020,1,1), DATE(2026,12,31))</code> and the table is there instantly, inside the model. No external files. No broken data source paths. Clean.</p>
 </div>
 
@@ -88,11 +88,11 @@ Tableau's calculated fields are more readable, closer to natural language, and f
 
 ## 💰 The Pricing Reality
 
-Power BI's pricing is genuinely more accessible, especially for small to mid-size companies. A Power BI Pro licence costs around $10–14/user/month. Tableau Creator licences run closer to $75/user/month — a 5–7x difference.
+Power BI's pricing is genuinely more accessible, especially for small to mid-size companies. A Power BI Pro license costs around $10–14/user/month. Tableau Creator licenses run closer to $75/user/month — a 5–7x difference.
 
-For an individual analyst learning the tools, Power BI Desktop is completely free to download and use locally. Tableau Desktop requires a paid licence for professional use (though Tableau Public is free for public-facing work).
+For an individual analyst learning the tools, Power BI Desktop is completely free to download and use locally. Tableau Desktop requires a paid license for professional use (though Tableau Public is free for public-facing work).
 
-At enterprise scale, the picture becomes more nuanced. Power BI's capacity model means that once a certain subscription tier is in place, read-only report consumers no longer need individual licences. Tableau's per-user model scales linearly with headcount. For large organizations with many viewers relative to creators, Power BI's total cost of ownership is almost always lower.
+At enterprise scale, the picture becomes more nuanced. Power BI's capacity model means that once a certain subscription tier is in place, read-only report consumers no longer need individual licenses. Tableau's per-user model scales linearly with headcount. For large organizations with many viewers relative to creators, Power BI's total cost of ownership is almost always lower.
 
 ---
 

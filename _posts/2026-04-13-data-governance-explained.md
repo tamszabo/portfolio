@@ -13,7 +13,7 @@ tags: [data-governance, data-quality, analytics, kpi, data-management, enterpris
 
 **What is a lead?**
 
-At first it sounds like a simple question. But during my time working with Hyundai, this became a running joke. Ask ten people across ten countries and you'd get ten different answers. Some markets counted a test drive request as a lead. Others required a signed interest form. Some included online enquiries; others didn't. Nobody was wrong exactly. They just had different data, different processes, and no shared definition forcing them to align.
+At first it sounds like a simple question. But during my time working with Hyundai, this became a running joke. Ask ten people across ten countries and you'd get ten different answers. Some markets counted a test drive request as a lead. Others required a signed interest form. Some included online inquiries; others didn't. Nobody was wrong exactly. They just had different data, different processes, and no shared definition forcing them to align.
 
 That's a data governance problem. And in my experience, it's far more common than most organizations want to admit.
 

@@ -24,7 +24,7 @@ I hope this article gives you more insights about the exam.
 
 Before we get into the certifications themselves, one important context update: Tableau is now fully part of Salesforce. The certifications have been rebranded accordingly. They're now called **Salesforce Certified Tableau** credentials, administered through **Trailhead Academy** rather than the old Tableau certification portal.
 
-If you've seen older guides referring to "Tableau Desktop Certified Associate" or "Tableau Desktop Qualified Associate," those names no longer exist. The current programme has five certifications, cleanly tiered by role and experience level.
+If you've seen older guides referring to "Tableau Desktop Certified Associate" or "Tableau Desktop Qualified Associate," those names no longer exist. The current program has five certifications, cleanly tiered by role and experience level.
 
 ---
 
@@ -56,7 +56,7 @@ If you've seen older guides referring to "Tableau Desktop Certified Associate" o
             </div>
             <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
                 <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
-                <p class="text-[#b0bfc0] text-sm">Anyone new to Tableau wanting to formalise foundational skills</p>
+                <p class="text-[#b0bfc0] text-sm">Anyone new to Tableau wanting to formalize foundational skills</p>
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@ If you've seen older guides referring to "Tableau Desktop Certified Associate" o
             </div>
             <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
                 <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
-                <p class="text-[#b0bfc0] text-sm">Practising analysts who want the credential that carries the most weight with employers</p>
+                <p class="text-[#b0bfc0] text-sm">Practicing analysts who want the credential that carries the most weight with employers</p>
             </div>
         </div>
     </div>
@@ -186,7 +186,7 @@ If you've seen older guides referring to "Tableau Desktop Certified Associate" o
 
 ## Which One Should You Get?
 
-**If you're a practising analyst:** go straight for the **Tableau Data Analyst** (DA-201). It's the credential that has the most name recognition with employers and clients, it tests real analytical depth rather than just product familiarity, and passing it signals genuine competence. The Desktop Foundations is a stepping stone. Useful if you're genuinely new to Tableau, but not something that carries weight on a senior CV on its own.
+**If you're a practicing analyst:** go straight for the **Tableau Data Analyst** (DA-201). It's the credential that has the most name recognition with employers and clients, it tests real analytical depth rather than just product familiarity, and passing it signals genuine competence. The Desktop Foundations is a stepping stone. Useful if you're genuinely new to Tableau, but not something that carries weight on a senior CV on its own.
 
 **If you're just starting out with Tableau:** start with **Desktop Foundations**. At $100 with no expiry, the risk-reward is excellent. Use it to build confidence, then move to Data Analyst once you have six months of hands-on experience behind you.
 
@@ -236,7 +236,7 @@ The hands-on questions in these exams test whether you can actually do things in
 
 My colleagues at Starschema who sat the exam online ran into technical issues: proctoring software problems, connection drops, screen-sharing conflicts. It cost them time and stress they didn't need on exam day.
 
-I booked a physical test center through Pearson VUE instead, and the experience was completely smooth. You turn up, sit down, and focus entirely on the exam. For something you've spent weeks preparing for, that peace of mind is worth the slight inconvenience of travelling to a center.
+I booked a physical test center through Pearson VUE instead, and the experience was completely smooth. You turn up, sit down, and focus entirely on the exam. For something you've spent weeks preparing for, that peace of mind is worth the slight inconvenience of traveling to a center.
 
 **Who pays for it: always ask your employer first**
 
@@ -287,7 +287,7 @@ The certification itself won't land you a job or a client. What it does is remov
 
 For consultants specifically, it's a trust signal that costs $100 once and never expires. The return on that investment compounds over every engagement where it appears on your proposal.
 
-The most important thing I'd say, though, is this: the certification validates skills you should already have. Build the skills first through real projects, Tableau Public, and Makeover Monday. Then take the exam to formalise what you already know.
+The most important thing I'd say, though, is this: the certification validates skills you should already have. Build the skills first through real projects, Tableau Public, and Makeover Monday. Then take the exam to formalize what you already know.
 
 <div class="not-prose mt-12 p-8 bg-[#3c6e71]/5 border border-[#3c6e71]/20 rounded-3xl text-center space-y-4">
     <h3 class="text-white font-bold text-xl">Questions about the certification process?</h3>
