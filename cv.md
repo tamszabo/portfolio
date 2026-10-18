@@ -135,7 +135,7 @@ permalink: /cv/
         <div class="space-y-4">
             <div>
                 <h4 class="text-white text-sm font-bold mb-1 text-[#6aacaf]">Data Visualization</h4>
-                <p class="text-[#b0bfc0] text-sm">Tableau <span class="text-[#4a8e91] font-semibold">(Desktop Specialist Certified)</span>, Power BI, QlikSense</p>
+                <p class="text-[#b0bfc0] text-sm">Tableau <span class="text-[#4a8e91] font-semibold">(Desktop Foundations Certified)</span>, Power BI, QlikSense</p>
             </div>
             <div>
                 <h4 class="text-white text-sm font-bold mb-1 text-[#6aacaf]">Data Analysis</h4>
@@ -161,7 +161,7 @@ permalink: /cv/
             <h2 class="text-xs font-black uppercase tracking-[0.2em] text-[#3c6e71] mb-4">Certificates</h2>
             <div class="flex items-center gap-3 bg-[#252525]/50 p-3 rounded-lg border border-[#2a2a2a]">
                 <img src="{{ '/assets/logos/tableau-logo.png' | relative_url }}" class="w-8 h-8 object-contain" alt="Tableau">
-                <p class="text-white font-bold text-xs uppercase tracking-tighter">Tableau Desktop Specialist</p>
+                <p class="text-white font-bold text-xs uppercase tracking-tighter">Tableau Desktop Foundations</p>
             </div>
         </div>
     </section>

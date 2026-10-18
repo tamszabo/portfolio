@@ -21,9 +21,9 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
     <div class="flex flex-wrap gap-x-10 gap-y-3 items-center text-xs font-mono text-[#8a9a9b] uppercase tracking-widest">
         <span>8+ Years Experience</span>
         <span class="text-[#404040]">·</span>
-        <span>Tableau Certified Specialist</span>
+        <span>Tableau Certified (Desktop Foundations)</span>
         <span class="text-[#404040]">·</span>
-        <span>Fortune 500 Clients</span>
+        <span>Fortune 500 Client Work</span>
         <span class="text-[#404040]">·</span>
         <span>Budapest, Hungary — Remote-friendly</span>
     </div>
