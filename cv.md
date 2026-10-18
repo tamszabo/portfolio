@@ -78,7 +78,7 @@ permalink: /cv/
         </ul>
     </div>
 
-    <!-- Starschema -->
+    <!-- Starschema (part of HCLTech) -->
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-12 h-12 bg-white rounded-md overflow-hidden border border-[#3c6e71] shadow-sm flex items-center justify-center">
             <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="Starschema" class="max-w-full max-h-full object-contain">
