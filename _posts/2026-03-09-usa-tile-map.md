@@ -4,7 +4,7 @@ title: "How to Build a USA Tile Map in Tableau (Where Every State Gets Equal Spa
 date: 2026-03-09
 image: /assets/images/5-usa-tilemap.png
 categories: [DataViz, Data Analysis]
-description: "Rhode Island is 425x smaller than Alaska but does that make it less important to your analysis? Here's how to build a tile map in Tableau where every state gets equal visual weight."
+description: "Rhode Island is about 430x smaller than Alaska but does that make it less important to your analysis? Here's how to build a tile map in Tableau where every state gets equal visual weight."
 author: Tamas Szabo
 ---
 
@@ -14,7 +14,7 @@ If you've ever put US state data on a geographic map in Tableau, you already kno
 
 The standard choropleth map is geographically accurate, but analytically misleading. It encodes area as importance, when what you actually care about is the *data value* in each state.
 
-The solution is a **tile map**. Agrid layout where every state gets an equal-sized cell, positioned to loosely mirror the actual geography of the US. Same spatial intuition, zero distortion.
+The solution is a **tile map**. A grid layout where every state gets an equal-sized cell, positioned to loosely mirror the actual geography of the US. Same spatial intuition, zero distortion.
 
 Here's exactly how I build mine in Tableau.
 
@@ -332,7 +332,7 @@ Once your four calculated fields are ready:
         <h4 class="text-red-400 font-bold text-sm uppercase tracking-widest mb-3">Standard Choropleth Map</h4>
         <ul class="space-y-2 text-[#b0bfc0] text-sm">
             <li>❌ Alaska visually dominates (largest state by area)</li>
-            <li>❌ Rhode Island near-invisible (0.4% of Alaska's size)</li>
+            <li>❌ Rhode Island near-invisible (about 0.2% of Alaska's size)</li>
             <li>❌ Color differences hard to spot on tiny states</li>
             <li>❌ Layout fixed — you can't reposition states</li>
         </ul>

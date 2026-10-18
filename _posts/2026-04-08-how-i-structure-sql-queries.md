@@ -121,8 +121,8 @@ lifetime_value AS (
         o.customer_id,
         SUM(o.amount) AS total_revenue
     FROM orders o
-    LEFT JOIN new_customers_2024 nc ON o.customer_id = nc.customer_id
-    WHERE nc.customer_id IS NOT NULL
+    -- INNER JOIN on purpose: keep only customers whose first order was in 2024
+    INNER JOIN new_customers_2024 nc ON o.customer_id = nc.customer_id
     GROUP BY o.customer_id
 )
 
@@ -134,6 +134,8 @@ ORDER BY lv.total_revenue DESC
 ```
 
 Each CTE has a name that describes exactly what it contains. You can read the query top to bottom like a story: find each customer's first order, isolate those who started in 2024, then sum up everything they've ever spent. No nesting, no mental gymnastics.
+
+Two notes on the example. The `INNER JOIN` in `lifetime_value` is deliberate: here I *want* the join to filter, so I say so in a comment instead of hiding a filter behind a `LEFT JOIN`. And `YEAR()` is MySQL/SQL Server syntax; in PostgreSQL, Oracle, or BigQuery use `EXTRACT(YEAR FROM first_order_date)` instead.
 
 ---
 

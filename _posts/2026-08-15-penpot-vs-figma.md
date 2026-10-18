@@ -21,11 +21,11 @@ If you've followed this series, you know I've been building my design workflow a
 
 Before comparing features, it's worth understanding who you're actually depending on when you choose a tool.
 
-**[Figma](https://www.figma.com/)** was founded by Dylan Field and is based in San Francisco. After a high-profile attempted acquisition fell through in 2024, Figma went public in 2025, making it one of the more anticipated tech IPOs of recent years. It's now a publicly traded company, which brings its own set of pressures around growth, monetization, and shareholder expectations.
+**[Figma](https://www.figma.com/)** was founded by Dylan Field and is based in San Francisco. After a high-profile attempted acquisition fell through in late 2023, Figma went public in 2025, making it one of the more anticipated tech IPOs of recent years. It's now a publicly traded company, which brings its own set of pressures around growth, monetization, and shareholder expectations.
 
 **[Penpot](https://penpot.app/)** is built by Kaleidos, a Madrid-based startup founded in 2011 by Pablo Ruiz-Múzquiz and Enrique Posner. The platform is on a mission to bridge the gap between designers and developers, and today over 80,000 teams run on Penpot including Mozilla, Accenture, IBM, Google, and Microsoft. It's not a scrappy side project. It's a serious, growing platform with a clear philosophical mission: design tooling should be open, free, and owned by nobody.
 
-The ownership question matters more than it might seem. Because Penpot is open source, it cannot be discontinued or paywalled retroactively. That's a guarantee Figma — now accountable to public market shareholders — simply cannot offer.
+The ownership question matters more than it might seem. Because Penpot is open source, the version you can run today can't be discontinued or paywalled retroactively, and you can always self-host it. That's a guarantee Figma — now accountable to public market shareholders — simply cannot offer.
 
 ---
 
@@ -43,7 +43,7 @@ The tradeoff? As a publicly traded company, Figma is now under pressure to grow 
 
 ## 🌱 What Penpot Does Well
 
-Penpot is no longer just an open source alternative. With the release of Penpot 2.0, it has become a mature tool that offers features Figma still doesn't have like true CSS Grid. For analysts, that might sound like a developer concern, but it matters for layout precision.
+Penpot is no longer just an open source alternative. With the release of Penpot 2.0, it has become a mature tool with features like native CSS Grid layout and native design tokens. For analysts, that might sound like a developer concern, but it matters for layout precision.
 
 A few things Penpot genuinely gets right:
 
@@ -58,7 +58,7 @@ A few things Penpot genuinely gets right:
 
 I want to be fair here because I genuinely root for Penpot but honesty matters more than cheerleading.
 
-There's no equivalent to Figma's auto-layout, which is a significant limitation for responsive design work. Colour management is functional but basic, and there's no equivalent to Figma's robust variable system for managing design tokens at scale.
+Penpot does have flex layout, its answer to auto-layout, but Figma's auto-layout is still more mature and far more widely documented, with a much bigger ecosystem of templates and plugins around it. Design tokens are now native in Penpot, though Figma's variables are still the more established way to manage tokens at scale. Colour management is functional but basic.
 
 Figma's maturity still provides undeniable polish, scale, and enterprise stability. The synchronous editing and performance on massive design systems generally remain a high bar. Performance can also be an issue in Penpot because files can render slowly, and some users report placeholder images appearing when zooming on the canvas. These are the kinds of friction points that slow you down when you're trying to work quickly.
 

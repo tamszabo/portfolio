@@ -42,7 +42,7 @@ There are five certifications worth knowing in the Power BI and Power Platform s
             </div>
             <div class="flex-shrink-0 text-right">
                 <p class="text-2xl font-black text-white">$99</p>
-                <p class="text-[#8a9a9b] text-xs font-mono">Renew annually · free</p>
+                <p class="text-[#8a9a9b] text-xs font-mono">Does not expire</p>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -189,7 +189,7 @@ There are five certifications worth knowing in the Power BI and Power Platform s
 
 ## 💡 One Big Advantage Over Tableau: Free Annual Renewal
 
-Microsoft role-based certifications require annual renewal but it's a free online assessment on Microsoft Learn, not a full retake. 30–45 minutes, no exam centre, no fee.
+Microsoft Associate and Expert certifications require annual renewal, but it's a free online assessment (Fundamentals certifications like PL-900 don't expire at all) on Microsoft Learn, not a full retake. 30–45 minutes, no exam centre, no fee.
 
 Compare that to Tableau's $200 retake every two years. If you hold multiple Microsoft credentials simultaneously, that difference adds up fast.
 

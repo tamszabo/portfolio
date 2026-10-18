@@ -40,7 +40,7 @@ As I detailed in my [Figma Blueprint post](/blog/figma-blueprint/), the design s
 To bring that premium feel into Tableau, you must go beyond the default color palettes by modifying your **Preferences.tps** file.
 
 1. **Locate:** Go to **Documents > My Tableau Repository**.
-2. **Edit:** Open **Preferences.tp** in a text editor (VS Code or Notepad both work).
+2. **Edit:** Open **Preferences.tps** in a text editor (VS Code or Notepad both work).
 3. **Inject:** Add your hex codes inside the file. See the code below.
 
 > **Pro Tip:** For a detailed breakdown of palette types, check the [Official Tableau Documentation](https://help.tableau.com/current/pro/desktop/en-us/formatting_create_custom_colors.htm).

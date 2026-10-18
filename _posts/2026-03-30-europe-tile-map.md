@@ -266,7 +266,7 @@ END</pre>
 
 ### Calculation 4: Row (Y coordinate)
 
-Places each country along the vertical axis. Row 1 is the south (Malta, Cyprus, Greece), Row 13 is the far north (Iceland, Finland, Norway, Sweden).
+Places each country along the vertical axis. Row 1 is the south (Malta, Cyprus), Row 13 is the far north (Iceland alone; Finland, Norway and Sweden sit on Row 12).
 
 <details class="bg-[#252525] rounded-xl border border-[#3c6e71] p-4 my-6">
 <summary class="cursor-pointer font-bold text-[#4a8e91] hover:text-[#6aacaf] list-none flex justify-between items-center">
@@ -422,7 +422,7 @@ A few layout decisions worth explaining because if you want to adapt this for yo
 
 **Iceland and the Atlantic fringe.** Iceland sits at Column 0, Row 13 in the top-left corner. It's geographically accurate in relative terms but feels visually isolated in a way that Alaska never does on a US tile map, because Alaska at least sits adjacent to the continental grid. Ireland and the UK also sit at Column 0–1, which compresses the western fringe significantly.
 
-**The Balkans.** The western Balkans pack six countries (Slovenia, Croatia, Bosnia, Montenegro, Serbia, North Macedonia) into a narrow geographic band. Getting their relative positions to feel right took the most iterations. The current layout isn't perfect. Nno layout can be when this many small countries share borders but it preserves the north-to-south sequence reliably.
+**The Balkans.** The western Balkans pack six countries (Slovenia, Croatia, Bosnia, Montenegro, Serbia, North Macedonia) into a narrow geographic band. Getting their relative positions to feel right took the most iterations. The current layout isn't perfect. No layout can be when this many small countries share borders but it preserves the north-to-south sequence reliably.
 
 **Russia.** Russia is geographically enormous but only gets one tile. Its placement at Column 9, Row 8 puts it roughly where its European territory sits: east of the Baltic states and Ukraine while acknowledging it can't represent the full country.
 

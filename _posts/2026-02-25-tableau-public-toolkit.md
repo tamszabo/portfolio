@@ -18,7 +18,7 @@ But before I tell you why I love it, I have to tell you how I found it.
 
 ## My Catalyst for BI
 
-My journey into Business Intelligence started with a challenges. Back when I was working at **Intrum**, our tool of choice was **QlikSense**. For about a year, I fought with it and trying to bend the data to my will, building complex calculations, and constantly feeling limited by the tool rather than empowered by it.
+My journey into Business Intelligence started with a challenge. Back when I was working at **Intrum**, our tool of choice was **QlikSense**. For about a year, I fought with it, trying to bend the data to my will, building complex calculations, and constantly feeling limited by the tool rather than empowered by it.
 
 That frustration became my motivation. I knew there had to be other ways to visualize data, so I started exploring **Tableau** on my own time. That curiosity changed my career. Soon after, I joined **Starschema**, where I had the absolute luxury of working alongside some of the best data analysts in Hungary. Seeing what the pros could do with Tableau was a revelation.
 
@@ -36,7 +36,7 @@ A great place to start: search for [Viz of the Day](https://public.tableau.com/a
 
 To show you what this looks like in practice, I stepped away from corporate KPIs and focused on a lifelong passion: **Inter Milan**.
 
-Being a massive Nerazzurri fan, I wanted to showcase the club's recent success through a professional lens. Applying the same executive-style clarity I use at Hyundai to the Beautiful Game. It's one thing to say Inter is successful. It's another to see the data prove it.
+Being a massive Nerazzurri fan, I wanted to showcase the club's recent success through a professional lens. Applying the same executive-style clarity I used at Hyundai to the Beautiful Game. It's one thing to say Inter is successful. It's another to see the data prove it.
 
 <div class="not-prose my-12 group">
     <a href="https://public.tableau.com/views/InterSeasonStats/Inter" target="_blank" class="block overflow-hidden rounded-3xl border border-[#3c6e71] shadow-2xl transition-all duration-500 hover:border-[#3c6e71] hover:shadow-[#3c6e71]/20">

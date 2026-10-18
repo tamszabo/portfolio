@@ -27,7 +27,7 @@ In this post I'll cover what makes each tool tick, who's behind them, and where 
 
 ### DBeaver
 
-[DBeaver](https://dbeaver.io/) started as a hobby project. When creator Serge Rider began building an open source database admin tool in 2010, he probably had no idea that years later it would boast millions of users. He put it on GitHub in 2015 and it really took off, quickly growing to a community of more than 300,000 users. The company is based in New York and raised $6 million in seed funding in April 2023. Its clients include Amazon, Apple, Walmart, Disney, Citi, and Air France.
+[DBeaver](https://dbeaver.io/) started as a hobby project. When creator Serge Rider began building an open source database admin tool in 2010, he probably had no idea that years later it would boast millions of users. He put it on GitHub in 2015 and it really took off, quickly growing into one of the most widely used SQL clients. The company is based in New York and raised $6 million in seed funding in April 2023. Its clients include Amazon, Apple, Walmart, Disney, Citi, and Air France.
 
 The Community Edition remains free and open source under the Apache 2.0 license. The commercial tiers fund the ongoing development. That's a model I respect: open at the core, sustainable as a business.
 
@@ -51,7 +51,7 @@ Here's what keeps me coming back:
 * **The SQL editor is exceptional.** Autocomplete, syntax highlighting, script management, execution plans, everything you need to write and debug complex queries comfortably.
 * **ER diagrams out of the box.** Being able to visualise table relationships visually without a separate tool is a genuine time-saver, especially when you're onboarding to a new database you've never seen before.
 * **It has never failed me.** Not once. That sounds like a low bar, but stability in a tool you use every single day is everything.
-* **The community is enormous.** Over 10 million active users, a thriving GitHub, and documentation that actually answers your questions. If you hit a problem with DBeaver, someone else has hit it before you and documented the solution.
+* **The community is enormous.** Millions of users, a thriving GitHub, and documentation that actually answers your questions. If you hit a problem with DBeaver, someone else has hit it before you and documented the solution.
 
 The only caveat worth knowing: the free Community Edition is relational-only. NoSQL drivers — MongoDB, Cassandra, Redis, DynamoDB — sit behind the paid PRO tier. For most analysts working with relational databases day-to-day, this is never an issue. If you need NoSQL support, just be aware of where the free tier ends.
 

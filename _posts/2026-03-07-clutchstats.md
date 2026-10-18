@@ -24,7 +24,7 @@ Watching Michael Jordan - the greatest basketball player of all time - I realize
 
 ## The Foundation: Why ClutchStats Exists
 
-That hunger to understand the **why** behind the **what** is my day to day job. Whether I'm analyzing a sales funnel for **Hyundai** or a cost structure for **Intrum**, I am looking for the underlying truths.
+That hunger to understand the **why** behind the **what** has always been my day-to-day work. Whether I was analyzing a sales funnel for **Hyundai** or a cost structure for **Intrum**, I was looking for the underlying truths.
 
 **ClutchStats** became the vehicle for this obsession. To get familiar with the league again, I didn't just read articles, I scraped team and player data from Basketball Reference. I listened to the "analysts" on ESPN, but I also built bar chart races to visualize the leading scorers of all time.
 
