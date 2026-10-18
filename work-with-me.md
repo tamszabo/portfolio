@@ -48,7 +48,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
                 </div>
             </div>
             <p class="text-[#b0bfc0] leading-relaxed mb-6">
-                You have dashboards. People look at them. But do they <em>actually</em> drive decisions? I conduct a structured review of your existing BI environment — data model, report design, KPI logic, and stakeholder fit — and deliver a prioritised written report with concrete recommendations.
+                You have dashboards. People look at them. But do they <em>actually</em> drive decisions? I conduct a structured review of your existing BI environment — data model, report design, KPI logic, and stakeholder fit — and deliver a prioritized written report with concrete recommendations.
             </p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                 <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
@@ -57,7 +57,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
                 </div>
                 <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
                     <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">What you get</p>
-                    <p class="text-[#b0bfc0] text-sm">Written audit report with prioritised action list</p>
+                    <p class="text-[#b0bfc0] text-sm">Written audit report with prioritized action list</p>
                 </div>
                 <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
                     <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
@@ -65,7 +65,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
                 </div>
             </div>
             <a href="#contact" class="inline-block text-xs font-bold uppercase tracking-widest text-[#4a8e91] hover:text-white border border-[#3c6e71]/40 hover:border-[#4a8e91] hover:bg-[#3c6e71]/10 px-5 py-2.5 rounded-xl transition-all">
-                Enquire about the Audit →
+                Inquire about the Audit →
             </a>
         </div>
 
@@ -82,7 +82,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
                 </div>
             </div>
             <p class="text-[#b0bfc0] leading-relaxed mb-6">
-                Most companies track dozens of metrics because no one has ever forced the conversation about which three actually matter to the CEO. This sprint does exactly that — structured discovery sessions with your team, followed by a complete KPI framework with definitions, owners, data sources, and a reporting cadence your organisation will actually stick to.
+                Most companies track dozens of metrics because no one has ever forced the conversation about which three actually matter to the CEO. This sprint does exactly that — structured discovery sessions with your team, followed by a complete KPI framework with definitions, owners, data sources, and a reporting cadence your organization will actually stick to.
             </p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                 <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
@@ -99,7 +99,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
                 </div>
             </div>
             <a href="#contact" class="inline-block text-xs font-bold uppercase tracking-widest text-[#4a8e91] hover:text-white border border-[#3c6e71]/40 hover:border-[#4a8e91] hover:bg-[#3c6e71]/10 px-5 py-2.5 rounded-xl transition-all">
-                Enquire about the Sprint →
+                Inquire about the Sprint →
             </a>
         </div>
 
@@ -134,7 +134,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
                 </div>
             </div>
             <a href="#contact" class="inline-block text-xs font-bold uppercase tracking-widest bg-[#3c6e71] hover:bg-[#4a8e91] text-white px-5 py-2.5 rounded-xl transition-all">
-                Enquire about the Build →
+                Inquire about the Build →
             </a>
         </div>
 
@@ -174,7 +174,7 @@ description: "Hire Tamas Szabo for a Dashboard Audit, KPI Framework Sprint, or a
     <p class="text-[#b0bfc0] mb-10 max-w-xl">Tell me about your situation and which engagement interests you. I'll get back to you within 1 business day.</p>
 
     <form action="https://formspree.io/f/mkoqobgw" method="POST" class="space-y-6 max-w-2xl">
-        <input type="hidden" name="_subject" value="New enquiry from tamasszabo.org">
+        <input type="hidden" name="_subject" value="New inquiry from tamasszabo.org">
         <input type="hidden" name="_next" value="https://tamasszabo.org/thank-you/">
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -23,7 +23,7 @@ This website is operated by **Tamas Szabo**, Budapest, Hungary. You can reach me
 
 ### Analytics: Google Tag Manager and Google Analytics (only with your consent)
 
-This site uses **Google Tag Manager** to run **Google Analytics (GA4)**. The Tag Manager script is loaded on every page so that it can respect your cookie choice. Loading it means your browser connects to Google's servers, which receive your IP address and standard request data. Until you click **Accept**, analytics storage is denied: no analytics cookies are set and no analytics identifiers are stored. Advertising storage, ad user data, and ad personalisation are denied at all times.
+This site uses **Google Tag Manager** to run **Google Analytics (GA4)**. The Tag Manager script is loaded on every page so that it can respect your cookie choice. Loading it means your browser connects to Google's servers, which receive your IP address and standard request data. Until you click **Accept**, analytics storage is denied: no analytics cookies are set and no analytics identifiers are stored. Advertising storage, ad user data, and ad personalization are denied at all times.
 
 If you click **Accept**, analytics storage is granted and GA4 collects usage data: pages visited, time on site, device type, and approximate location at city level. I do not use this data to identify you.
 
@@ -48,7 +48,7 @@ To display the site, your browser loads the following directly from third partie
 Some pages embed content from other services. These load when the page loads, and the provider may set its own cookies or collect data under its own policy:
 
 - **YouTube** (Google LLC): the ClutchStats video on the home page. [YouTube privacy](https://policies.google.com/privacy)
-- **Tableau Public** (Salesforce, Inc.): interactive visualisations in some blog posts. [Tableau privacy](https://www.salesforce.com/company/legal/privacy/)
+- **Tableau Public** (Salesforce, Inc.): interactive visualizations in some blog posts. [Tableau privacy](https://www.salesforce.com/company/legal/privacy/)
 
 ### Newsletter (Substack)
 
@@ -58,9 +58,9 @@ The newsletter is run on **Substack** (Substack Inc.). When you type your email 
 
 If you submit the contact form on the [Work With Me](/work-with-me/) page, your name, email address, company name, and message are sent to **Formspree** (Formspree, Inc.) and forwarded to my email inbox.
 
-**Purpose:** Responding to enquiries.  
-**Legal basis:** Pre-contractual steps and legitimate interest in responding to enquiries (Art. 6(1)(b) and (f) GDPR).  
-**Retention:** I delete enquiry emails that do not lead to a project within 12 months.  
+**Purpose:** Responding to inquiries.  
+**Legal basis:** Pre-contractual steps and legitimate interest in responding to inquiries (Art. 6(1)(b) and (f) GDPR).  
+**Retention:** I delete inquiry emails that do not lead to a project within 12 months.  
 **Third party:** Formspree, Inc. — see their [privacy policy](https://formspree.io/legal/privacy-policy/).
 
 ### Hosting and infrastructure

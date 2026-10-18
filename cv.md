@@ -81,10 +81,10 @@ permalink: /cv/
     <!-- Starschema (part of HCLTech) -->
     <div class="relative pl-14">
         <div class="absolute left-0 top-1 w-12 h-12 bg-white rounded-md overflow-hidden border border-[#3c6e71] shadow-sm flex items-center justify-center">
-            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="Starschema" class="max-w-full max-h-full object-contain">
+            <img src="{{ '/assets/logos/hcltech-logo.jpg' | relative_url }}" alt="Starschema (HCLTech)" class="max-w-full max-h-full object-contain">
         </div>
         <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
-            <h3 class="text-lg font-bold text-white">Starschema</h3>
+            <h3 class="text-lg font-bold text-white">Starschema <span class="text-sm font-normal text-[#8a9a9b]">(part of HCLTech)</span></h3>
             <span class="text-sm font-mono text-[#8a9a9b]">12/2019 — 09/2023</span>
         </div>
         <p class="text-[#4a8e91] text-sm font-semibold mb-3 italic">Data Analyst | Budapest, Hungary</p>

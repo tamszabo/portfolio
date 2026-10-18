@@ -19,7 +19,7 @@ permalink: /thank-you/
     </h1>
 
     <p class="text-[#b0bfc0] text-lg leading-relaxed mb-4">
-        Your message landed in my inbox. I respond to every enquiry within <strong class="text-white">1 business day</strong>.
+        Your message landed in my inbox. I respond to every inquiry within <strong class="text-white">1 business day</strong>.
     </p>
 
     <p class="text-[#8a9a9b] text-sm mb-12">

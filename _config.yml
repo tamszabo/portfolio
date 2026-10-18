@@ -7,7 +7,7 @@ defaults:
     values:
       image: /assets/images/og-default.png
       
-description: "Senior Data Analyst with 8+ years in data and BI, including client work for Fortune 500 companies. Specialising in executive dashboards, KPI frameworks, and turning complex data into clear decisions."
+description: "Senior Data Analyst with 8+ years in data and BI, including client work for Fortune 500 companies. Specializing in executive dashboards, KPI frameworks, and turning complex data into clear decisions."
 baseurl: ""
 url: "https://tamasszabo.org"
 lang: en
