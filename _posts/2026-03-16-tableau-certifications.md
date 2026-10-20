@@ -56,7 +56,7 @@ If you've seen older guides referring to "Tableau Desktop Certified Associate" o
             </div>
             <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
                 <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
-                <p class="text-[#b0bfc0] text-sm">Anyone new to Tableau wanting to formalize foundational skills</p>
+                <p class="text-[#b0bfc0] text-sm">Every analyst, new or experienced: a permanent, low-cost credential that formalizes your skills</p>
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@ If you've seen older guides referring to "Tableau Desktop Certified Associate" o
             </div>
             <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
                 <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Best for</p>
-                <p class="text-[#b0bfc0] text-sm">Practicing analysts who want the credential that carries the most weight with employers</p>
+                <p class="text-[#b0bfc0] text-sm">Analysts whose employer pays, or whose role demands the credential with the most weight</p>
             </div>
         </div>
     </div>
@@ -167,7 +167,7 @@ If you've seen older guides referring to "Tableau Desktop Certified Associate" o
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
                 <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Format</p>
-                <p class="text-[#b0bfc0] text-sm">Advanced — leads and manages Tableau Server infrastructure at enterprise scale</p>
+                <p class="text-[#b0bfc0] text-sm">Advanced exam covering architecture of enterprise-scale Tableau Server deployments</p>
             </div>
             <div class="bg-[#252525]/50 rounded-xl p-4 border border-[#2a2a2a]">
                 <p class="text-[#4a8e91] font-bold text-xs uppercase tracking-widest mb-1">Prerequisites</p>
@@ -186,9 +186,9 @@ If you've seen older guides referring to "Tableau Desktop Certified Associate" o
 
 ## Which One Should You Get?
 
-**If you're a practicing analyst:** go straight for the **Tableau Data Analyst** (DA-201). It's the credential that has the most name recognition with employers and clients, it tests real analytical depth rather than just product familiarity, and passing it signals genuine competence. The Desktop Foundations is a stepping stone. Useful if you're genuinely new to Tableau, but not something that carries weight on a senior CV on its own.
+**If you're a practicing analyst:** start with **Desktop Foundations**, even if you already have years of Tableau experience. At $100 with no expiry, it's the best risk-reward credential on this list. Add the **Tableau Data Analyst** (DA-201) if your employer is paying or your role demands it: it has the most name recognition with employers and clients and tests real analytical depth rather than just product familiarity, but it expires after two years.
 
-**If you're just starting out with Tableau:** start with **Desktop Foundations**. At $100 with no expiry, the risk-reward is excellent. Use it to build confidence, then move to Data Analyst once you have six months of hands-on experience behind you.
+**If you're just starting out with Tableau:** the answer is the same. Start with **Desktop Foundations** to build confidence, then move to Data Analyst once you have six months of hands-on experience behind you.
 
 **If you work in IT or platform administration:** the **Server Administrator** certification is the obvious choice. Analysts usually don't need it.
 
@@ -240,7 +240,7 @@ I booked a physical test center through Pearson VUE instead, and the experience 
 
 **Who pays for it: always ask your employer first**
 
-I paid for my exam out of my own pocket but I'd encourage everyone to ask their employer before assuming they have to. Many companies, especially larger ones, have learning and development budgets specifically for certification costs. At €100 for the Desktop Foundations exam it's not a large ask, and a lot of managers will say yes simply because the request signals initiative.
+I paid for my exam out of my own pocket but I'd encourage everyone to ask their employer before assuming they have to. Many companies, especially larger ones, have learning and development budgets specifically for certification costs. At $100 for the Desktop Foundations exam it's not a large ask, and a lot of managers will say yes simply because the request signals initiative.
 
 The worst they can say is no, at which point you're exactly where you started. Ask first.
 
@@ -253,7 +253,7 @@ All Tableau certifications are now administered through **Trailhead Academy**:
 1. Go to [trailheadacademy.salesforce.com](https://trailheadacademy.salesforce.com).
 2. Create a free Trailhead account (or log in with an existing Salesforce account).
 3. Search for your target certification and click "Register".
-4. Select a date and time. Exams are remote-proctored, so you can sit them from home.
+4. Select a date and time. Check which delivery options are offered for your exam: online-proctored from home, or a physical test center (my recommendation, see above).
 5. Pay the exam fee and complete identity verification.
 
 Results are immediate. If you pass, your badge appears in your Trailhead profile within 24 hours and can be shared directly to LinkedIn.
